@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: var(--font-inter);
+  --font-crimson: var(--font-crimson);
+  --primary-red: #8B1A1A;
+  --primary-maroon: #5D0F0F;
+  --accent-gold: #C9A961;
+  --bg-cream: #FAF9F6;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  background-color: var(--bg-cream);
+}
+
+.font-serif {
+  font-family: var(--font-crimson), Georgia, serif;
+}
+
+/* Academic journal styling */
+.sidebar-nav a {
+  @apply block px-4 py-2.5 text-sm text-gray-700 hover:bg-red-50 hover:text-red-800 border-l-4 border-transparent hover:border-red-800 transition-all;
+}
+
+.sidebar-nav a.active {
+  @apply bg-red-50 text-red-900 border-red-800 font-medium;
+}
+
+/* Article content styling */
+.article-content {
+  font-family: var(--font-crimson), Georgia, serif;
+  @apply text-base leading-relaxed text-gray-800;
+}
+
+.article-content h2 {
+  @apply text-xl font-bold mt-6 mb-3 text-gray-900;
+}
+
+.article-content h3 {
+  @apply text-lg font-semibold mt-4 mb-2 text-gray-900;
+}
+
+.article-content p {
+  @apply mb-4;
+}
+
+.article-content a {
+  @apply text-red-700 hover:text-red-900 underline;
+}
+
+/* Issue boxes */
+.issue-box {
+  @apply border border-gray-300 bg-white hover:shadow-md transition-shadow;
+}
+
+/* Journal blocks */
+.journal-block {
+  @apply bg-white border border-gray-300;
+}
+
+.journal-block-title {
+  @apply bg-gray-100 border-b border-gray-300 px-4 py-3 font-semibold text-sm text-gray-800;
+}
