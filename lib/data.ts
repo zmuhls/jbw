@@ -7,7 +7,8 @@ export async function getJBWIndex(): Promise<JBWIndex> {
     return cachedIndex;
   }
 
-  const response = await fetch('/jbw-index.json');
+  const basePath = process.env.NODE_ENV === 'production' ? '/jbw' : '';
+  const response = await fetch(`${basePath}/jbw-index.json`);
   cachedIndex = await response.json();
   return cachedIndex!;
 }
