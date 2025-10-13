@@ -126,13 +126,36 @@ export async function getAuthorIndex(): Promise<Map<string, Article[]>> {
   const authorMap = new Map<string, Article[]>();
 
   articles.forEach(article => {
-    article.authors.forEach(author => {
+    // Check if article has authors with only page numbers but PDF URL contains "shaughnessy"
+    const hasOnlyPageNumbers = article.authors.length > 0 &&
+      article.authors.every(author => /^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(author.trim()));
+    const isShaughnessyArticle = article.pdf_url.toLowerCase().includes('shaughnessy');
+
+    let authorsToProcess = article.authors;
+
+    // If article has only page numbers but is a Shaughnessy article, attribute it to her
+    if (hasOnlyPageNumbers && isShaughnessyArticle) {
+      authorsToProcess = ['Mina P. Shaughnessy'];
+    }
+
+    authorsToProcess.forEach(author => {
       const cleanAuthor = cleanAuthorName(author);
       if (cleanAuthor) {
         if (!authorMap.has(cleanAuthor)) {
           authorMap.set(cleanAuthor, []);
         }
-        authorMap.get(cleanAuthor)!.push(article);
+
+        // Check for duplicate articles (same title, volume, issue)
+        const existingArticles = authorMap.get(cleanAuthor)!;
+        const isDuplicate = existingArticles.some(existing =>
+          existing.title === article.title &&
+          existing.volume === article.volume &&
+          existing.issue === article.issue
+        );
+
+        if (!isDuplicate) {
+          authorMap.get(cleanAuthor)!.push(article);
+        }
       }
     });
   });
@@ -141,11 +164,21 @@ export async function getAuthorIndex(): Promise<Map<string, Article[]>> {
 }
 
 function cleanAuthorName(author: string): string {
-  // Remove DOI and other metadata from author names
-  const cleaned = author
+  // Remove DOI, page numbers, and other metadata from author names
+  let cleaned = author
     .split('\n')[0]
     .replace(/DOI:.*$/i, '')
+    .replace(/^by\s+/i, '')  // Remove leading "by"
     .trim();
+
+  // If the author is ONLY page numbers (e.g., "(pp. 91-97)"), return empty string
+  if (/^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(cleaned)) {
+    return '';
+  }
+
+  // Remove page numbers from the end of author names (e.g., "Mina P. Shaughnessy (pp. 1-3)")
+  cleaned = cleaned.replace(/\s*\(pp\.\s*\d+[-–]\s*\d+\)\s*$/i, '').trim();
+
   return cleaned;
 }
 
