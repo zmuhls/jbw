@@ -71,11 +71,11 @@ export default function Home() {
               <div className="text-xs text-gray-600">Volumes</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">88</div>
+              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">87</div>
               <div className="text-xs text-gray-600">Issues</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">785+</div>
+              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">709</div>
               <div className="text-xs text-gray-600">Articles</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
