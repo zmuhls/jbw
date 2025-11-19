@@ -1,7 +1,12 @@
 import Link from 'next/link';
-import { BookOpen, FileText, Search } from 'lucide-react';
+import { BookOpen, FileText, Search, Users } from 'lucide-react';
+import { getUniqueAuthorCount, getAllArticles } from '@/lib/data';
 
-export default function Home() {
+export default async function Home() {
+  const [authorCount, articles] = await Promise.all([
+    getUniqueAuthorCount(),
+    getAllArticles()
+  ]);
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -25,7 +30,7 @@ export default function Home() {
               <h3 className="text-sm font-semibold text-gray-900 mb-2">Fall 2024</h3>
               <Link
                 href="/archive"
-                className="text-xs text-[#8B1A1A] hover:underline"
+                className="text-xs text-[#4A5838] hover:underline"
               >
                 View Issue →
               </Link>
@@ -37,6 +42,7 @@ export default function Home() {
             <div className="journal-block-title">Information</div>
             <nav className="sidebar-nav py-2">
               <Link href="/about">About the Journal</Link>
+              <Link href="/about#editorial-team">Editorial Team</Link>
               <Link href="/about#editorial-board">Editorial Board</Link>
               <Link href="/about#contact">Contact</Link>
             </nav>
@@ -65,21 +71,25 @@ export default function Home() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">43</div>
+              <div className="text-3xl font-bold text-[#4A5838] mb-1">43</div>
               <div className="text-xs text-gray-600">Volumes</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">87</div>
+              <div className="text-3xl font-bold text-[#4A5838] mb-1">87</div>
               <div className="text-xs text-gray-600">Issues</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">709</div>
+              <div className="text-3xl font-bold text-[#4A5838] mb-1">{articles.length}</div>
               <div className="text-xs text-gray-600">Articles</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#8B1A1A] mb-1">50</div>
+              <div className="text-3xl font-bold text-[#4A5838] mb-1">{authorCount}</div>
+              <div className="text-xs text-gray-600">Authors</div>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 text-center">
+              <div className="text-3xl font-bold text-[#4A5838] mb-1">50</div>
               <div className="text-xs text-gray-600">Years</div>
             </div>
           </div>
@@ -88,10 +98,10 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link
               href="/archive"
-              className="bg-white border border-gray-300 p-6 hover:border-[#8B1A1A] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <BookOpen className="h-5 w-5 text-[#8B1A1A] mr-2" />
+                <BookOpen className="h-5 w-5 text-[#4A5838] mr-2" />
                 <h3 className="font-semibold text-gray-900">Archive</h3>
               </div>
               <p className="text-sm text-gray-600">
@@ -101,10 +111,10 @@ export default function Home() {
 
             <Link
               href="/search"
-              className="bg-white border border-gray-300 p-6 hover:border-[#8B1A1A] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <Search className="h-5 w-5 text-[#8B1A1A] mr-2" />
+                <Search className="h-5 w-5 text-[#4A5838] mr-2" />
                 <h3 className="font-semibold text-gray-900">Search</h3>
               </div>
               <p className="text-sm text-gray-600">
@@ -114,10 +124,10 @@ export default function Home() {
 
             <Link
               href="/authors"
-              className="bg-white border border-gray-300 p-6 hover:border-[#8B1A1A] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <FileText className="h-5 w-5 text-[#8B1A1A] mr-2" />
+                <FileText className="h-5 w-5 text-[#4A5838] mr-2" />
                 <h3 className="font-semibold text-gray-900">Authors</h3>
               </div>
               <p className="text-sm text-gray-600">

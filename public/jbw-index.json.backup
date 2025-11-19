@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "total_volumes": 42,
-    "total_issues": 86,
-    "total_articles": 775,
-    "total_pdfs_downloaded": 771,
-    "scrape_date": "2025-10-08 17:06:36",
-    "status": "completed",
-    "errors_count": 10
+    "total_volumes": 43,
+    "total_issues": 88,
+    "total_articles": 785,
+    "total_pdfs_downloaded": 745,
+    "scrape_date": "2025-10-08 17:06:21",
+    "status": "complete",
+    "last_volume_processed": 43
   },
   "articles": [
     {
@@ -27,7 +27,7 @@
       "issue": 1,
       "title": "Teaching Standard Written English",
       "authors": [
-        "Sarah D'Eloia\nDOI: 10"
+        "by Sarah D'Eloia"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n1/deloia.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1975.1.1.02",
@@ -132,7 +132,8 @@
       "issue": 2,
       "title": "A Design for a Developmental Writing Course for Academically Underprepared Black Students",
       "authors": [
-        "Dianna S"
+        "by Dianna S. Campbell",
+        "Terry Ryan Meier (pp. 20-30)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/campbell.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.03",
@@ -145,7 +146,7 @@
       "issue": 2,
       "title": "Reasoned Writing for Basic Students: A Course Design",
       "authors": [
-        "Jeanne Desy (pp"
+        "by Jeanne Desy (pp. 4-19)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/desy.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.02",
@@ -158,7 +159,7 @@
       "issue": 2,
       "title": "Total Immersion",
       "authors": [
-        "Marie Ponsot (pp"
+        "by Marie Ponsot (pp. 31- 43)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/ponsot.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.04",
@@ -171,7 +172,7 @@
       "issue": 2,
       "title": "Teaching the Thinking Process in Essay Writing",
       "authors": [
-        "Ann Petrie (pp"
+        "by Ann Petrie (pp. 60-67)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/petrie.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.06",
@@ -184,7 +185,7 @@
       "issue": 2,
       "title": "Language and Composition: Three Mastery Learning Courses in One Classroom",
       "authors": [
-        "Helen Mills (pp"
+        "by Helen Mills (pp. 44- 59)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/mills.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.05",
@@ -197,7 +198,7 @@
       "issue": 2,
       "title": "Coaching Writing",
       "authors": [
-        "Paul Pierog (pp"
+        "by Paul Pierog (pp. 68-77)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/pierog.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.07",
@@ -263,7 +264,7 @@
       "issue": 4,
       "title": "What We Know Now and How We Could Know More About Writing Ability in America",
       "authors": [
-        "Rexford Brown (pp"
+        "by Rexford Brown (pp. 1-6)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/brown.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.01",
@@ -276,7 +277,7 @@
       "issue": 4,
       "title": "Re-Evaluating Evaluating",
       "authors": [
-        "Joseph Williams (pp"
+        "by Joseph Williams (pp. 7- 17)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/williams.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.02",
@@ -289,7 +290,7 @@
       "issue": 4,
       "title": "Mass Testing of Individual Writing: The California Model",
       "authors": [
-        "Edward M"
+        "by Edward M. White (pp. 18- 38)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/white.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.03",
@@ -302,7 +303,7 @@
       "issue": 4,
       "title": "The Evolution of One College's Attempt to Evaluate Student Writing",
       "authors": [
-        "Roberta S"
+        "by Roberta S. Matthews (pp. 63- 70)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/matthews.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.05",
@@ -315,7 +316,7 @@
       "issue": 4,
       "title": "Measuring Growth in College Writing",
       "authors": [
-        "Elizabeth Metzger (pp"
+        "by Elizabeth Metzger (pp. 71- 81)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/metzger.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.06",
@@ -328,7 +329,7 @@
       "issue": 4,
       "title": "With No Apology: Teaching to the Test",
       "authors": [
-        "Rosemary Hake (pp"
+        "by Rosemary Hake (pp. 39- 62)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/hake.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.04",
@@ -341,7 +342,7 @@
       "issue": 4,
       "title": "Evaluation: The Process for Revision",
       "authors": [
-        "Muriel Harris (pp"
+        "by Muriel Harris (pp. 82- 90)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/harris.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.07",
@@ -354,7 +355,7 @@
       "issue": 4,
       "title": "Selected Bibliography of Writings on the Evaluation of Students' Achievements in Composition",
       "authors": [
-        "Richard L"
+        "by Richard L. Larson (pp. 91- 100)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/larson.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.08",
@@ -458,7 +459,9 @@
       "issue": 2,
       "title": "The Comp-Lab Writing Program: An Experimental Basic Writing Course",
       "authors": [
-        "Mary Epes, Carolyn Kirkpatrick, Michael G. Southwell (pp. 19- 37)"
+        "Mary Epes",
+        "Carolyn Kirkpatrick",
+        "Michael G. Southwell (pp. 19- 37)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n2/epes.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.2.03",
@@ -471,7 +474,8 @@
       "issue": 2,
       "title": "Anatomy of a Basic Writing Program",
       "authors": [
-        "Andrea L. Lunsford, Sara Garnes (pp. 38- 51)"
+        "Andrea L. Lunsford",
+        "Sara Garnes (pp. 38- 51)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n2/lunsford.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.2.04",
@@ -602,7 +606,8 @@
       "issue": 3,
       "title": "Recognizing the Basic Writer's Vocabulary Acquisition Sequence",
       "authors": [
-        "Jeanette Harris, Lil Brannon (pp. 76- 81)"
+        "Jeanette Harris",
+        "Lil Brannon (pp. 76- 81)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n3/harris.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.3.07",
@@ -719,7 +724,8 @@
       "issue": 4,
       "title": "An Approach to Integrating Writing into a History Course",
       "authors": [
-        "Anita Brostoff, Barry K. Beyer (pp. 36- 52)"
+        "Anita Brostoff",
+        "Barry K. Beyer (pp. 36- 52)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n4/brostoff.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.2.4.05",
@@ -810,7 +816,8 @@
       "issue": 1,
       "title": "Culture and Literacy",
       "authors": [
-        "E.D. Hirsch, Jr. (pp. 27- 47)"
+        "E.D. Hirsch",
+        "Jr. (pp. 27- 47)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/hirsch.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.04",
@@ -849,7 +856,7 @@
       "issue": 1,
       "title": "The English Professor's Malady",
       "authors": [
-        "\u00a0(pp. 91- 97)"
+        "(pp. 91- 97)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_malady.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.08",
@@ -875,7 +882,7 @@
       "issue": 1,
       "title": "Some Needed Research on Writing",
       "authors": [
-        "\u00a0(pp. 98- 103)"
+        "(pp. 98- 103)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_research.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.09",
@@ -888,7 +895,7 @@
       "issue": 1,
       "title": "Open Admissions and the Disadvantaged Teacher",
       "authors": [
-        "\u00a0(pp. 104- 108)"
+        "(pp. 104- 108)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_admissions.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.10",
@@ -901,7 +908,7 @@
       "issue": 1,
       "title": "The Miserable Truth",
       "authors": [
-        "\u00a0(pp. 109- 114)"
+        "(pp. 109- 114)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_truth.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.11",
@@ -914,7 +921,7 @@
       "issue": 1,
       "title": "Statement on Criteria for Writing Proficiency",
       "authors": [
-        "\u00a0(pp. 115- 119)"
+        "(pp. 115- 119)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_proficiency.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.12",
@@ -1587,9 +1594,7 @@
       "volume": 5,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v5n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -1750,9 +1755,7 @@
       "volume": 5,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v5n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -1864,9 +1867,7 @@
       "volume": 6,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v6n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -1952,7 +1953,7 @@
     {
       "volume": 6,
       "issue": 2,
-      "title": "Freedom to Writer\u2014Through Imitation",
+      "title": "Freedom to Writer—Through Imitation",
       "authors": [
         "Donna Gorrell"
       ],
@@ -2043,9 +2044,7 @@
       "volume": 6,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v6n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2118,7 +2117,7 @@
       "issue": 1,
       "title": "Why Test?",
       "authors": [
-        "\u00a0Marie Jean Lederman"
+        "Marie Jean Lederman"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v7n1/lederman.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1988.7.1.05",
@@ -2171,7 +2170,11 @@
       "issue": 1,
       "title": "Competing Epistemologies and Female Basic Writers",
       "authors": [
-        "Paul Hunter, Nadine Pearce, Sue Lee, Shirley Goldsmith, Patricia Feldman,",
+        "Paul Hunter",
+        "Nadine Pearce",
+        "Sue Lee",
+        "Shirley Goldsmith",
+        "Patricia Feldman",
         "Holly Weaver"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v7n1/hunter.pdf",
@@ -2285,9 +2288,7 @@
       "volume": 7,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v7n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2420,9 +2421,7 @@
       "volume": 8,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v8n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2443,7 +2442,7 @@
     {
       "volume": 8,
       "issue": 2,
-      "title": "Editors'\u00a0Column",
+      "title": "Editors' Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v8n2/editors.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1989.8.2.01",
@@ -2547,9 +2546,7 @@
       "volume": 8,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v8n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2662,9 +2659,7 @@
       "volume": 9,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v9n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2762,7 +2757,7 @@
       "issue": 2,
       "title": "The Revival of Rhetoric: A Bibliographic Essay",
       "authors": [
-        "G\u00f6ran \"George\" Moberg"
+        "Göran \"George\" Moberg"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v9n2/moberg.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1990.9.2.06",
@@ -2798,9 +2793,7 @@
       "volume": 9,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v9n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -2948,9 +2941,7 @@
       "volume": 10,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v10n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3074,9 +3065,7 @@
       "volume": 10,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v10n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3186,7 +3175,9 @@
       "issue": 1,
       "title": "A Combined Basic Writing/English as a Second Language Class: Melting Pot or Mishmash?",
       "authors": [
-        "Beverly Benson, Mary Deming, Debra Denzer,",
+        "Beverly Benson",
+        "Mary Deming",
+        "Debra Denzer",
         "Maria Valeri-Gold"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v11n1/benson.pdf",
@@ -3210,9 +3201,7 @@
       "volume": 11,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v11n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3362,9 +3351,7 @@
       "volume": 11,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v11n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3450,7 +3437,7 @@
       "issue": 1,
       "title": "The Status of Basic Writing Teachers: Do We Need a \"Maryland Resolution\"?",
       "authors": [
-        "\u00a0Jeanne Gunner"
+        "Jeanne Gunner"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n1/gunner.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.1.06",
@@ -3501,9 +3488,7 @@
       "volume": 12,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3536,9 +3521,7 @@
       "volume": 12,
       "issue": 2,
       "title": "The Vanishing Site of Mina Shaughnessy'sError and Expectations",
-      "authors": [
-        "Patricia Laurence"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/laurence.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.2.03",
       "page_numbers": null,
@@ -3550,7 +3533,7 @@
       "issue": 2,
       "title": "What Works? How Do We Know?",
       "authors": [
-        "\u00a0Ann E. Berthoff"
+        "Ann E. Berthoff"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/berthoff.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.2.02",
@@ -3626,7 +3609,7 @@
       "issue": 2,
       "title": "A Legacy of Basic Writing Instruction",
       "authors": [
-        "Lyn\u00e9e Lewis Gaillet"
+        "Lynée Lewis Gaillet"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/gaillet.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.2.07",
@@ -3638,9 +3621,7 @@
       "volume": 12,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3792,9 +3773,7 @@
       "volume": 13,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -3916,9 +3895,7 @@
       "volume": 13,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4042,9 +4019,7 @@
       "volume": 14,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v14n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4179,9 +4154,7 @@
       "volume": 14,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v14n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4315,9 +4288,7 @@
       "volume": 15,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v15n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4364,8 +4335,7 @@
       "issue": 2,
       "title": "The Hero's Performance and Students' Quests for Meaning and Identity: A Humanities and Writing Course Design",
       "authors": [
-        "Rosemary Winslow",
-        "amp; Monica Mische"
+        "Rosemary Winslow & Monica Mische"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v15n2/winslow.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1996.15.2.05",
@@ -4427,9 +4397,7 @@
       "volume": 15,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v15n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4451,9 +4419,7 @@
       "volume": 15,
       "issue": 2,
       "title": "A Full and Good World fromMina P. Shaughnessy: Her Life and Work",
-      "authors": [
-        "Jane Maher"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v15n2/maher.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1996.15.2.02",
       "page_numbers": null,
@@ -4476,7 +4442,8 @@
       "issue": 1,
       "title": "Class Talk",
       "authors": [
-        "Gary Tate, John McMillan,",
+        "Gary Tate",
+        "John McMillan",
         "Elizabeth Woodworth"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n1/tate.pdf",
@@ -4545,7 +4512,8 @@
       "issue": 1,
       "title": "Theory in the Basic Writing Classroom? A Practice",
       "authors": [
-        "Victor Villanueva, Jr."
+        "Victor Villanueva",
+        "Jr."
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n1/villanueva.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1997.16.1.07",
@@ -4592,9 +4560,7 @@
       "volume": 16,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4628,7 +4594,8 @@
       "issue": 2,
       "title": "Some Effects of Culture-Referenced Topics on the Writing Performance of African American Students",
       "authors": [
-        "Nathaniel Norment, Jr."
+        "Nathaniel Norment",
+        "Jr."
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n2/norment.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1997.16.2.03",
@@ -4726,9 +4693,7 @@
       "volume": 16,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4774,9 +4739,7 @@
       "volume": 17,
       "issue": 1,
       "title": "Taboo Topics and the Rhetoric of Silence: DiscussingLives on the Boundaryin a Basic Writing Class",
-      "authors": [
-        "Candace Spigelman"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/spigelman.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1998.17.1.04",
       "page_numbers": null,
@@ -4802,7 +4765,8 @@
       "issue": 1,
       "title": "Mediated Texts: A Heuristic for Academic Writing",
       "authors": [
-        "Eileen Biser, Linda Rubel,",
+        "Eileen Biser",
+        "Linda Rubel",
         "Rose Marie Toscano"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/biser.pdf",
@@ -4814,7 +4778,7 @@
     {
       "volume": 17,
       "issue": 1,
-      "title": "The Attack on Basic Writing\u2014And After",
+      "title": "The Attack on Basic Writing—And After",
       "authors": [
         "Harvey S. Wiener"
       ],
@@ -4827,9 +4791,13 @@
     {
       "volume": 17,
       "issue": 1,
-      "title": "Assessing Our Assessments: A Collective Questioning of What Students Need\u2014And Get",
+      "title": "Assessing Our Assessments: A Collective Questioning of What Students Need—And Get",
       "authors": [
-        "Liza Bruna, Ian Marshall, Tim McCormack, Leo Parascondola, Wendy Ryden,",
+        "Liza Bruna",
+        "Ian Marshall",
+        "Tim McCormack",
+        "Leo Parascondola",
+        "Wendy Ryden",
         "Carl Whithaus"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/bruna.pdf",
@@ -4855,9 +4823,7 @@
       "volume": 17,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -4978,9 +4944,7 @@
       "volume": 17,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5026,9 +4990,7 @@
       "volume": 18,
       "issue": 1,
       "title": "Marilyn Sternglass'sTime To Know Them: A Review Essay",
-      "authors": [
-        "Daniela Liese"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v18n1/liese.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1999.18.1.03",
       "page_numbers": null,
@@ -5105,7 +5067,7 @@
       "issue": 1,
       "title": "Freshgirls: Overwhelmed by Discordant Pedagogies and the Anxiety of Leaving Home",
       "authors": [
-        "Discordant Pedagogies and the Anxiety of Leaving Home"
+        "Beth Counihan"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v18n1/counihan.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1999.18.1.08",
@@ -5130,9 +5092,7 @@
       "volume": 18,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v18n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5254,9 +5214,7 @@
       "volume": 18,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v18n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5410,9 +5368,7 @@
       "volume": 19,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v19n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5560,9 +5516,7 @@
       "volume": 19,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v19n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5709,9 +5663,7 @@
       "volume": 20,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v20n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5833,9 +5785,7 @@
       "volume": 20,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v20n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5909,7 +5859,8 @@
       "issue": 1,
       "title": "Be Careful What You Ask For: When Basic Writers Take the Rhetorical Stage",
       "authors": [
-        "Eileen Biser, Linda Rubel,",
+        "Eileen Biser",
+        "Linda Rubel",
         "Rose Marie Toscano"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n1/biser.pdf",
@@ -5960,9 +5911,7 @@
       "volume": 21,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -5985,7 +5934,9 @@
       "issue": 1,
       "title": "What Is Learned in Sustained-Content Writing Classes Along with Writing?",
       "authors": [
-        "Marcia Pally, Helen Katznelson, Hadara Peroignan,",
+        "Marcia Pally",
+        "Helen Katznelson",
+        "Hadara Peroignan",
         "Bella Rubin"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n1/pally.pdf",
@@ -6098,9 +6049,7 @@
       "volume": 21,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6134,7 +6083,7 @@
     {
       "volume": 22,
       "issue": 1,
-      "title": "Developing Statements of Guidelines and Goals for Basic Writing Programs: Cluster\u2014Introduction",
+      "title": "Developing Statements of Guidelines and Goals for Basic Writing Programs: Cluster—Introduction",
       "authors": [
         "Karen S. Uehling"
       ],
@@ -6224,9 +6173,7 @@
       "volume": 22,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v22n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6263,7 +6210,8 @@
       "issue": 1,
       "title": "Rethinking the Basic Writing Fontier: Native American Students' Challenge to Our Histories",
       "authors": [
-        "Laura Gray-Rosendale, Loyola K. Bird,",
+        "Laura Gray-Rosendale",
+        "Loyola K. Bird",
         "Judith F. Bullock"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v22n1/gray-rosendale.pdf",
@@ -6341,9 +6289,7 @@
       "volume": 22,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v22n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6466,9 +6412,7 @@
       "volume": 23,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v23n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6554,7 +6498,8 @@
       "issue": 2,
       "title": "Building Academic Literacy from Student Strength: An Interdisciplinary Life History Project",
       "authors": [
-        "Robin Murie, Molly Rojas Collins,",
+        "Robin Murie",
+        "Molly Rojas Collins",
         "Daniel F. Detzner"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v23n2/murie.pdf",
@@ -6567,9 +6512,7 @@
       "volume": 23,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v23n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6669,9 +6612,7 @@
       "volume": 24,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v24n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6707,7 +6648,9 @@
       "issue": 2,
       "title": "It's Not Remedial: Re-envisioning Pre-First-Year College Writing",
       "authors": [
-        "Heidi Huse, Jenna Wright, Anna Clark,",
+        "Heidi Huse",
+        "Jenna Wright",
+        "Anna Clark",
         "Tim Hacker"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v24n2/huse.pdf",
@@ -6770,9 +6713,7 @@
       "volume": 24,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v24n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6870,9 +6811,7 @@
       "volume": 25,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v25n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -6985,9 +6924,7 @@
       "volume": 25,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v25n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7086,9 +7023,7 @@
       "volume": 26,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v26n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7122,7 +7057,13 @@
       "issue": 2,
       "title": "The City University of New York and the Shaughnessy Legacy: Today's Scholars Talk Back",
       "authors": [
-        "Judith Summerfield, Peter Gray, Cheryl C. Smith, Crystal Benedicks, Mark McBeth, Linda Hirsch, Mary Soliday,",
+        "Judith Summerfield",
+        "Peter Gray",
+        "Cheryl C. Smith",
+        "Crystal Benedicks",
+        "Mark McBeth",
+        "Linda Hirsch",
+        "Mary Soliday",
         "Jessica Yood"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v26n2/summerfield.pdf",
@@ -7188,9 +7129,7 @@
       "volume": 26,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v26n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7262,9 +7201,7 @@
       "volume": 27,
       "issue": 1,
       "title": "Material Realities in the Basic Writing Classroom: Intersections of Discovery for Young Women ReadingPersepolis",
-      "authors": [
-        "Susan Naomi Bernstein"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v27n1/bernstein.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.1.05",
       "page_numbers": null,
@@ -7288,9 +7225,7 @@
       "volume": 27,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v27n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7388,9 +7323,7 @@
       "volume": 27,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v27n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7437,9 +7370,7 @@
       "volume": 28,
       "issue": 1,
       "title": "[Not] Losing My Religion: UsingThe Color Purpleto Promote Critical Thinking in the Writing Classroom",
-      "authors": [
-        "Donald McCrary"
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v28n1/mccrary.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.1.02",
       "page_numbers": null,
@@ -7463,9 +7394,7 @@
       "volume": 28,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v28n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7538,7 +7467,9 @@
       "issue": 2,
       "title": "The Accelerated Learning Program: Throwing Open the Gates",
       "authors": [
-        "Peter Adams, Sarah Gearhart, Robert Miller,",
+        "Peter Adams",
+        "Sarah Gearhart",
+        "Robert Miller",
         "Anne Roberts"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v28n2/adams.pdf",
@@ -7577,9 +7508,7 @@
       "volume": 28,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v28n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7654,7 +7583,9 @@
       "issue": 1,
       "title": "Expanding Definitions of Academic Writing: Family History Writing in the Basic Writing Classroom and Beyond",
       "authors": [
-        "Sherry Rankins-Robertson, Lisa Cahill, Duane Roen,",
+        "Sherry Rankins-Robertson",
+        "Lisa Cahill",
+        "Duane Roen",
         "Gregory R. Glau"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v29n1/rankins-robertson.pdf",
@@ -7680,9 +7611,7 @@
       "volume": 29,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v29n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7755,7 +7684,8 @@
       "issue": 2,
       "title": "Beyond the Budget: Sustainability and Writing Studios",
       "authors": [
-        "Chris Warnick, Emily Cooney,",
+        "Chris Warnick",
+        "Emily Cooney",
         "Samuel Lackey"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v29n2/warnick.pdf",
@@ -7781,9 +7711,7 @@
       "volume": 29,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v29n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7881,9 +7809,7 @@
       "volume": 30,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v30n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -7955,9 +7881,7 @@
       "volume": 30,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v30n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8015,7 +7939,7 @@
     {
       "volume": 31,
       "issue": 1,
-      "title": "Minority-Serving Institutions, Race-Conscious \u2018Dwelling,\u2019 and Possible Futures for Basic Writing at Predominantly White Institutions",
+      "title": "Minority-Serving Institutions, Race-Conscious ‘Dwelling,’ and Possible Futures for Basic Writing at Predominantly White Institutions",
       "authors": [
         "Steve Lamos"
       ],
@@ -8055,9 +7979,7 @@
       "volume": 31,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v31n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8078,7 +8000,7 @@
     {
       "volume": 31,
       "issue": 1,
-      "title": "Comedy Stages, Poets Projects, Sports Columns, and Kinesiology 341: Illuminating the Importance of Basic Writers\u2019 Self-Sponsored Literacies",
+      "title": "Comedy Stages, Poets Projects, Sports Columns, and Kinesiology 341: Illuminating the Importance of Basic Writers’ Self-Sponsored Literacies",
       "authors": [
         "Kevin Roozen"
       ],
@@ -8155,7 +8077,7 @@
     {
       "volume": 31,
       "issue": 2,
-      "title": "Diving In or Guarding the Tower: Mina Shaughnessy\u2019s Resistance and Capitulation to High-Stakes Writing Tests at City College",
+      "title": "Diving In or Guarding the Tower: Mina Shaughnessy’s Resistance and Capitulation to High-Stakes Writing Tests at City College",
       "authors": [
         "Sean Molloy"
       ],
@@ -8169,9 +8091,7 @@
       "volume": 31,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v31n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8256,9 +8176,7 @@
       "volume": 32,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v32n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8317,7 +8235,7 @@
     {
       "volume": 32,
       "issue": 2,
-      "title": "\u201cMe/We\u201d: Building an Embodied Writing Classroom for Socially Networked, Socially Distracted Basic Writers",
+      "title": "“Me/We”: Building an Embodied Writing Classroom for Socially Networked, Socially Distracted Basic Writers",
       "authors": [
         "Kendra N. Bryant"
       ],
@@ -8344,9 +8262,7 @@
       "volume": 32,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v32n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8446,9 +8362,7 @@
       "volume": 33,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v33n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8520,9 +8434,7 @@
       "volume": 34,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v34n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8596,9 +8508,7 @@
       "volume": 35,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v35n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8657,7 +8567,7 @@
     {
       "volume": 36,
       "issue": 1,
-      "title": "Fact and Theory and Value Judgment: What They Say/We Say of Basic Writing\u2019s Unhedged Good",
+      "title": "Fact and Theory and Value Judgment: What They Say/We Say of Basic Writing’s Unhedged Good",
       "authors": [
         "Don J. Kraemer"
       ],
@@ -8685,9 +8595,7 @@
       "volume": 36,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v36n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8785,9 +8693,7 @@
       "volume": 36,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v36n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8872,7 +8778,7 @@
     {
       "volume": 37,
       "issue": 1,
-      "title": "Re-examining Constructions of Basic Writers\u2019 Identities: Graduate Teaching, New Developments in the Contextual Model, and the Future of the Discipline",
+      "title": "Re-examining Constructions of Basic Writers’ Identities: Graduate Teaching, New Developments in the Contextual Model, and the Future of the Discipline",
       "authors": [
         "Laura Gray-Rosendale"
       ],
@@ -8886,9 +8792,7 @@
       "volume": 37,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -8920,10 +8824,8 @@
     {
       "volume": 37,
       "issue": 2,
-      "title": "Disciplinary Reading in Basic Writing Graduate Education: The Politics of Remediation inJBW, 1995\u20132015",
-      "authors": [
-        "Lynn Reid"
-      ],
+      "title": "Disciplinary Reading in Basic Writing Graduate Education: The Politics of Remediation inJBW, 1995–2015",
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/reid.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.02",
       "page_numbers": null,
@@ -8935,8 +8837,9 @@
       "issue": 2,
       "title": "Teachers, Researchers, and Communities of Practice: Building a Corpus to Support Graduate Education",
       "authors": [
-        "Thomas Peele, Vivian Stoll,",
-        "Andr\u00e9a Stella"
+        "Thomas Peele",
+        "Vivian Stoll",
+        "Andréa Stella"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/peele.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.03",
@@ -8949,7 +8852,11 @@
       "issue": 2,
       "title": "Forming Adult Educators: The CCNY MA in Language and Literacy",
       "authors": [
-        "Barbara Gleason, with Anita Caref, James Dunn, Erick Martinez, Lynn Reid,",
+        "Barbara Gleason",
+        "with Anita Caref",
+        "James Dunn",
+        "Erick Martinez",
+        "Lynn Reid",
         "Maria Vint"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/gleason.pdf",
@@ -8988,9 +8895,7 @@
       "volume": 37,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9063,9 +8968,7 @@
       "volume": 38,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v38n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9075,7 +8978,7 @@
     {
       "volume": 38,
       "issue": 1,
-      "title": "Designing Rubrics to Foster Students\u2019 Diverse Language Backgrounds",
+      "title": "Designing Rubrics to Foster Students’ Diverse Language Backgrounds",
       "authors": [
         "Amanda Athon"
       ],
@@ -9138,9 +9041,7 @@
       "volume": 38,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v38n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9214,7 +9115,8 @@
       "issue": 1,
       "title": "\"Root and Branch\": Resisting a Basic Writing Legacy System",
       "authors": [
-        "Sean Molloy, Silvester Fonville,",
+        "Sean Molloy",
+        "Silvester Fonville",
         "Abdus Salam"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v39n1/molloy.pdf",
@@ -9227,9 +9129,7 @@
       "volume": 39,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v39n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9329,9 +9229,7 @@
       "volume": 39,
       "issue": 2,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v39n2/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9378,7 +9276,9 @@
       "issue": 1,
       "title": "Affect, Fear, and Openness in an Antiracist Writing Classroom",
       "authors": [
-        "Amy D. Williams, Sarah Kate Johnson, Anika Shumway,",
+        "Amy D. Williams",
+        "Sarah Kate Johnson",
+        "Anika Shumway",
         "Dennis L. Eggett"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v40n1/williams.pdf",
@@ -9392,7 +9292,8 @@
       "issue": 1,
       "title": "When Boostraps Break: Re-examining Assumptions about the Symbolic Capital of Immigrant Students' Persistence Narratives",
       "authors": [
-        "Emily K. Suh, Barrie E. McGee,",
+        "Emily K. Suh",
+        "Barrie E. McGee",
         "Sam Owens"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v40n1/suh.pdf",
@@ -9443,9 +9344,7 @@
       "volume": 40,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v40n1/board.pdf",
       "doi": null,
       "page_numbers": null,
@@ -9458,23 +9357,10 @@
       "title": "Editors' Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/editors.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.01",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/editors-column.pdf"
-    },
-    {
-      "volume": 42,
-      "issue": 1,
-      "title": "Open Admissions, Resilience, and Basic Writing Ecologies: A New Cultural Narrative",
-      "authors": [
-        "Joyce Olewski Inman"
-      ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/inman.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.03",
-      "page_numbers": null,
-      "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/open-admissions-resilience-and-basic-writing-ecologies-a-new-cultural-narrative.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/editors.pdf"
     },
     {
       "volume": 42,
@@ -9484,37 +9370,38 @@
         "Annie S. Mendenhall"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/mendenhall.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.02",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/admission-to-one-admission-to-all-the-end-of-the-radical-dream-of-open-admissions-in-the-post-desegregation-south.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/mendenhall.pdf"
     },
     {
       "volume": 42,
       "issue": 1,
-      "title": "Editorial Board",
+      "title": "Open Admissions, Resilience, and Basic Writing Ecologies: A New Cultural Narrative",
       "authors": [
-        "\u00a0and the Editors."
+        "Joyce Olewski Inman"
       ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/board.pdf",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/inman.pdf",
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/editorial-board.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/inman.pdf"
     },
     {
       "volume": 42,
       "issue": 1,
       "title": "Valuing an Embodied Epistemology to Counter Neoliberal Programmatic Reform at the Two-Year College",
       "authors": [
-        "Alison Cardinal, Kirsten Higgins,",
+        "Alison Cardinal",
+        "Kirsten Higgins",
         "Anthony Warnke"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/cardinal-higgins-warnke.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.04",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/valuing-an-embodied-epistemology-to-counter-neoliberal-programmatic-reform-at-the-two-year-college.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/cardinal-higgins-warnke.pdf"
     },
     {
       "volume": 42,
@@ -9524,10 +9411,21 @@
         "Tom McNamara"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/mcnamara.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.05",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/access-and-exclusion-chinese-undergraduates-and-basic-writing-in-the-global-university.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/mcnamara.pdf"
+    },
+    {
+      "volume": 42,
+      "issue": 1,
+      "title": "Editorial Board",
+      "authors": [],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/board.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/board.pdf"
     },
     {
       "volume": 42,
@@ -9538,18 +9436,18 @@
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/view-the-members.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n1/board.pdf"
     },
     {
       "volume": 42,
       "issue": 2,
-      "title": "Editors\u2019 Column",
+      "title": "Editors’ Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/editors.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.01",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/editors-column.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/editors.pdf"
     },
     {
       "volume": 42,
@@ -9560,10 +9458,10 @@
         "Caroline Wilkinson"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/bailey-wilkinson.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.02",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/ungrading-the-composition-classroom-affect-metacognition-and-qualitative-learning.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/bailey-wilkinson.pdf"
     },
     {
       "volume": 42,
@@ -9573,36 +9471,23 @@
         "Charissa Che"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/che.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.03",
-      "page_numbers": null,
-      "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/terms-and-conditions-working-with-and-in-spite-of-our-multilingual-student-frameworks.pdf"
-    },
-    {
-      "volume": 42,
-      "issue": 2,
-      "title": "Editorial Board",
-      "authors": [
-        "\u00a0and the Editors."
-      ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/board.pdf",
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/editorial-board.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/che.pdf"
     },
     {
       "volume": 42,
       "issue": 2,
-      "title": "Explicit Language Instruction: Developing Writers\u2019 Metalinguistic Awareness to Facilitate Transfer",
+      "title": "Explicit Language Instruction: Developing Writers’ Metalinguistic Awareness to Facilitate Transfer",
       "authors": [
         "Tom Slagle"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/slagle.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.04",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/explicit-language-instruction-developing-writers-metalinguistic-awareness-to-facilitate-transfer.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/slagle.pdf"
     },
     {
       "volume": 42,
@@ -9612,10 +9497,21 @@
         "Misun Dokko"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/dokko.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.05",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/promising-but-struggling-multilinguals-a-one-on-one-intervention-for-getting-on-track-in-first-year-composition.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/dokko.pdf"
+    },
+    {
+      "volume": 42,
+      "issue": 2,
+      "title": "Editorial Board",
+      "authors": [],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/board.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/board.pdf"
     },
     {
       "volume": 42,
@@ -9626,45 +9522,59 @@
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/view-the-members.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v42n2/board.pdf"
     },
     {
       "volume": 43,
       "issue": 1,
-      "title": "Editors\u2019 Column",
+      "title": "Editors’ Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/editors.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.01",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/editors-column.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/editors.pdf"
     },
     {
       "volume": 43,
       "issue": 1,
-      "title": "Instructor Alienation and the Accelerated Pipeline of the Post Pandemic\u2019s ALP Classroom",
+      "title": "Instructor Alienation and the Accelerated Pipeline of the Post Pandemic’s ALP Classroom",
       "authors": [
         "Jacqueline Brady"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/brady.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.02",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/instructor-alienation-and-the-accelerated-pipeline-of-the-post-pandemics-alp-classroom.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/brady.pdf"
     },
     {
       "volume": 43,
       "issue": 1,
       "title": "Time as a Wicked Problem: A Study of Community College Faculty Experiences with State-Mandated Acceleration",
       "authors": [
-        "Tricia Serviss, Jennifer Burke Reifman,",
+        "Tricia Serviss",
+        "Jennifer Burke Reifman",
         "Meghan A. Sweeney"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/serviss-reifman-sweeney.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.03",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/time-as-a-wicked-problem-a-study-of-community-college-faculty-experiences-with-state-mandated-acceleration.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/serviss-reifman-sweeney.pdf"
+    },
+    {
+      "volume": 43,
+      "issue": 1,
+      "title": "Recalibrating Confusion: Reflections on My Hybrid ALP’s Deictic Center",
+      "authors": [
+        "John Paul Tassoni"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/tassoni.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/tassoni.pdf"
     },
     {
       "volume": 43,
@@ -9674,36 +9584,21 @@
         "Sara Heaser"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/heaser.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.05",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/letting-go-and-going-all-in-a-reflection-on-liminality.pdf"
-    },
-    {
-      "volume": 43,
-      "issue": 1,
-      "title": "Recalibrating Confusion: Reflections on My Hybrid ALP\u2019s Deictic Center",
-      "authors": [
-        "John Paul Tassoni"
-      ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/tassoni.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.04",
-      "page_numbers": null,
-      "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/recalibrating-confusion-reflections-on-my-hybrid-alps-deictic-center.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/heaser.pdf"
     },
     {
       "volume": 43,
       "issue": 1,
       "title": "Editorial Board",
-      "authors": [
-        "and the Editors."
-      ],
+      "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/board.pdf",
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/editorial-board.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/board.pdf"
     },
     {
       "volume": 43,
@@ -9714,35 +9609,22 @@
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/view-the-members.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n1/board.pdf"
     },
     {
       "volume": 43,
       "issue": 2,
-      "title": "Editors\u2019 Column: The Corequisite Landscape and Envisioning Beyond the Horizon",
+      "title": "Editors’ Column: The Corequisite Landscape and Envisioning Beyond the Horizon",
       "authors": [
-        "Leah Anderst, Cheryl Comeau-Kirschner,",
+        "Leah Anderst",
+        "Cheryl Comeau-Kirschner",
         "Jennifer Maloy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/editors.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.01",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/editors-column-the-corequisite-landscape-and-envisioning-beyond-the-horizon.pdf"
-    },
-    {
-      "volume": 43,
-      "issue": 2,
-      "title": "Adapting Writing Studio Pedagogy for Flexible and Equitable Acceleration",
-      "authors": [
-        "Joanne Baird Giordano",
-        "Cassandra Phillips"
-      ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/giordano-phillips.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.03",
-      "page_numbers": null,
-      "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/adapting-writing-studio-pedagogy-for-flexible-and-equitable-acceleration.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/editors.pdf"
     },
     {
       "volume": 43,
@@ -9753,23 +9635,41 @@
         "Sarah Stanley"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/knight-stanley.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.02",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/responding-to-disruption-with-feminist-hospita.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/knight-stanley.pdf"
     },
     {
       "volume": 43,
       "issue": 2,
-      "title": "Editorial Board",
+      "title": "Adapting Writing Studio Pedagogy for Flexible and Equitable Acceleration",
       "authors": [
-        "and the Editors."
+        "Joanne Baird Giordano",
+        "Cassandra Phillips"
       ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/board.pdf",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/giordano-phillips.pdf",
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": null
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/giordano-phillips.pdf"
+    },
+    {
+      "volume": 43,
+      "issue": 2,
+      "title": "Crisis as a Catalyst for Change: Supporting Student Success with GSP and ALP During the Pandemic",
+      "authors": [
+        "Ian Golding",
+        "Sonja Andrus",
+        "Kevin Oberlin",
+        "Brenda Refaei",
+        "Anna Hensley"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/goldingetal.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/goldingetal.pdf"
     },
     {
       "volume": 43,
@@ -9780,10 +9680,21 @@
         "Jacqueline Jones"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/coleman-jones.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.05",
+      "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/rebooting-alp.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/coleman-jones.pdf"
+    },
+    {
+      "volume": 43,
+      "issue": 2,
+      "title": "Editorial Board",
+      "authors": [],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/board.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/board.pdf"
     },
     {
       "volume": 43,
@@ -9794,84 +9705,139 @@
       "doi": null,
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": null
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v43n2/board.pdf"
     },
     {
-      "volume": 43,
-      "issue": 2,
-      "title": "Crisis as a Catalyst for Change: Supporting Student Success with GSP and ALP During the Pandemic",
-      "authors": [
-        "Ian Golding, Sonja Andrus, Kevin Oberlin, Brenda Refaei,",
-        "Anna Hensley"
-      ],
-      "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/goldingetal.pdf",
-      "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.04",
-      "page_numbers": null,
-      "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/crisis-as-a-catalyst-for-change-supporting-student-success-with-gsp-and-alp-during-the-pandemic.pdf"
-    },
-    {
-      "title": "Editors' Column",
-      "authors": [],
       "volume": 41,
       "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/column.pdf",
-      "doi": ""
+      "title": "Editors' Column",
+      "authors": [],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/editors.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/editors.pdf"
     },
     {
+      "volume": 41,
+      "issue": 1,
       "title": "Basic Writing and Resisting White Innocence",
       "authors": [
         "Sean Molloy",
         "Alexis Bennett"
       ],
-      "volume": 41,
-      "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/molloy.pdf",
-      "doi": ""
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/molloy-bennett.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/molloy-bennett.pdf"
     },
     {
-      "title": "Gatekeeping by Design: The Use of an Exit Exam as a \"Boss Text\" in a Basic Writing Course",
+      "volume": 41,
+      "issue": 1,
+      "title": "Gatekeeping by Design: The Use of an Exit Exam as a “Boss Text” in a Basic Writing Course",
       "authors": [
         "Stacy Wittstock"
       ],
-      "volume": 41,
-      "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/wittstock.pdf",
-      "doi": ""
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/wittstock.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/wittstock.pdf"
     },
     {
+      "volume": 41,
+      "issue": 1,
       "title": "Challenging Assumptions about Basic Writers and Corequisites at Four-Year Institutions",
       "authors": [
         "Margaret E. Weaver",
         "Kailyn Shartel Hall",
         "Tracey A. Glaessgen"
       ],
-      "volume": 41,
-      "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/weaver.pdf",
-      "doi": ""
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/weaveretal.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/weaveretal.pdf"
     },
     {
+      "volume": 41,
+      "issue": 1,
       "title": "Student-Centered Grammar Feedback in the Basic Writing Classroom: Toward a Translingual Grammar Pedagogy",
       "authors": [
         "Amanda Sladek"
       ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/sladek.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/sladek.pdf"
+    },
+    {
       "volume": 41,
-      "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/sladek.pdf",
-      "doi": ""
+      "issue": 2,
+      "title": "Editors' Column",
+      "authors": [],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/editors.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/editors.pdf"
+    },
+    {
+      "volume": 41,
+      "issue": 2,
+      "title": "Basic Writing and Resisting White Innocence",
+      "authors": [
+        "Sean Molloy",
+        "Alexis Bennett"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/molloy-bennett.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/molloy-bennett.pdf"
+    },
+    {
+      "volume": 41,
+      "issue": 2,
+      "title": "Gatekeeping by Design: The Use of an Exit Exam as a “Boss Text” in a Basic Writing Course",
+      "authors": [
+        "Stacy Wittstock"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/wittstock.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/wittstock.pdf"
+    },
+    {
+      "volume": 41,
+      "issue": 2,
+      "title": "Challenging Assumptions about Basic Writers and Corequisites at Four-Year Institutions",
+      "authors": [
+        "Margaret E. Weaver",
+        "Kailyn Shartel Hall",
+        "Tracey A. Glaessgen"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/weaveretal.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/weaveretal.pdf"
+    },
+    {
+      "volume": 41,
+      "issue": 2,
+      "title": "Student-Centered Grammar Feedback in the Basic Writing Classroom: Toward a Translingual Grammar Pedagogy",
+      "authors": [
+        "Amanda Sladek"
+      ],
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v41n1-2/sladek.pdf",
+      "doi": null,
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v41n1-2/",
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-website/jbw-archive/v41n1-2/sladek.pdf"
     }
-  ],
-  "errors": [
-    "Failed to download: News and Announcements - 404 Client Error: Not Found for url: https://wac.colostate.edu/docs/jbw/v10n2/new.pdf",
-    "Failed to download: News and Announcements - 404 Client Error: Not Found for url: https://wac.colostate.edu/docs/jbw/v11n2/new.pdf",
-    "Failed to fetch v33n2: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v33n2/",
-    "Failed to fetch v34n2: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v34n2/",
-    "Failed to fetch v35n2: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v35n2/",
-    "Failed to fetch v40n2: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v40n2/",
-    "Failed to fetch v41n1: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v41n1/",
-    "Failed to fetch v41n2: 404 Client Error: Not Found for url: https://wac.colostate.edu/jbw/v41n2/",
-    "Failed to download: Editorial Board - 404 Client Error: Not Found for url: https://wac.colostate.edu/docs/jbw/v43n2/board.pdf",
-    "Failed to download: View the Members - 404 Client Error: Not Found for url: https://wac.colostate.edu/docs/jbw/v43n2/board.pdf"
   ]
 }

@@ -23,6 +23,17 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# eslint
+.eslintcache
 
 # debug
 npm-debug.log*

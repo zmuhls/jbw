@@ -12,10 +12,10 @@ export default function Footer() {
             Published by Baruch College, CUNY
           </p>
           <p>
-            © 1975–{new Date().getFullYear()} Journal of Basic Writing. All rights reserved.
+            © 1976–{new Date().getFullYear()} City University of New York. All rights reserved.
           </p>
           <div className="flex justify-center space-x-4 pt-4">
-            <Link href="/about" className="text-[#8B1A1A] hover:underline">
+            <Link href="/about" className="text-[#4A5838] hover:underline">
               About
             </Link>
             <span className="text-gray-400">|</span>
@@ -23,12 +23,12 @@ export default function Footer() {
               href="https://wac.colostate.edu/jbw/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#8B1A1A] hover:underline"
+              className="text-[#4A5838] hover:underline"
             >
               Original Archive
             </a>
             <span className="text-gray-400">|</span>
-            <Link href="/about#contact" className="text-[#8B1A1A] hover:underline">
+            <Link href="/about#contact" className="text-[#4A5838] hover:underline">
               Contact
             </Link>
           </div>

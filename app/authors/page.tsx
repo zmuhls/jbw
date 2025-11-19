@@ -2,8 +2,61 @@
 
 import { useState, useEffect } from 'react';
 import { Users, FileText } from 'lucide-react';
-import { getAuthorIndex } from '@/lib/data';
-import type { Article } from '@/lib/types';
+import { getYearFromVolume } from '@/lib/utils';
+import type { Article, JBWIndex } from '@/lib/types';
+
+function cleanAuthorName(author: string): string {
+  let cleaned = author
+    .split('\n')[0]
+    .replace(/DOI:.*$/i, '')
+    .replace(/^by\s+/i, '')
+    .trim();
+
+  if (/^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(cleaned)) {
+    return '';
+  }
+
+  cleaned = cleaned.replace(/\s*\(pp\.\s*\d+[-–]\s*\d+\)\s*$/i, '').trim();
+  return cleaned;
+}
+
+function buildAuthorIndex(articles: Article[]): Map<string, Article[]> {
+  const authorMap = new Map<string, Article[]>();
+
+  articles.forEach(article => {
+    const hasOnlyPageNumbers = article.authors.length > 0 &&
+      article.authors.every(author => /^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(author.trim()));
+    const isShaughnessyArticle = article.pdf_url.toLowerCase().includes('shaughnessy');
+
+    let authorsToProcess = article.authors;
+
+    if (hasOnlyPageNumbers && isShaughnessyArticle) {
+      authorsToProcess = ['Mina P. Shaughnessy'];
+    }
+
+    authorsToProcess.forEach(author => {
+      const cleanAuthor = cleanAuthorName(author);
+      if (cleanAuthor) {
+        if (!authorMap.has(cleanAuthor)) {
+          authorMap.set(cleanAuthor, []);
+        }
+
+        const existingArticles = authorMap.get(cleanAuthor)!;
+        const isDuplicate = existingArticles.some(existing =>
+          existing.title === article.title &&
+          existing.volume === article.volume &&
+          existing.issue === article.issue
+        );
+
+        if (!isDuplicate) {
+          authorMap.get(cleanAuthor)!.push(article);
+        }
+      }
+    });
+  });
+
+  return new Map([...authorMap.entries()].sort());
+}
 
 export default function AuthorsPage() {
   const [authorMap, setAuthorMap] = useState<Map<string, Article[]>>(new Map());
@@ -11,10 +64,12 @@ export default function AuthorsPage() {
   const [selectedLetter, setSelectedLetter] = useState<string>('');
 
   useEffect(() => {
-    getAuthorIndex().then((data) => {
-      setAuthorMap(data);
-      setLoading(false);
-    });
+    fetch('/jbw/jbw-index.json')
+      .then((res) => res.json())
+      .then((data: JBWIndex) => {
+        setAuthorMap(buildAuthorIndex(data.articles));
+        setLoading(false);
+      });
   }, []);
 
   if (loading) {
@@ -123,7 +178,7 @@ export default function AuthorsPage() {
                           {article.title}
                         </a>
                         <p className="text-sm text-gray-600 mt-1">
-                          Volume {article.volume}, Issue {article.issue} ({1974 + article.volume})
+                          Volume {article.volume}, Issue {article.issue} ({getYearFromVolume(article.volume)})
                         </p>
                       </div>
                     </div>

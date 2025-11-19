@@ -16,9 +16,11 @@ export default function AboutPage() {
             <div className="journal-block-title">Quick Links</div>
             <nav className="sidebar-nav py-2">
               <a href="#history">History & Mission</a>
+              <a href="#editorial-team">Editorial Team</a>
+              <a href="#editorial-board">Editorial Board</a>
               <a href="#contributors">Notable Contributors</a>
               <a href="#publication">Publication Info</a>
-              <a href="#resources">Resources</a>
+              <a href="#contact">Contact</a>
             </nav>
           </div>
         </aside>
@@ -49,6 +51,49 @@ export default function AboutPage() {
               for writing teachers, program administrators, and researchers worldwide.
             </p>
           </div>
+          </section>
+
+          {/* Editorial Team */}
+          <section id="editorial-team" className="bg-white border border-gray-300 p-6">
+            <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Editorial Team</h2>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Editors</h3>
+                <ul className="text-gray-700 space-y-1">
+                  <li>Lisa Blankenship, Baruch College, CUNY</li>
+                  <li>Dominique Zino, LaGuardia Community College, CUNY</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Associate Editors</h3>
+                <ul className="text-gray-700 space-y-1">
+                  <li>Charissa Che, John Jay College of Criminal Justice</li>
+                  <li>Mudiwa Pettus, Medgar Evers College</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Consulting Editors</h3>
+                <ul className="text-gray-700 space-y-1">
+                  <li>Hope Parisi, Kingsborough Community College</li>
+                  <li>Cheryl C. Smith, Baruch College</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Production Editor</h3>
+                <ul className="text-gray-700 space-y-1">
+                  <li>Zach Muhlbauer, CUNY Graduate Center</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          {/* Editorial Board */}
+          <section id="editorial-board" className="bg-white border border-gray-300 p-6">
+            <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Editorial Board</h2>
+            <p className="text-gray-700">
+              The Editorial Board provides guidance on journal direction and reviews submissions.
+              Board members are leading scholars in basic writing, composition studies, and related fields.
+            </p>
           </section>
 
           {/* Notable Contributors */}
@@ -95,10 +140,46 @@ export default function AboutPage() {
               embargo
             </div>
             <div>
-              <strong className="text-gray-900">Indexing:</strong> Available in ERIC and
-              EBSCO databases
+              <strong className="text-gray-900">Indexing:</strong> Available in ERIC,
+              EBSCO&apos;s Communication and Mass Media Complete, and JSTOR (excluding the last two years)
             </div>
           </div>
+          </section>
+
+          {/* Archive Information */}
+          <section className="bg-white border border-gray-300 p-6">
+            <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Archive Information</h2>
+            <div className="space-y-4 text-gray-700 text-sm">
+              <div>
+                <strong className="text-gray-900">Archiving Process:</strong> PDF files for volumes 1–22
+                were scanned as 600 pixels per inch color images, converted to grayscale where appropriate,
+                and optimized for web viewing at 200 pixels per inch. Archival copies are preserved at 600
+                pixels per inch. More recent issues have been generated directly from InDesign files.
+              </div>
+              <div>
+                <strong className="text-gray-900">Accessibility Note:</strong> Because most early PDF
+                documents were created by scanning print documents, they lack structural markup (headings,
+                etc.). Screen readers will not be able to determine heading levels and other information
+                that would ease the reading process.
+              </div>
+              <div>
+                <strong className="text-gray-900">Embargo Period:</strong> Each volume is made available
+                on this site following a one-year embargo period.
+              </div>
+            </div>
+          </section>
+
+          {/* Acknowledgments */}
+          <section className="bg-white border border-gray-300 p-6">
+            <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Acknowledgments</h2>
+            <p className="text-gray-700 text-sm">
+              The WAC Clearinghouse and JBW offer special thanks to Ann Schwalm, Mark Shelstad, and
+              Clarissa Trapp of the Colorado State University Libraries and to Vince Darcangelo of
+              the Colorado State University Testing Center for their work scanning early issues of
+              the JBW archives. We also offer appreciation to Bonne August, Jim Cody, Theresa Enos,
+              Karen Uehling, Shirley Rose, and Jessica Schreyer for contributing their personal copies
+              of the journal to this project.
+            </p>
           </section>
 
           {/* Related Resources */}
@@ -110,7 +191,7 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu/jbw/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#8B1A1A] hover:underline inline-flex items-center"
+                  className="text-[#4A5838] hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Original JBW Archive at WAC Clearinghouse
@@ -121,26 +202,68 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#8B1A1A] hover:underline inline-flex items-center"
+                  className="text-[#4A5838] hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   WAC Clearinghouse
                 </a>
               </div>
               <div>
-                <Link href="/archive" className="text-[#8B1A1A] hover:underline">
+                <Link href="/archive" className="text-[#4A5838] hover:underline">
                   Browse Complete Archive
                 </Link>
               </div>
               <div>
-                <Link href="/authors" className="text-[#8B1A1A] hover:underline">
+                <Link href="/authors" className="text-[#4A5838] hover:underline">
                   Author Index
                 </Link>
               </div>
               <div>
-                <Link href="/search" className="text-[#8B1A1A] hover:underline">
+                <Link href="/search" className="text-[#4A5838] hover:underline">
                   Search Articles
                 </Link>
+              </div>
+            </div>
+          </section>
+
+          {/* Contact */}
+          <section id="contact" className="bg-white border border-gray-300 p-6">
+            <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Contact</h2>
+            <div className="space-y-4 text-gray-700">
+              <div>
+                <strong className="text-gray-900">Email:</strong>{' '}
+                <a href="mailto:jbwcuny@gmail.com" className="text-[#4A5838] hover:underline">
+                  jbwcuny@gmail.com
+                </a>
+              </div>
+              <div>
+                <strong className="text-gray-900">Mailing Address:</strong>
+                <address className="not-italic mt-1">
+                  Department of English<br />
+                  Kingsborough Community College<br />
+                  City University of New York<br />
+                  2001 Oriental Blvd.<br />
+                  Brooklyn, NY 11235
+                </address>
+              </div>
+              <div>
+                <strong className="text-gray-900">WAC Clearinghouse:</strong>{' '}
+                <a href="mailto:mike.palmquist@colostate.edu" className="text-[#4A5838] hover:underline">
+                  mike.palmquist@colostate.edu
+                </a>
+              </div>
+              <div>
+                <strong className="text-gray-900">Subscriptions:</strong>
+                <address className="not-italic mt-1">
+                  P.O. Box 465<br />
+                  Hanover, PA 17331<br />
+                  Phone: (717) 632-3535<br />
+                  Fax: (717) 633-8920<br />
+                  Email:{' '}
+                  <a href="mailto:pubsvc.tsp@sheridan.com" className="text-[#4A5838] hover:underline">
+                    pubsvc.tsp@sheridan.com
+                  </a>
+                </address>
               </div>
             </div>
           </section>

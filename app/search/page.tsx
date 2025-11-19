@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
-import { searchArticles, getAllArticles, getArticlePDFPath } from '@/lib/data';
-import type { Article } from '@/lib/types';
+import type { Article, JBWIndex } from '@/lib/types';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
@@ -14,26 +13,35 @@ export default function SearchPage() {
   const [yearFilter, setYearFilter] = useState<string>('');
 
   useEffect(() => {
-    getAllArticles().then(setAllArticles);
+    fetch('/jbw/jbw-index.json')
+      .then((res) => res.json())
+      .then((data: JBWIndex) => setAllArticles(data.articles));
   }, []);
 
-  const handleSearch = async (searchQuery: string) => {
+  const handleSearch = (searchQuery: string) => {
     if (!searchQuery.trim()) {
       setResults([]);
       return;
     }
 
     setLoading(true);
-    const searchResults = await searchArticles(searchQuery);
+    const lowerQuery = searchQuery.toLowerCase();
+    const searchResults = allArticles.filter(article => {
+      const titleMatch = article.title.toLowerCase().includes(lowerQuery);
+      const authorMatch = article.authors.some(author =>
+        author.toLowerCase().includes(lowerQuery)
+      );
+      return titleMatch || authorMatch;
+    });
 
     // Apply filters
     let filtered = searchResults;
     if (volumeFilter) {
-      filtered = filtered.filter((a) => a.volume === parseInt(volumeFilter));
+      filtered = filtered.filter((a: Article) => a.volume === parseInt(volumeFilter));
     }
     if (yearFilter) {
       const year = parseInt(yearFilter);
-      filtered = filtered.filter((a) => 1974 + a.volume === year);
+      filtered = filtered.filter((a: Article) => 1974 + a.volume === year);
     }
 
     setResults(filtered);
@@ -156,7 +164,7 @@ export default function SearchPage() {
                     <FileText className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="flex-1 min-w-0">
                       <a
-                        href={getArticlePDFPath(article)}
+                        href={article.pdf_url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xl font-semibold text-blue-600 hover:text-blue-800 hover:underline block mb-2"

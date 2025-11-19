@@ -1,4 +1,10 @@
+import 'server-only';
 import { Article, JBWIndex, Issue, VolumeData } from './types';
+import { readFile } from 'fs/promises';
+import path from 'path';
+import { getYearFromVolume, getSeason } from './utils';
+
+export { getYearFromVolume } from './utils';
 
 let cachedIndex: JBWIndex | null = null;
 
@@ -7,9 +13,9 @@ export async function getJBWIndex(): Promise<JBWIndex> {
     return cachedIndex;
   }
 
-  const basePath = process.env.NODE_ENV === 'production' ? '/jbw' : '';
-  const response = await fetch(`${basePath}/jbw-index.json`);
-  cachedIndex = await response.json();
+  const filePath = path.join(process.cwd(), 'public', 'jbw-index.json');
+  const fileContent = await readFile(filePath, 'utf-8');
+  cachedIndex = JSON.parse(fileContent);
   return cachedIndex!;
 }
 
@@ -182,30 +188,13 @@ function cleanAuthorName(author: string): string {
   return cleaned;
 }
 
-function getYearFromVolume(volume: number): number {
-  // Volume-to-year mapping (some years had no publications)
-  // Volume 1 = 1975, Volume 43 = 2024
-  // Missing years: 2014-2021 (volumes 34-40 have gaps)
-  const volumeYearMap: { [key: number]: number } = {
-    1: 1975, 2: 1976, 3: 1977, 4: 1978, 5: 1979,
-    6: 1980, 7: 1981, 8: 1982, 9: 1983, 10: 1984,
-    11: 1985, 12: 1986, 13: 1987, 14: 1988, 15: 1989,
-    16: 1990, 17: 1991, 18: 1992, 19: 1993, 20: 1994,
-    21: 1995, 22: 1996, 23: 1997, 24: 1998, 25: 1999,
-    26: 2000, 27: 2001, 28: 2002, 29: 2003, 30: 2004,
-    31: 2005, 32: 2006, 33: 2007, 34: 2008, 35: 2009,
-    36: 2010, 37: 2011, 38: 2012, 39: 2013, 40: 2014,
-    41: 2022, 42: 2023, 43: 2024
-  };
-
-  return volumeYearMap[volume] || (1974 + volume);
-}
-
-function getSeason(issue: number): string {
-  return issue === 1 ? 'Spring' : 'Fall';
-}
 
 export function getArticlePDFPath(article: Article): string {
   // Use WAC Clearinghouse URLs directly
   return article.pdf_url;
+}
+
+export async function getUniqueAuthorCount(): Promise<number> {
+  const authorMap = await getAuthorIndex();
+  return authorMap.size;
 }

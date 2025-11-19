@@ -3,8 +3,20 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
-import { getAllVolumes, getArticlePDFPath } from '@/lib/data';
-import type { VolumeData } from '@/lib/types';
+import type { VolumeData, Article } from '@/lib/types';
+
+function getArticlePDFPath(article: Article): string {
+  return article.pdf_url;
+}
+
+function getYearFromVolume(volume: number): number {
+  // Volumes 1-3 spanned multiple years
+  if (volume === 1) return 1975;
+  if (volume === 2) return 1978;
+  if (volume === 3) return 1980;
+  // From Volume 4 onwards: year = 1981 + volume
+  return 1981 + volume;
+}
 
 export default function ArchivePage() {
   const [volumes, setVolumes] = useState<VolumeData[]>([]);
@@ -12,10 +24,44 @@ export default function ArchivePage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getAllVolumes().then((data) => {
-      setVolumes(data);
-      setLoading(false);
-    });
+    fetch('/jbw/jbw-index.json')
+      .then((res) => res.json())
+      .then((data) => {
+        // Transform data to volumes format
+        const articleMap = new Map<string, any[]>();
+        data.articles.forEach((article: any) => {
+          const key = `v${article.volume}`;
+          if (!articleMap.has(key)) articleMap.set(key, []);
+          articleMap.get(key)!.push(article);
+        });
+
+        const volumesData: VolumeData[] = [];
+        articleMap.forEach((articles, key) => {
+          const volume = articles[0].volume;
+          const issueMap = new Map<number, any[]>();
+          articles.forEach((a: any) => {
+            if (!issueMap.has(a.issue)) issueMap.set(a.issue, []);
+            issueMap.get(a.issue)!.push(a);
+          });
+
+          const issues = Array.from(issueMap.entries()).map(([issue, arts]) => ({
+            volume,
+            issue,
+            year: getYearFromVolume(volume),
+            season: issue === 1 ? 'Spring' : 'Fall',
+            articles: arts
+          })).sort((a, b) => b.issue - a.issue);
+
+          volumesData.push({
+            volume,
+            issues,
+            totalArticles: articles.length
+          });
+        });
+
+        setVolumes(volumesData.sort((a, b) => b.volume - a.volume));
+        setLoading(false);
+      });
   }, []);
 
   const toggleVolume = (volume: number) => {
@@ -32,7 +78,7 @@ export default function ArchivePage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin h-12 w-12 border-4 border-blue-600 border-t-transparent rounded-full mx-auto mb-4"></div>
+          <div className="animate-spin h-12 w-12 border-4 border-[#7A8866] border-t-transparent rounded-full mx-auto mb-4"></div>
           <p className="text-gray-600">Loading archive...</p>
         </div>
       </div>
@@ -55,17 +101,17 @@ export default function ArchivePage() {
         {/* Stats */}
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8 grid grid-cols-3 gap-6">
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">{volumes.length}</div>
+            <div className="text-3xl font-bold text-[#4A5838]">{volumes.length}</div>
             <div className="text-sm text-gray-600">Volumes</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">
+            <div className="text-3xl font-bold text-[#4A5838]">
               {volumes.reduce((sum, v) => sum + v.issues.length, 0)}
             </div>
             <div className="text-sm text-gray-600">Issues</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">
+            <div className="text-3xl font-bold text-[#4A5838]">
               {volumes.reduce((sum, v) => sum + v.totalArticles, 0)}
             </div>
             <div className="text-sm text-gray-600">Articles</div>
@@ -76,14 +122,14 @@ export default function ArchivePage() {
         <div className="space-y-4">
           {volumes.map((volumeData) => {
             const isExpanded = expandedVolumes.has(volumeData.volume);
-            const year = volumeData.issues[0]?.year || 1974 + volumeData.volume;
+            const year = volumeData.issues[0]?.year || getYearFromVolume(volumeData.volume);
 
             return (
               <div key={volumeData.volume} className="bg-white rounded-lg shadow-sm overflow-hidden">
                 {/* Volume Header */}
-                <button
+                <div
                   onClick={() => toggleVolume(volumeData.volume)}
-                  className="w-full flex items-center justify-between p-6 hover:bg-gray-50 transition-colors text-left"
+                  className="w-full flex items-center justify-between p-6 hover:bg-gray-50 transition-colors text-left cursor-pointer"
                 >
                   <div className="flex items-center space-x-4">
                     {isExpanded ? (
@@ -91,7 +137,7 @@ export default function ArchivePage() {
                     ) : (
                       <ChevronRight className="h-5 w-5 text-gray-400" />
                     )}
-                    <BookOpen className="h-6 w-6 text-blue-600" />
+                    <BookOpen className="h-6 w-6 text-[#4A5838]" />
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">
                         Volume {volumeData.volume} ({year})
@@ -102,7 +148,7 @@ export default function ArchivePage() {
                       </p>
                     </div>
                   </div>
-                </button>
+                </div>
 
                 {/* Issues List */}
                 {isExpanded && (
@@ -129,7 +175,7 @@ export default function ArchivePage() {
                                     href={getArticlePDFPath(article)}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 font-medium block hover:underline"
+                                    className="text-[#4A5838] hover:text-[#4A5838] font-medium block hover:underline"
                                   >
                                     {article.title}
                                   </a>
