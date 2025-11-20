@@ -46,16 +46,16 @@ export default function Header() {
                   About
                 </Link>
                 <Link
-                  href="/archive"
-                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#2B5AA0] hover:bg-white/80 transition-colors"
-                >
-                  Archive
-                </Link>
-                <Link
                   href="/submit"
                   className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#2B5AA0] hover:bg-white/80 transition-colors"
                 >
                   Submit
+                </Link>
+                <Link
+                  href="/archive"
+                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#2B5AA0] hover:bg-white/80 transition-colors"
+                >
+                  Archive
                 </Link>
               </div>
               <Link
@@ -94,18 +94,18 @@ export default function Header() {
                 About
               </Link>
               <Link
-                href="/archive"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-white/80 hover:text-[#2B5AA0]"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Archive
-              </Link>
-              <Link
                 href="/submit"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-white/80 hover:text-[#2B5AA0]"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Submit
+              </Link>
+              <Link
+                href="/archive"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-white/80 hover:text-[#2B5AA0]"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Archive
               </Link>
               <Link
                 href="/search"
