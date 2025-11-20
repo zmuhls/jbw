@@ -4,19 +4,12 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
+import { getYearFromVolume, getIssueYear, getIssueSeason } from '@/lib/utils';
 
 function getArticlePDFPath(article: Article): string {
   return article.pdf_url;
 }
 
-function getYearFromVolume(volume: number): number {
-  // Volumes 1-3 spanned multiple years
-  if (volume === 1) return 1975;
-  if (volume === 2) return 1978;
-  if (volume === 3) return 1980;
-  // From Volume 4 onwards: year = 1981 + volume
-  return 1981 + volume;
-}
 
 export default function ArchivePage() {
   const [volumes, setVolumes] = useState<VolumeData[]>([]);
@@ -47,8 +40,8 @@ export default function ArchivePage() {
           const issues = Array.from(issueMap.entries()).map(([issue, arts]) => ({
             volume,
             issue,
-            year: getYearFromVolume(volume),
-            season: issue === 1 ? 'Spring' : 'Fall',
+            year: getIssueYear(volume, issue),
+            season: getIssueSeason(volume, issue),
             articles: arts
           })).sort((a, b) => b.issue - a.issue);
 

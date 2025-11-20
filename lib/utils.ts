@@ -50,6 +50,63 @@ export function getYearFromVolume(volume: number): number {
   return volumeToYear[volume] || 1975;
 }
 
+export function getIssueSeason(volume: number, issue: number): string {
+  // Special cases for early volumes with complex season patterns
+  const issueSeasonMap: { [key: string]: string } = {
+    // Volume 3 issues
+    '3.1': 'Fall/Winter',     // Volume 3, Issue 1 (Fall/Winter 1980)
+    '3.2': 'Spring/Summer',   // Volume 3, Issue 2 (Spring/Summer 1981) 
+    '3.3': 'Fall/Winter',     // Volume 3, Issue 3 (Fall/Winter 1981)
+    '3.4': 'Spring/Summer',   // Volume 3, Issue 4 (Spring/Summer 1984)
+    
+    // Volume 2 issues 
+    '2.1': 'Fall/Winter',     // Volume 2, Issue 1 (Fall/Winter 1978)
+    '2.2': 'Spring/Summer',   // Volume 2, Issue 2 (Spring/Summer 1979)
+    '2.3': 'Fall/Winter',     // Volume 2, Issue 3 (Fall/Winter 1979)
+    '2.4': 'Spring/Summer',   // Volume 2, Issue 4 (Spring/Summer 1980)
+    
+    // Volume 1 issues
+    '1.1': 'Spring',          // Volume 1, Issue 1 (Spring 1975)
+    '1.2': 'Fall/Winter',     // Volume 1, Issue 2 (Fall/Winter 1976)
+    '1.3': 'Spring/Summer',   // Volume 1, Issue 3 (Spring/Summer 1977)
+    '1.4': 'Spring/Summer',   // Volume 1, Issue 4 (Spring/Summer 1978)
+  };
+  
+  const key = `${volume}.${issue}`;
+  
+  // Use specific mapping if available, otherwise default Spring/Fall pattern
+  return issueSeasonMap[key] || (issue === 1 ? 'Spring' : 'Fall');
+}
+
+export function getIssueYear(volume: number, issue: number): number {
+  // Special cases for early volumes with irregular publication patterns
+  const issueYearMap: { [key: string]: number } = {
+    // Volume 3 issues span multiple years
+    '3.1': 1980,  // Volume 3, Issue 1 (Fall/Winter 1980)
+    '3.2': 1981,  // Volume 3, Issue 2 (Spring/Summer 1981) 
+    '3.3': 1981,  // Volume 3, Issue 3 (Fall/Winter 1981)
+    '3.4': 1984,  // Volume 3, Issue 4 (Spring/Summer 1984)
+    
+    // Volume 2 issues 
+    '2.1': 1978,  // Volume 2, Issue 1 (Fall/Winter 1978)
+    '2.2': 1979,  // Volume 2, Issue 2 (Spring/Summer 1979)
+    '2.3': 1979,  // Volume 2, Issue 3 (Fall/Winter 1979)
+    '2.4': 1980,  // Volume 2, Issue 4 (Spring/Summer 1980)
+    
+    // Volume 1 issues
+    '1.1': 1975,  // Volume 1, Issue 1 (Spring 1975)
+    '1.2': 1976,  // Volume 1, Issue 2 (Fall/Winter 1976)
+    '1.3': 1977,  // Volume 1, Issue 3 (Spring/Summer 1977)
+    '1.4': 1978,  // Volume 1, Issue 4 (Spring/Summer 1978)
+  };
+  
+  const key = `${volume}.${issue}`;
+  
+  // Use specific mapping if available, otherwise fall back to volume year
+  return issueYearMap[key] || getYearFromVolume(volume);
+}
+
+// Legacy function for backward compatibility
 export function getSeason(issue: number): string {
   return issue === 1 ? 'Spring' : 'Fall';
 }
