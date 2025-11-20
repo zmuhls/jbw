@@ -1,12 +1,53 @@
 export function getYearFromVolume(volume: number): number {
-  // Based on WAC Clearinghouse archive
-  // Volumes 1-3 spanned multiple years (1975-1984)
-  if (volume === 1) return 1975;
-  if (volume === 2) return 1978;
-  if (volume === 3) return 1980;
-  // From Volume 4 onwards: year = 1981 + volume
-  // e.g., Vol 4 = 1985, Vol 43 = 2024
-  return 1981 + volume;
+  // Complete volume-to-year mapping based on actual publication data
+  const volumeToYear: { [key: number]: number } = {
+    1: 1975,   // Volume 1, Number 1 (Spring 1975)
+    2: 1978,   // Volume 2, Number 1 (Fall/Winter 1978) 
+    3: 1984,   // Volume 3, Number 4 (Spring/Summer 1984) - spans 1980-1984
+    4: 1985,   // Volume 4, Number 2 (Fall 1985)
+    5: 1986,   // Volume 5, Number 2 (Fall 1986)
+    6: 1987,   // Volume 6, Number 2 (Fall 1987)
+    7: 1988,   // Volume 7, Number 2 (Fall 1988)
+    8: 1989,   // Volume 8, Number 2 (Fall 1989)
+    9: 1990,   // Volume 9, Number 2 (Fall 1990)
+    10: 1991,  // Volume 10, Number 2 (Fall 1991)
+    11: 1992,  // Volume 11, Number 2 (Fall 1992)
+    12: 1993,  // Volume 12, Number 2 (Fall 1993)
+    13: 1994,  // Volume 13, Number 2 (Fall 1994)
+    14: 1995,  // Volume 14, Number 2 (Fall 1995)
+    15: 1996,  // Volume 15, Number 2 (Fall 1996)
+    16: 1997,  // Volume 16, Number 2 (Fall 1997)
+    17: 1998,  // Volume 17, Number 2 (Fall 1998)
+    18: 1999,  // Volume 18, Number 2 (Fall 1999)
+    19: 2000,  // Volume 19, Number 2 (Fall 2000)
+    20: 2001,  // Volume 20, Number 2 (Fall 2001)
+    21: 2002,  // Volume 21, Number 2 (Fall 2002)
+    22: 2003,  // Volume 22, Number 2 (Fall 2003)
+    23: 2004,  // Volume 23, Number 2 (Fall 2004)
+    24: 2005,  // Volume 24, Number 2 (Fall 2005)
+    25: 2006,  // Volume 25, Number 2 (Fall 2006)
+    26: 2007,  // Volume 26, Number 2 (Fall 2007)
+    27: 2008,  // Volume 27, Number 2 (Fall 2008)
+    28: 2009,  // Volume 28, Number 2 (Fall 2009)
+    29: 2010,  // Volume 29, Number 2 (Fall 2010)
+    30: 2011,  // Volume 30, Number 2 (Fall 2011)
+    31: 2012,  // Volume 31, Number 2 (Fall 2012)
+    32: 2013,  // Volume 32, Number 2 (Fall 2013)
+    33: 2014,  // Volume 33, Number 1 (2014)
+    34: 2015,  // Volume 34, Number 1 (2015)
+    35: 2016,  // Volume 35, Number 1 (2016)
+    36: 2017,  // Volume 36, Number 2 (Fall 2017)
+    37: 2018,  // Volume 37, Number 2 (Fall 2018)
+    38: 2019,  // Volume 38, Number 2 (Fall 2019)
+    39: 2020,  // Volume 39, Number 2 (Fall 2020)
+    40: 2021,  // Volume 40, Number 1 (Spring 2021)
+    41: 2022,  // Volume 41, Number 1-2 (Spring/Fall 2022)
+    42: 2023,  // Volume 42, Number 2 (Fall 2023)
+    43: 2024,  // Volume 43, Number 2 (Fall 2024)
+  };
+
+  // Return mapped year or fallback to 1975
+  return volumeToYear[volume] || 1975;
 }
 
 export function getSeason(issue: number): string {
