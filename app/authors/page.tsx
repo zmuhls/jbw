@@ -106,7 +106,7 @@ export default function AuthorsPage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Author Index</h1>
           <p className="text-xl text-gray-600">
-            Browse works by {authors.length}+ authors who have published in JBW
+            Browse works by {authors.length}+ authors who have published in JFW
           </p>
         </div>
 

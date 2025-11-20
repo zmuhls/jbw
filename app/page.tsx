@@ -30,7 +30,7 @@ export default async function Home() {
               <h3 className="text-sm font-semibold text-gray-900 mb-2">Fall 2024</h3>
               <Link
                 href="/archive"
-                className="text-xs text-[#4A5838] hover:underline"
+                className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
               >
                 View Issue →
               </Link>
@@ -54,18 +54,14 @@ export default async function Home() {
           {/* Welcome Message */}
           <div className="bg-white border border-gray-300 p-6 mb-6">
             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">
-              Journal of Basic Writing
+              Journal of First-Year Writing
             </h2>
             <div className="prose max-w-none font-serif text-gray-700">
               <p className="mb-4">
-                The <em>Journal of Basic Writing</em> was founded in 1975 by Mina P.
-                Shaughnessy at CUNY. Published by Baruch College, the journal is dedicated to research, theory, and pedagogy in basic writing and composition studies.
+                The Journal of First-Year Writing (formerly the Journal of Basic Writing), is dedicated to publishing research supporting equity and access to college through innovative writing and literacy instruction in first-year composition.
               </p>
               <p className="mb-4">
-                For fifty years, JBW has published peer-reviewed scholarship on writing
-                instruction, assessment, critical pedagogy, multilingual writing, and
-                educational equity. The journal remains an essential resource for writing
-                teachers, program administrators, and researchers worldwide.
+                Since its founding at the City University of New York in 1975, JFW (formerly known by the shorthand JBW) has published peer-reviewed scholarship on writing instruction, assessment, critical pedagogy, multilingual writing, and educational equity, and continues to be an important resource for writing instructors, administrators, and scholars worldwide.
               </p>
             </div>
           </div>
@@ -73,23 +69,23 @@ export default async function Home() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#4A5838] mb-1">43</div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">43</span></div>
               <div className="text-xs text-gray-600">Volumes</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#4A5838] mb-1">87</div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">87</span></div>
               <div className="text-xs text-gray-600">Issues</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#4A5838] mb-1">{articles.length}</div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{articles.length}</span></div>
               <div className="text-xs text-gray-600">Articles</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#4A5838] mb-1">{authorCount}</div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{authorCount}</span></div>
               <div className="text-xs text-gray-600">Authors</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold text-[#4A5838] mb-1">50</div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">50</span></div>
               <div className="text-xs text-gray-600">Years</div>
             </div>
           </div>
@@ -98,10 +94,10 @@ export default async function Home() {
           <div className="grid md:grid-cols-3 gap-4">
             <Link
               href="/archive"
-              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#2B5AA0] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <BookOpen className="h-5 w-5 text-[#4A5838] mr-2" />
+                <BookOpen className="h-5 w-5 text-[#2B5AA0] mr-2" />
                 <h3 className="font-semibold text-gray-900">Archive</h3>
               </div>
               <p className="text-sm text-gray-600">
@@ -111,10 +107,10 @@ export default async function Home() {
 
             <Link
               href="/search"
-              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#2B5AA0] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <Search className="h-5 w-5 text-[#4A5838] mr-2" />
+                <Search className="h-5 w-5 text-[#2B5AA0] mr-2" />
                 <h3 className="font-semibold text-gray-900">Search</h3>
               </div>
               <p className="text-sm text-gray-600">
@@ -124,10 +120,10 @@ export default async function Home() {
 
             <Link
               href="/authors"
-              className="bg-white border border-gray-300 p-6 hover:border-[#7A8866] hover:shadow-md transition-all"
+              className="bg-white border border-gray-300 p-6 hover:border-[#2B5AA0] hover:shadow-md transition-all"
             >
               <div className="flex items-center mb-3">
-                <FileText className="h-5 w-5 text-[#4A5838] mr-2" />
+                <FileText className="h-5 w-5 text-[#2B5AA0] mr-2" />
                 <h3 className="font-semibold text-gray-900">Authors</h3>
               </div>
               <p className="text-sm text-gray-600">

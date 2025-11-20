@@ -78,7 +78,7 @@ export default function ArchivePage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin h-12 w-12 border-4 border-[#7A8866] border-t-transparent rounded-full mx-auto mb-4"></div>
+          <div className="animate-spin h-12 w-12 border-4 border-[#2B5AA0] border-t-transparent rounded-full mx-auto mb-4"></div>
           <p className="text-gray-600">Loading archive...</p>
         </div>
       </div>
@@ -94,25 +94,25 @@ export default function ArchivePage() {
             Complete Archive
           </h1>
           <p className="text-xl text-gray-600">
-            Browse all {volumes.length} volumes of the Journal of Basic Writing (1975–2024)
+            Browse all {volumes.length} volumes of the Journal of First-Year Writing (1975–2024)
           </p>
         </div>
 
         {/* Stats */}
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8 grid grid-cols-3 gap-6">
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#4A5838]">{volumes.length}</div>
+            <div className="text-3xl font-bold"><span className="text-[#2B5AA0]">{volumes.length}</span></div>
             <div className="text-sm text-gray-600">Volumes</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#4A5838]">
-              {volumes.reduce((sum, v) => sum + v.issues.length, 0)}
+            <div className="text-3xl font-bold">
+              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.issues.length, 0)}</span>
             </div>
             <div className="text-sm text-gray-600">Issues</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#4A5838]">
-              {volumes.reduce((sum, v) => sum + v.totalArticles, 0)}
+            <div className="text-3xl font-bold">
+              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.totalArticles, 0)}</span>
             </div>
             <div className="text-sm text-gray-600">Articles</div>
           </div>
@@ -137,7 +137,7 @@ export default function ArchivePage() {
                     ) : (
                       <ChevronRight className="h-5 w-5 text-gray-400" />
                     )}
-                    <BookOpen className="h-6 w-6 text-[#4A5838]" />
+                    <BookOpen className="h-6 w-6 text-[#2B5AA0]" />
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">
                         Volume {volumeData.volume} ({year})
@@ -175,7 +175,7 @@ export default function ArchivePage() {
                                     href={getArticlePDFPath(article)}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-[#4A5838] hover:text-[#4A5838] font-medium block hover:underline"
+                                    className="text-blue-600 hover:text-blue-800 hover:underline font-medium block"
                                   >
                                     {article.title}
                                   </a>

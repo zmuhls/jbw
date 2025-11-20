@@ -28,7 +28,7 @@ export default function SubmitPage() {
             <div className="p-4 text-sm">
               <a
                 href="mailto:jbwcuny@gmail.com"
-                className="text-[#2B5AA0] hover:underline flex items-center"
+                className="text-blue-600 hover:text-blue-800 hover:underline flex items-center"
               >
                 <Mail className="h-4 w-4 mr-2" />
                 jbwcuny@gmail.com
@@ -66,7 +66,7 @@ export default function SubmitPage() {
               </div>
               <div>
                 <strong className="text-gray-900">Email:</strong>{' '}
-                <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
+                <a href="mailto:jbwcuny@gmail.com" className="text-blue-600 hover:text-blue-800 hover:underline">
                   jbwcuny@gmail.com
                 </a>
               </div>
@@ -129,7 +129,7 @@ export default function SubmitPage() {
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Guest-Edited Issues</h2>
             <p className="text-gray-700">
               Proposals for guest-edited special issues are welcome. Please contact the editors at{' '}
-              <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
+              <a href="mailto:jbwcuny@gmail.com" className="text-blue-600 hover:text-blue-800 hover:underline">
                 jbwcuny@gmail.com
               </a>{' '}
               to discuss your proposal.

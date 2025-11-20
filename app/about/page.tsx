@@ -191,7 +191,7 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu/jbw/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#2B5AA0] hover:underline inline-flex items-center"
+                  className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Original JFW Archive at WAC Clearinghouse
@@ -202,24 +202,24 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#2B5AA0] hover:underline inline-flex items-center"
+                  className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   WAC Clearinghouse
                 </a>
               </div>
               <div>
-                <Link href="/archive" className="text-[#2B5AA0] hover:underline">
+                <Link href="/archive" className="text-blue-600 hover:text-blue-800 hover:underline">
                   Browse Complete Archive
                 </Link>
               </div>
               <div>
-                <Link href="/authors" className="text-[#2B5AA0] hover:underline">
+                <Link href="/authors" className="text-blue-600 hover:text-blue-800 hover:underline">
                   Author Index
                 </Link>
               </div>
               <div>
-                <Link href="/search" className="text-[#2B5AA0] hover:underline">
+                <Link href="/search" className="text-blue-600 hover:text-blue-800 hover:underline">
                   Search Articles
                 </Link>
               </div>
@@ -232,7 +232,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-gray-700">
               <div>
                 <strong className="text-gray-900">Email:</strong>{' '}
-                <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
+                <a href="mailto:jbwcuny@gmail.com" className="text-blue-600 hover:text-blue-800 hover:underline">
                   jbwcuny@gmail.com
                 </a>
               </div>
@@ -248,7 +248,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <strong className="text-gray-900">WAC Clearinghouse:</strong>{' '}
-                <a href="mailto:mike.palmquist@colostate.edu" className="text-[#2B5AA0] hover:underline">
+                <a href="mailto:mike.palmquist@colostate.edu" className="text-blue-600 hover:text-blue-800 hover:underline">
                   mike.palmquist@colostate.edu
                 </a>
               </div>
@@ -260,7 +260,7 @@ export default function AboutPage() {
                   Phone: (717) 632-3535<br />
                   Fax: (717) 633-8920<br />
                   Email:{' '}
-                  <a href="mailto:pubsvc.tsp@sheridan.com" className="text-[#2B5AA0] hover:underline">
+                  <a href="mailto:pubsvc.tsp@sheridan.com" className="text-blue-600 hover:text-blue-800 hover:underline">
                     pubsvc.tsp@sheridan.com
                   </a>
                 </address>

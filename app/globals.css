@@ -46,7 +46,7 @@ body {
 }
 
 .article-content a {
-  @apply text-[#2B5AA0] hover:text-blue-900 underline;
+  @apply text-blue-600 hover:text-blue-800 underline;
 }
 
 /* Issue boxes */
