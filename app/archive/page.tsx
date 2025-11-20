@@ -41,9 +41,9 @@ export default function ArchivePage() {
             volume,
             issue,
             year: getIssueYear(volume, issue),
-            season: getIssueSeason(volume, issue),
+            season: arts[0]?.season || getIssueSeason(volume, issue),
             articles: arts
-          })).sort((a, b) => b.issue - a.issue);
+          })).sort((a, b) => typeof a.issue === 'string' ? -1 : (typeof b.issue === 'string' ? 1 : b.issue - a.issue));
 
           volumesData.push({
             volume,

@@ -9814,9 +9814,10 @@
       "title": "Editors' Column",
       "authors": [],
       "volume": 41,
-      "issue": 1,
-      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/column.pdf",
-      "doi": ""
+      "issue": "1-2",
+      "season": "Spring/Fall",
+      "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/editors.pdf",
+      "doi": "10.37514/JBW-J.2022.41.1.01"
     },
     {
       "title": "Basic Writing and Resisting White Innocence",
@@ -9825,9 +9826,10 @@
         "Alexis Bennett"
       ],
       "volume": 41,
-      "issue": 1,
+      "issue": "1-2",
+      "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/molloy.pdf",
-      "doi": ""
+      "doi": "10.37514/JBW-J.2022.41.1.02"
     },
     {
       "title": "Gatekeeping by Design: The Use of an Exit Exam as a \"Boss Text\" in a Basic Writing Course",
@@ -9835,9 +9837,10 @@
         "Stacy Wittstock"
       ],
       "volume": 41,
-      "issue": 1,
+      "issue": "1-2",
+      "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/wittstock.pdf",
-      "doi": ""
+      "doi": "10.37514/JBW-J.2022.41.1.03"
     },
     {
       "title": "Challenging Assumptions about Basic Writers and Corequisites at Four-Year Institutions",
@@ -9847,9 +9850,10 @@
         "Tracey A. Glaessgen"
       ],
       "volume": 41,
-      "issue": 1,
+      "issue": "1-2",
+      "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/weaver.pdf",
-      "doi": ""
+      "doi": "10.37514/JBW-J.2022.41.1.04"
     },
     {
       "title": "Student-Centered Grammar Feedback in the Basic Writing Classroom: Toward a Translingual Grammar Pedagogy",
@@ -9857,9 +9861,10 @@
         "Amanda Sladek"
       ],
       "volume": 41,
-      "issue": 1,
+      "issue": "1-2",
+      "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/sladek.pdf",
-      "doi": ""
+      "doi": "10.37514/JBW-J.2022.41.1.05"
     }
   ],
   "errors": [
