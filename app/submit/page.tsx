@@ -28,7 +28,7 @@ export default function SubmitPage() {
             <div className="p-4 text-sm">
               <a
                 href="mailto:jbwcuny@gmail.com"
-                className="text-[#4A5838] hover:underline flex items-center"
+                className="text-[#2B5AA0] hover:underline flex items-center"
               >
                 <Mail className="h-4 w-4 mr-2" />
                 jbwcuny@gmail.com
@@ -43,10 +43,10 @@ export default function SubmitPage() {
           <section className="bg-white border border-gray-300 p-6">
             <div className="prose prose-lg max-w-none font-serif">
               <p className="text-gray-700 leading-relaxed">
-                The <em>Journal of Basic Writing</em> welcomes submissions that address basic writing
-                pedagogy, theory, and research. Articles must clearly address Basic Writing and/or
+                The <em>Journal of First-Year Writing</em> welcomes submissions that address first-year writing
+                pedagogy, theory, and research. Articles must clearly address First-Year Writing and/or
                 must situate settings of instruction or institutional agency in explicit relation
-                to Basic Writing concerns.
+                to First-Year Writing concerns.
               </p>
             </div>
           </section>
@@ -66,7 +66,7 @@ export default function SubmitPage() {
               </div>
               <div>
                 <strong className="text-gray-900">Email:</strong>{' '}
-                <a href="mailto:jbwcuny@gmail.com" className="text-[#4A5838] hover:underline">
+                <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
                   jbwcuny@gmail.com
                 </a>
               </div>
@@ -129,7 +129,7 @@ export default function SubmitPage() {
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Guest-Edited Issues</h2>
             <p className="text-gray-700">
               Proposals for guest-edited special issues are welcome. Please contact the editors at{' '}
-              <a href="mailto:jbwcuny@gmail.com" className="text-[#4A5838] hover:underline">
+              <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
                 jbwcuny@gmail.com
               </a>{' '}
               to discuss your proposal.

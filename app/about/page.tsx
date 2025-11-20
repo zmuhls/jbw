@@ -32,20 +32,20 @@ export default function AboutPage() {
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">History & Mission</h2>
           <div className="prose prose-lg max-w-none font-serif">
             <p className="text-gray-700 leading-relaxed mb-4">
-              The <em>Journal of Basic Writing</em> was founded in 1975 by Mina P.
+              The <em>Journal of First-Year Writing</em> was founded in 1975 by Mina P.
               Shaughnessy, a pioneering educator who transformed how colleges approach
               teaching writing to underprepared students. Shaughnessy's groundbreaking
               work at the City University of New York (CUNY) during the Open Admissions
-              era established basic writing as a legitimate field of scholarly inquiry.
+              era established first-year writing as a legitimate field of scholarly inquiry.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Published by Baruch College, CUNY, JBW has been at the forefront of research
+              Published by Baruch College, CUNY, JFW has been at the forefront of research
               in writing pedagogy for five decades. The journal publishes peer-reviewed
               articles exploring issues of access, equity, and excellence in writing
               instruction.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Over its 43-volume history, JBW has published seminal works on error
+              Over its 43-volume history, JFW has published seminal works on error
               analysis, assessment, critical pedagogy, multilingual writing, and social
               justice in composition. The journal continues to be an essential resource
               for writing teachers, program administrators, and researchers worldwide.
@@ -92,7 +92,7 @@ export default function AboutPage() {
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Editorial Board</h2>
             <p className="text-gray-700">
               The Editorial Board provides guidance on journal direction and reviews submissions.
-              Board members are leading scholars in basic writing, composition studies, and related fields.
+              Board members are leading scholars in first-year writing, composition studies, and related fields.
             </p>
           </section>
 
@@ -100,7 +100,7 @@ export default function AboutPage() {
           <section id="contributors" className="bg-white border border-gray-300 p-6">
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Notable Contributors</h2>
           <p className="text-gray-700 mb-4">
-            JBW has published work by many of the most influential scholars in composition
+            JFW has published work by many of the most influential scholars in composition
             studies, including:
           </p>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
@@ -173,10 +173,10 @@ export default function AboutPage() {
           <section className="bg-white border border-gray-300 p-6">
             <h2 className="text-xl font-serif font-bold text-gray-900 mb-4">Acknowledgments</h2>
             <p className="text-gray-700 text-sm">
-              The WAC Clearinghouse and JBW offer special thanks to Ann Schwalm, Mark Shelstad, and
+              The WAC Clearinghouse and JFW offer special thanks to Ann Schwalm, Mark Shelstad, and
               Clarissa Trapp of the Colorado State University Libraries and to Vince Darcangelo of
               the Colorado State University Testing Center for their work scanning early issues of
-              the JBW archives. We also offer appreciation to Bonne August, Jim Cody, Theresa Enos,
+              the JFW archives. We also offer appreciation to Bonne August, Jim Cody, Theresa Enos,
               Karen Uehling, Shirley Rose, and Jessica Schreyer for contributing their personal copies
               of the journal to this project.
             </p>
@@ -191,10 +191,10 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu/jbw/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#4A5838] hover:underline inline-flex items-center"
+                  className="text-[#2B5AA0] hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
-                  Original JBW Archive at WAC Clearinghouse
+                  Original JFW Archive at WAC Clearinghouse
                 </a>
               </div>
               <div>
@@ -202,24 +202,24 @@ export default function AboutPage() {
                   href="https://wac.colostate.edu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#4A5838] hover:underline inline-flex items-center"
+                  className="text-[#2B5AA0] hover:underline inline-flex items-center"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   WAC Clearinghouse
                 </a>
               </div>
               <div>
-                <Link href="/archive" className="text-[#4A5838] hover:underline">
+                <Link href="/archive" className="text-[#2B5AA0] hover:underline">
                   Browse Complete Archive
                 </Link>
               </div>
               <div>
-                <Link href="/authors" className="text-[#4A5838] hover:underline">
+                <Link href="/authors" className="text-[#2B5AA0] hover:underline">
                   Author Index
                 </Link>
               </div>
               <div>
-                <Link href="/search" className="text-[#4A5838] hover:underline">
+                <Link href="/search" className="text-[#2B5AA0] hover:underline">
                   Search Articles
                 </Link>
               </div>
@@ -232,7 +232,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-gray-700">
               <div>
                 <strong className="text-gray-900">Email:</strong>{' '}
-                <a href="mailto:jbwcuny@gmail.com" className="text-[#4A5838] hover:underline">
+                <a href="mailto:jbwcuny@gmail.com" className="text-[#2B5AA0] hover:underline">
                   jbwcuny@gmail.com
                 </a>
               </div>
@@ -248,7 +248,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <strong className="text-gray-900">WAC Clearinghouse:</strong>{' '}
-                <a href="mailto:mike.palmquist@colostate.edu" className="text-[#4A5838] hover:underline">
+                <a href="mailto:mike.palmquist@colostate.edu" className="text-[#2B5AA0] hover:underline">
                   mike.palmquist@colostate.edu
                 </a>
               </div>
@@ -260,7 +260,7 @@ export default function AboutPage() {
                   Phone: (717) 632-3535<br />
                   Fax: (717) 633-8920<br />
                   Email:{' '}
-                  <a href="mailto:pubsvc.tsp@sheridan.com" className="text-[#4A5838] hover:underline">
+                  <a href="mailto:pubsvc.tsp@sheridan.com" className="text-[#2B5AA0] hover:underline">
                     pubsvc.tsp@sheridan.com
                   </a>
                 </address>
