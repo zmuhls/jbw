@@ -18,9 +18,9 @@ const crimson = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Journal of Basic Writing | CUNY",
-  description: "Founded in 1975 by Mina Shaughnessy, the Journal of Basic Writing is a premier academic journal dedicated to research, theory, and pedagogy in basic writing and composition studies.",
-  keywords: "basic writing, composition, rhetoric, writing pedagogy, CUNY, Mina Shaughnessy",
+  title: "Journal of First-Year Writing | CUNY",
+  description: "Founded in 1975 by Mina Shaughnessy, the Journal of First-Year Writing is a premier academic journal dedicated to research, theory, and pedagogy in first-year writing and composition studies.",
+  keywords: "first-year writing, composition, rhetoric, writing pedagogy, CUNY, Mina Shaughnessy",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${crimson.variable}`}>
-      <body className="font-sans antialiased bg-gray-50">
+      <body className="font-sans antialiased">
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">

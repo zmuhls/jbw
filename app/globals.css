@@ -3,10 +3,10 @@
 :root {
   --font-inter: var(--font-inter);
   --font-crimson: var(--font-crimson);
-  --primary-green: #7A8866;
-  --primary-green-dark: #5A6846;
+  --primary-green: #2B5AA0;
+  --primary-blue: #2B5AA0;
   --accent-gold: #C9A961;
-  --bg-cream: #FAF9F6;
+  --bg-cream: #F8FAFC;
 }
 
 body {
@@ -20,11 +20,11 @@ body {
 
 /* Academic journal styling */
 .sidebar-nav a {
-  @apply block px-4 py-2.5 text-sm text-gray-700 hover:bg-green-50 hover:text-green-800 border-l-4 border-transparent hover:border-green-800 transition-all;
+  @apply block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-[#2B5AA0] border-l-4 border-transparent hover:border-[#2B5AA0] transition-all;
 }
 
 .sidebar-nav a.active {
-  @apply bg-green-50 text-green-900 border-green-800 font-medium;
+  @apply bg-blue-50 text-[#2B5AA0] border-[#2B5AA0] font-medium;
 }
 
 /* Article content styling */
@@ -46,7 +46,7 @@ body {
 }
 
 .article-content a {
-  @apply text-green-700 hover:text-green-900 underline;
+  @apply text-[#2B5AA0] hover:text-blue-900 underline;
 }
 
 /* Issue boxes */
