@@ -54,6 +54,7 @@ next-env.d.ts
 # claude code files
 .claude/
 *.claude.md
+CLAUDE.md
 
 # PDF archive (hosted externally on WAC Clearinghouse)
 jbw-archive/
