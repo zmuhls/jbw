@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
 import type { Article, JBWIndex } from '@/lib/types';
+import { isEditorialContent } from '@/lib/utils';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
@@ -61,7 +62,7 @@ export default function SearchPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Search the Archive</h1>
           <p className="text-xl text-gray-600">
-            Search across 775+ articles by title, author, or keyword
+            Search across {allArticles.length > 0 ? `${allArticles.filter(a => !isEditorialContent(a.title)).length}+` : ''} articles by title, author, or keyword
           </p>
         </div>
 

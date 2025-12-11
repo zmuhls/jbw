@@ -1,12 +1,16 @@
 import Link from 'next/link';
-import { BookOpen, FileText, Search, Users } from 'lucide-react';
-import { getUniqueAuthorCount, getAllArticles } from '@/lib/data';
+import { BookOpen, FileText, Search } from 'lucide-react';
+import { getUniqueAuthorCount, getAllArticles, getAllVolumes, getAllIssues } from '@/lib/data';
+import { isEditorialContent } from '@/lib/utils';
 
 export default async function Home() {
-  const [authorCount, articles] = await Promise.all([
+  const [authorCount, articles, volumes, issues] = await Promise.all([
     getUniqueAuthorCount(),
-    getAllArticles()
+    getAllArticles(),
+    getAllVolumes(),
+    getAllIssues()
   ]);
+  const articleCount = articles.filter(a => !isEditorialContent(a.title)).length;
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -26,8 +30,8 @@ export default async function Home() {
           <div className="journal-block">
             <div className="journal-block-title">Current Issue</div>
             <div className="p-4">
-              <div className="text-xs text-gray-600 mb-2">Vol. 43 No. 2 (2024)</div>
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">Fall 2024</h3>
+              <div className="text-xs text-gray-600 mb-2">Vol. 44 No. 1 (2025)</div>
+              <h3 className="text-sm font-semibold text-gray-900 mb-2">Spring 2025</h3>
               <Link
                 href="/archive"
                 className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
@@ -69,15 +73,15 @@ export default async function Home() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">43</span></div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{volumes.length}</span></div>
               <div className="text-xs text-gray-600">Volumes</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">87</span></div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{issues.length}</span></div>
               <div className="text-xs text-gray-600">Issues</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{articles.length}</span></div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{articleCount}</span></div>
               <div className="text-xs text-gray-600">Articles</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
@@ -101,7 +105,7 @@ export default async function Home() {
                 <h3 className="font-semibold text-gray-900">Archive</h3>
               </div>
               <p className="text-sm text-gray-600">
-                Browse all 43 volumes from 1975 to 2024.
+                Browse all {volumes.length} volumes from 1975 to 2025.
               </p>
             </Link>
 

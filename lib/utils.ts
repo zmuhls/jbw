@@ -44,6 +44,7 @@ export function getYearFromVolume(volume: number): number {
     41: 2022,  // Volume 41, Number 1-2 (Spring/Fall 2022)
     42: 2023,  // Volume 42, Number 2 (Fall 2023)
     43: 2024,  // Volume 43, Number 2 (Fall 2024)
+    44: 2025,  // Volume 44, Number 1 (Spring 2025)
   };
 
   // Return mapped year or fallback to 1975
@@ -109,4 +110,15 @@ export function getIssueYear(volume: number, issue: number): number {
 // Legacy function for backward compatibility
 export function getSeason(issue: number): string {
   return issue === 1 ? 'Spring' : 'Fall';
+}
+
+// Check if an article title is editorial content (not a peer-reviewed article)
+export function isEditorialContent(title: string): boolean {
+  const lowerTitle = title.toLowerCase();
+  return (
+    lowerTitle.startsWith("editors' column") ||
+    lowerTitle.startsWith("editor's column") ||
+    lowerTitle === 'editorial board' ||
+    lowerTitle === 'view the members'
+  );
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_volumes": 42,
-    "total_issues": 86,
-    "total_articles": 775,
+    "total_volumes": 43,
+    "total_issues": 87,
+    "total_articles": 780,
     "total_pdfs_downloaded": 771,
     "scrape_date": "2025-10-08 17:06:36",
     "status": "completed",
@@ -849,7 +849,7 @@
       "issue": 1,
       "title": "The English Professor's Malady",
       "authors": [
-        " (pp. 91- 97)"
+        "\u00a0(pp. 91- 97)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_malady.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.08",
@@ -875,7 +875,7 @@
       "issue": 1,
       "title": "Some Needed Research on Writing",
       "authors": [
-        " (pp. 98- 103)"
+        "\u00a0(pp. 98- 103)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_research.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.09",
@@ -888,7 +888,7 @@
       "issue": 1,
       "title": "Open Admissions and the Disadvantaged Teacher",
       "authors": [
-        " (pp. 104- 108)"
+        "\u00a0(pp. 104- 108)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_admissions.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.10",
@@ -901,7 +901,7 @@
       "issue": 1,
       "title": "The Miserable Truth",
       "authors": [
-        " (pp. 109- 114)"
+        "\u00a0(pp. 109- 114)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_truth.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.11",
@@ -914,7 +914,7 @@
       "issue": 1,
       "title": "Statement on Criteria for Writing Proficiency",
       "authors": [
-        " (pp. 115- 119)"
+        "\u00a0(pp. 115- 119)"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_proficiency.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.12",
@@ -1946,7 +1946,7 @@
     {
       "volume": 6,
       "issue": 2,
-      "title": "Freedom to Writer—Through Imitation",
+      "title": "Freedom to Writer\u2014Through Imitation",
       "authors": [
         "Donna Gorrell"
       ],
@@ -2110,7 +2110,7 @@
       "issue": 1,
       "title": "Why Test?",
       "authors": [
-        " Marie Jean Lederman"
+        "\u00a0Marie Jean Lederman"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v7n1/lederman.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1988.7.1.05",
@@ -2431,7 +2431,7 @@
     {
       "volume": 8,
       "issue": 2,
-      "title": "Editors' Column",
+      "title": "Editors'\u00a0Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v8n2/editors.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1989.8.2.01",
@@ -2746,7 +2746,7 @@
       "issue": 2,
       "title": "The Revival of Rhetoric: A Bibliographic Essay",
       "authors": [
-        "Göran \"George\" Moberg"
+        "G\u00f6ran \"George\" Moberg"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v9n2/moberg.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1990.9.2.06",
@@ -3424,7 +3424,7 @@
       "issue": 1,
       "title": "The Status of Basic Writing Teachers: Do We Need a \"Maryland Resolution\"?",
       "authors": [
-        " Jeanne Gunner"
+        "\u00a0Jeanne Gunner"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n1/gunner.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.1.06",
@@ -3522,7 +3522,7 @@
       "issue": 2,
       "title": "What Works? How Do We Know?",
       "authors": [
-        " Ann E. Berthoff"
+        "\u00a0Ann E. Berthoff"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/berthoff.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.2.02",
@@ -3598,7 +3598,7 @@
       "issue": 2,
       "title": "A Legacy of Basic Writing Instruction",
       "authors": [
-        "Lynée Lewis Gaillet"
+        "Lyn\u00e9e Lewis Gaillet"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v12n2/gaillet.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1993.12.2.07",
@@ -4768,7 +4768,7 @@
     {
       "volume": 17,
       "issue": 1,
-      "title": "The Attack on Basic Writing—And After",
+      "title": "The Attack on Basic Writing\u2014And After",
       "authors": [
         "Harvey S. Wiener"
       ],
@@ -4781,7 +4781,7 @@
     {
       "volume": 17,
       "issue": 1,
-      "title": "Assessing Our Assessments: A Collective Questioning of What Students Need—And Get",
+      "title": "Assessing Our Assessments: A Collective Questioning of What Students Need\u2014And Get",
       "authors": [
         "Liza Bruna, Ian Marshall, Tim McCormack, Leo Parascondola, Wendy Ryden,",
         "Carl Whithaus"
@@ -6068,7 +6068,7 @@
     {
       "volume": 22,
       "issue": 1,
-      "title": "Developing Statements of Guidelines and Goals for Basic Writing Programs: Cluster—Introduction",
+      "title": "Developing Statements of Guidelines and Goals for Basic Writing Programs: Cluster\u2014Introduction",
       "authors": [
         "Karen S. Uehling"
       ],
@@ -6773,7 +6773,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2006.25.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v25n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v25n1/in-the-service-of-writing-and-race.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v25n1/in-the-service-of-writing-and-race.pdf",
+      "keywords": [
+        "writing",
+        "reading",
+        "service learning",
+        "race",
+        "reflection"
+      ]
     },
     {
       "volume": 25,
@@ -6786,7 +6793,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2006.25.1.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v25n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v25n1/remembering-basic-writing-at-a-public-ivy-history-for-institution-al-redesign.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v25n1/remembering-basic-writing-at-a-public-ivy-history-for-institution-al-redesign.pdf",
+      "keywords": [
+        "universal design",
+        "history of basic writing",
+        "studio",
+        "access",
+        "public ivy"
+      ]
     },
     {
       "volume": 25,
@@ -7144,7 +7158,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/technologies-for-transcending-a-focus-on-error-biogs-and-democratic-aspirations-in-first-year-composition.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/technologies-for-transcending-a-focus-on-error-biogs-and-democratic-aspirations-in-first-year-composition.pdf",
+      "keywords": [
+        "blog",
+        "first-year writing",
+        "democracy and education",
+        "error"
+      ]
     },
     {
       "volume": 27,
@@ -7157,7 +7177,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/journalism-poetry-stand-up-comedy-and-academic-literacy-mapping-the-interplay-of-curricular-and-extracurricular-literate-activities.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/journalism-poetry-stand-up-comedy-and-academic-literacy-mapping-the-interplay-of-curricular-and-extracurricular-literate-activities.pdf",
+      "keywords": [
+        "basic writer",
+        "extracurricular writing",
+        "sociohistoric theory",
+        "literate development"
+      ]
     },
     {
       "volume": 27,
@@ -7170,7 +7196,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/assessment-of-generation-15-learners-for-placement-into-college-writing-courses.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/assessment-of-generation-15-learners-for-placement-into-college-writing-courses.pdf",
+      "keywords": [
+        "Generation 1.5",
+        "placement testing",
+        "second language learners",
+        "writing assessment"
+      ]
     },
     {
       "volume": 27,
@@ -7183,7 +7215,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/material-realities-in-the-basic-writing-classroom-intersections-of-discovery-for-young-women-readingpersepolis.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n1/material-realities-in-the-basic-writing-classroom-intersections-of-discovery-for-young-women-readingpersepolis.pdf",
+      "keywords": [
+        "intersectionality",
+        "young women",
+        "basic writing",
+        "feminist pedagogical practices",
+        "graphic novels"
+      ]
     },
     {
       "volume": 27,
@@ -7242,7 +7281,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/roberta-or-the-ambiguities-tough-love-and-high-stakes-assessment-at-a-two-year-college-in-north-georgia.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/roberta-or-the-ambiguities-tough-love-and-high-stakes-assessment-at-a-two-year-college-in-north-georgia.pdf",
+      "keywords": [
+        "two-year college",
+        "teachers\u2019 mental lives",
+        "basic writing",
+        "ESL students",
+        "Generation 1.5",
+        "postsecondary remediation"
+      ]
     },
     {
       "volume": 27,
@@ -7255,7 +7302,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/service-learning-in-a-basic-writing-class-a-best-case-scenario.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/service-learning-in-a-basic-writing-class-a-best-case-scenario.pdf",
+      "keywords": [
+        "service learning",
+        "personal narrative",
+        "academic literacies",
+        "ethnography"
+      ]
     },
     {
       "volume": 27,
@@ -7268,7 +7321,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/the-role-of-talk-in-small-writing-groups-building-declarative-and-procedural-knowledge-for-basic-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/the-role-of-talk-in-small-writing-groups-building-declarative-and-procedural-knowledge-for-basic-writers.pdf",
+      "keywords": [
+        "academic discourse",
+        "declarative knowledge",
+        "procedural knowledge",
+        "writing groups",
+        "communities of practice"
+      ]
     },
     {
       "volume": 27,
@@ -7281,7 +7341,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.2.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/a-new-world-redefining-the-legacy-of-min-zhan-lu.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/a-new-world-redefining-the-legacy-of-min-zhan-lu.pdf",
+      "keywords": [
+        "Mina Shaughnessy",
+        "Min-Zhan Lu",
+        "linguistic charity",
+        "essentialism",
+        "grammati\u00ad cal instruction",
+        "Standard English"
+      ]
     },
     {
       "volume": 27,
@@ -7294,7 +7362,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2008.27.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v27n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/critiquing-the-need-to-eliminate-remediation-lessons-from-san-francisco-state.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v27n2/critiquing-the-need-to-eliminate-remediation-lessons-from-san-francisco-state.pdf",
+      "keywords": [
+        "basic writing",
+        "reading-writing connection",
+        "remediation",
+        "institutional history",
+        "educational reform"
+      ]
     },
     {
       "volume": 27,
@@ -7341,7 +7416,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/new-worlds-of-errors-and-expectations-basic-writers-and-digital-assumptions.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/new-worlds-of-errors-and-expectations-basic-writers-and-digital-assumptions.pdf",
+      "keywords": [
+        "ePortfolio",
+        "digital literacy",
+        "basic writing",
+        "teaching with technology",
+        "multimodal composition",
+        "student re\ufb02ection"
+      ]
     },
     {
       "volume": 28,
@@ -7354,7 +7437,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/not-losing-my-religion-usingthe-color-purpleto-promote-critical-thinking-in-the-writing-classroom.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/not-losing-my-religion-usingthe-color-purpleto-promote-critical-thinking-in-the-writing-classroom.pdf",
+      "keywords": [
+        "private discourse",
+        "religion",
+        "The Color Purple",
+        "Ira Shor",
+        "black church",
+        "composi-tion",
+        "basic writing"
+      ]
     },
     {
       "volume": 28,
@@ -7367,7 +7459,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/writing-partners-service-learning-as-a-route-to-authority-for-basic-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/writing-partners-service-learning-as-a-route-to-authority-for-basic-writers.pdf",
+      "keywords": [
+        "academic discourse",
+        "authority",
+        "basic writing",
+        "con\ufb01dence",
+        "service learning",
+        "university-K-12 collaboration"
+      ]
     },
     {
       "volume": 28,
@@ -7391,7 +7491,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/someday-this-pain-will-be-useful-to-you-self-disclosure-and-lesbian-and-gay-identity-in-the-esl-writing-classroom.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n1/someday-this-pain-will-be-useful-to-you-self-disclosure-and-lesbian-and-gay-identity-in-the-esl-writing-classroom.pdf",
+      "keywords": [
+        "community college",
+        "ESL",
+        "the teaching of writing",
+        "collaborative learning",
+        "gay/ lesbian",
+        "queer theory",
+        "identity",
+        "sexual orientation",
+        "the closet"
+      ]
     },
     {
       "volume": 28,
@@ -7426,7 +7537,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/measuring-success-in-summer-bridge-programs-retention-efforts-and-basic-writing.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/measuring-success-in-summer-bridge-programs-retention-efforts-and-basic-writing.pdf",
+      "keywords": [
+        "retention",
+        "summer bridge",
+        "basic writing curriculum",
+        "student success 28"
+      ]
     },
     {
       "volume": 28,
@@ -7439,7 +7556,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/critical-pedagogy-is-too-big-to-fail.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/critical-pedagogy-is-too-big-to-fail.pdf",
+      "keywords": [
+        "contract grading",
+        "critical pedagogy",
+        "democratic educa-tion",
+        "public spheres",
+        "social class",
+        "market discipline",
+        "neo-liberalism"
+      ]
     },
     {
       "volume": 28,
@@ -7453,7 +7579,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/the-accelerated-learning-program-throwing-open-the-gates.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/the-accelerated-learning-program-throwing-open-the-gates.pdf",
+      "keywords": [
+        "acceleration",
+        "basic writing",
+        "mainstreaming",
+        "developmental writing",
+        "develop-mental education"
+      ]
     },
     {
       "volume": 28,
@@ -7466,7 +7599,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.2.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/standards-teaching-learning.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/standards-teaching-learning.pdf",
+      "keywords": [
+        "educational standards",
+        "basic writing",
+        "teaching literature",
+        "Joyce\u2019s \u201cAraby\u201d",
+        "underprepared students"
+      ]
     },
     {
       "volume": 28,
@@ -7479,7 +7619,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2009.28.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v28n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/writing-center-philosophy-and-the-end-of-basic-writing-motivation-at-the-site-of-remediation-and-discovery.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v28n2/writing-center-philosophy-and-the-end-of-basic-writing-motivation-at-the-site-of-remediation-and-discovery.pdf",
+      "keywords": [
+        "basic writing",
+        "writing centers",
+        "motivation",
+        "remediation",
+        "standards",
+        "measur-ing student success"
+      ]
     },
     {
       "volume": 28,
@@ -7567,7 +7715,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2010.29.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v29n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v29n1/expanding-definitions-of-academic-writing-family-history-writing-in-the-basic-writing-classroom-and-beyond.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v29n1/expanding-definitions-of-academic-writing-family-history-writing-in-the-basic-writing-classroom-and-beyond.pdf",
+      "keywords": [
+        "family writing",
+        "basic writing",
+        "community service",
+        "\ufb01rst-year composition",
+        "multimodal composition",
+        "academic writing"
+      ]
     },
     {
       "volume": 29,
@@ -7580,7 +7736,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2010.29.1.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v29n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v29n1/more-talk-about-basic-writers-a-category-of-rhetorical-value-for-teachers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v29n1/more-talk-about-basic-writers-a-category-of-rhetorical-value-for-teachers.pdf",
+      "keywords": [
+        "basic writing",
+        "strategic value",
+        "rhetorical value",
+        "remediation",
+        "student identity"
+      ]
     },
     {
       "volume": 29,
@@ -7908,12 +8071,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n1/troubling-discourse-basic-writing-and-computed-mediated-technologies.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n1/troubling-discourse-basic-writing-and-computed-mediated-technologies.pdf",
+      "keywords": [
+        "basic writing",
+        "computers",
+        "technology",
+        "discourse"
+      ]
     },
     {
       "volume": 31,
       "issue": 1,
-      "title": "Minority-Serving Institutions, Race-Conscious ‘Dwelling,’ and Possible Futures for Basic Writing at Predominantly White Institutions",
+      "title": "Minority-Serving Institutions, Race-Conscious \u2018Dwelling,\u2019 and Possible Futures for Basic Writing at Predominantly White Institutions",
       "authors": [
         "Steve Lamos"
       ],
@@ -7921,7 +8090,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n1/minority-serving-institutions-race-conscious-dwelling-and-possible-futures-for-basic-writing-at-predominantly-white-institutions.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n1/minority-serving-institutions-race-conscious-dwelling-and-possible-futures-for-basic-writing-at-predominantly-white-institutions.pdf",
+      "keywords": [
+        "basic writing",
+        "space",
+        "racism",
+        "race-consciousness",
+        "Minority-Serving Institutions"
+      ]
     },
     {
       "volume": 31,
@@ -7974,7 +8150,7 @@
     {
       "volume": 31,
       "issue": 1,
-      "title": "Comedy Stages, Poets Projects, Sports Columns, and Kinesiology 341: Illuminating the Importance of Basic Writers’ Self-Sponsored Literacies",
+      "title": "Comedy Stages, Poets Projects, Sports Columns, and Kinesiology 341: Illuminating the Importance of Basic Writers\u2019 Self-Sponsored Literacies",
       "authors": [
         "Kevin Roozen"
       ],
@@ -8006,7 +8182,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/negotiating-textual-authority-response-cycles-for-a-personal-statement-of-a-latina-undergraduate.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/negotiating-textual-authority-response-cycles-for-a-personal-statement-of-a-latina-undergraduate.pdf",
+      "keywords": [
+        "response cycles",
+        "intermediary respondents",
+        "color-blind discourse",
+        "personal statements",
+        "basic writers",
+        "ethnicity and writing"
+      ]
     },
     {
       "volume": 31,
@@ -8019,7 +8203,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/arguing-academic-merit-meritocracy-and-the-rhetoric-of-the-personal-statement.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/arguing-academic-merit-meritocracy-and-the-rhetoric-of-the-personal-statement.pdf",
+      "keywords": [
+        "personal statement",
+        "ethos",
+        "topoi",
+        "habitus",
+        "meritocracy",
+        "autoethnography"
+      ]
     },
     {
       "volume": 31,
@@ -8033,7 +8225,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/beyond-the-bridge-metaphor-rethinking-the-place-of-the-literacy-narrative-in-the-basic-writing-curriculum.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/beyond-the-bridge-metaphor-rethinking-the-place-of-the-literacy-narrative-in-the-basic-writing-curriculum.pdf",
+      "keywords": [
+        "basic writing",
+        "developmental writing",
+        "genre",
+        "literacy narrative",
+        "academic discourse",
+        "retention",
+        "differend"
+      ]
     },
     {
       "volume": 31,
@@ -8046,12 +8247,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/inviting-the-outsiders-in-local-efforts-to-improve-adjunct-working-conditions.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/inviting-the-outsiders-in-local-efforts-to-improve-adjunct-working-conditions.pdf",
+      "keywords": [
+        "basic writing",
+        "contingent faculty",
+        "teaching",
+        "professional development"
+      ]
     },
     {
       "volume": 31,
       "issue": 2,
-      "title": "Diving In or Guarding the Tower: Mina Shaughnessy’s Resistance and Capitulation to High-Stakes Writing Tests at City College",
+      "title": "Diving In or Guarding the Tower: Mina Shaughnessy\u2019s Resistance and Capitulation to High-Stakes Writing Tests at City College",
       "authors": [
         "Sean Molloy"
       ],
@@ -8059,7 +8266,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2012.31.2.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v31n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/diving-in-or-guarding-the-tower-mina-shaughnessys-resistance-and-capitulation-to-high-stakes-writing-tests-at-city-college.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v31n2/diving-in-or-guarding-the-tower-mina-shaughnessys-resistance-and-capitulation-to-high-stakes-writing-tests-at-city-college.pdf",
+      "keywords": [
+        "Basic Writing",
+        "high-stakes tests",
+        "washback",
+        "SEEK",
+        "diving in"
+      ]
     },
     {
       "volume": 31,
@@ -8105,7 +8319,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/noticing-the-way-translingual-possibility-and-basic-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/noticing-the-way-translingual-possibility-and-basic-writers.pdf",
+      "keywords": [
+        "error",
+        "translingual",
+        "second language acquisition",
+        "noticing",
+        "grammar"
+      ]
     },
     {
       "volume": 32,
@@ -8118,7 +8339,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/beyond-assimilation-tribal-colleges-basic-writing-and-the-exigencies-of-settler-colonialism.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/beyond-assimilation-tribal-colleges-basic-writing-and-the-exigencies-of-settler-colonialism.pdf",
+      "keywords": [
+        "Native American",
+        "tribal college",
+        "settler colonialism",
+        "language diversity",
+        "basic writing"
+      ]
     },
     {
       "volume": 32,
@@ -8131,7 +8359,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/a-basic-writing-course-design-to-promote-writer-identity-three-analyses-of-student-papers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/a-basic-writing-course-design-to-promote-writer-identity-three-analyses-of-student-papers.pdf",
+      "keywords": [
+        "basic writing",
+        "curriculum",
+        "WAW",
+        "writer identity",
+        "qualitative research"
+      ]
     },
     {
       "volume": 32,
@@ -8144,7 +8379,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/subversive-complicity-and-basic-writing-across-the-curriculum.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n1/subversive-complicity-and-basic-writing-across-the-curriculum.pdf",
+      "keywords": [
+        "Basic writing",
+        "programs",
+        "discourse communities",
+        "racism",
+        "assimilation",
+        "remediation",
+        "enculturation"
+      ]
     },
     {
       "volume": 32,
@@ -8190,7 +8434,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/beyond-the-dark-closet-reconsidering-literacy-narratives-as-performative-artifacts.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/beyond-the-dark-closet-reconsidering-literacy-narratives-as-performative-artifacts.pdf",
+      "keywords": [
+        "literacy narratives",
+        "coming out narratives",
+        "basic writing",
+        "underrepresentation",
+        "storytelling",
+        "performance"
+      ]
     },
     {
       "volume": 32,
@@ -8204,12 +8456,20 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/ibooks-portfolios-interface-audiences-and-the-making-of-online-identities.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/ibooks-portfolios-interface-audiences-and-the-making-of-online-identities.pdf",
+      "keywords": [
+        "ePortfolios",
+        "iBooks",
+        "digital rhetoric",
+        "basic writing",
+        "identity",
+        "social network\u00ad ing"
+      ]
     },
     {
       "volume": 32,
       "issue": 2,
-      "title": "“Me/We”: Building an Embodied Writing Classroom for Socially Networked, Socially Distracted Basic Writers",
+      "title": "\u201cMe/We\u201d: Building an Embodied Writing Classroom for Socially Networked, Socially Distracted Basic Writers",
       "authors": [
         "Kendra N. Bryant"
       ],
@@ -8217,7 +8477,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/mewe-building-an-embodied-writing-classroom-for-socially-networked-socially-distracted-basic-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/mewe-building-an-embodied-writing-classroom-for-socially-networked-socially-distracted-basic-writers.pdf",
+      "keywords": [
+        "embodied learning",
+        "blogging",
+        "collaboration",
+        "online social networking com\u00ad munities",
+        "accountability groups",
+        "millennial learners"
+      ]
     },
     {
       "volume": 32,
@@ -8230,7 +8498,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2013.32.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v32n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/seeking-texts-in-all-available-forms-invisible-writing-and-a-new-reading-rhetoric-of-sight-and-sound.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v32n2/seeking-texts-in-all-available-forms-invisible-writing-and-a-new-reading-rhetoric-of-sight-and-sound.pdf",
+      "keywords": [
+        "basic writing",
+        "composition theory",
+        "pedagogy",
+        "invisibility",
+        "reading",
+        "listening"
+      ]
     },
     {
       "volume": 32,
@@ -8276,7 +8552,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2014.33.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v33n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/storytelling-and-academic-discourse-including-more-voices-in-the-conversation.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/storytelling-and-academic-discourse-including-more-voices-in-the-conversation.pdf",
+      "keywords": [
+        "storytelling",
+        "narrative",
+        "personal writing",
+        "academic discourse",
+        "rhetorical dexter-ity",
+        "translingualism"
+      ]
     },
     {
       "volume": 33,
@@ -8289,7 +8573,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2014.33.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v33n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/bridging-literacy-practices-through-storytelling-translanguaging-and-an-ethnographic-partnership.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/bridging-literacy-practices-through-storytelling-translanguaging-and-an-ethnographic-partnership.pdf",
+      "keywords": [
+        "translanguaging",
+        "bilingualism",
+        "academic literacy",
+        "learning communities"
+      ]
     },
     {
       "volume": 33,
@@ -8302,7 +8592,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2014.33.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v33n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/storytelling-as-academic-discourse-bridging-the-cultural-linguistic-divide-in-the-era-of-the-common-core.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/storytelling-as-academic-discourse-bridging-the-cultural-linguistic-divide-in-the-era-of-the-common-core.pdf",
+      "keywords": [
+        "Common Core Standards",
+        "English Language Learners",
+        "storytelling",
+        "academic discourse",
+        "dialogism",
+        "heteroglossia"
+      ]
     },
     {
       "volume": 33,
@@ -8316,7 +8614,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2014.33.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v33n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/staging-an-essay-play-and-playwriting-for-redirecting-habits-of-mind.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/staging-an-essay-play-and-playwriting-for-redirecting-habits-of-mind.pdf",
+      "keywords": [
+        "basic writers",
+        "playwriting",
+        "play",
+        "academic discourse",
+        "Vygotsky",
+        "Zone of Proxi-mal Development"
+      ]
     },
     {
       "volume": 33,
@@ -8330,7 +8636,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2014.33.1.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v33n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/designing-a-digital-story-assignment-for-basic-writers-using-the-tpck-framework.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v33n1/designing-a-digital-story-assignment-for-basic-writers-using-the-tpck-framework.pdf",
+      "keywords": [
+        "basic writing",
+        "digital storytelling",
+        "multimodality",
+        "self-efficacy",
+        "Technology"
+      ]
     },
     {
       "volume": 33,
@@ -8541,7 +8854,7 @@
     {
       "volume": 36,
       "issue": 1,
-      "title": "Fact and Theory and Value Judgment: What They Say/We Say of Basic Writing’s Unhedged Good",
+      "title": "Fact and Theory and Value Judgment: What They Say/We Say of Basic Writing\u2019s Unhedged Good",
       "authors": [
         "Don J. Kraemer"
       ],
@@ -8721,7 +9034,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n1/a-tale-of-two-generations-how-we-were-taught-and-what-we-learned-or-not.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n1/a-tale-of-two-generations-how-we-were-taught-and-what-we-learned-or-not.pdf",
+      "keywords": [
+        "basic writing history",
+        "graduate education",
+        "Great Cognitive Divide",
+        "orality vs. literacy",
+        "LGBTQ",
+        "racism"
+      ]
     },
     {
       "volume": 37,
@@ -8752,7 +9073,7 @@
     {
       "volume": 37,
       "issue": 1,
-      "title": "Re-examining Constructions of Basic Writers’ Identities: Graduate Teaching, New Developments in the Contextual Model, and the Future of the Discipline",
+      "title": "Re-examining Constructions of Basic Writers\u2019 Identities: Graduate Teaching, New Developments in the Contextual Model, and the Future of the Discipline",
       "authors": [
         "Laura Gray-Rosendale"
       ],
@@ -8798,7 +9119,7 @@
     {
       "volume": 37,
       "issue": 2,
-      "title": "Disciplinary Reading in Basic Writing Graduate Education: The Politics of Remediation inJBW, 1995–2015",
+      "title": "Disciplinary Reading in Basic Writing Graduate Education: The Politics of Remediation inJBW, 1995\u20132015",
       "authors": [
         "Lynn Reid"
       ],
@@ -8806,7 +9127,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/disciplinary-reading-in-basic-writing-graduate-education-the-politics-of-remediation-injbw-19952015.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/disciplinary-reading-in-basic-writing-graduate-education-the-politics-of-remediation-injbw-19952015.pdf",
+      "keywords": [
+        "basic writing",
+        "distant reading",
+        "politics",
+        "writing program administration"
+      ]
     },
     {
       "volume": 37,
@@ -8814,13 +9141,23 @@
       "title": "Teachers, Researchers, and Communities of Practice: Building a Corpus to Support Graduate Education",
       "authors": [
         "Thomas Peele, Vivian Stoll,",
-        "Andréa Stella"
+        "Andr\u00e9a Stella"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/peele.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/teachers-researchers-and-communities-of-practice-building-a-corpus-to-support-graduate-education.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/teachers-researchers-and-communities-of-practice-building-a-corpus-to-support-graduate-education.pdf",
+      "keywords": [
+        "argument",
+        "basic writing",
+        "communities of practice",
+        "composition",
+        "corpus studies",
+        "discourse communities",
+        "graduate education",
+        "rhetorical genre studies"
+      ]
     },
     {
       "volume": 37,
@@ -8834,7 +9171,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/forming-adult-educators-the-ccny-ma-in-language-and-literacy.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/forming-adult-educators-the-ccny-ma-in-language-and-literacy.pdf",
+      "keywords": [
+        "adult learning",
+        "adult literacy education",
+        "basic writing",
+        "college composition",
+        "English language learners",
+        "first-year writing"
+      ]
     },
     {
       "volume": 37,
@@ -8847,7 +9192,12 @@
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/its-not-just-about-the-teaching-integrating-basic-writing-history-and-theory-in-a-masters-level-graduate-seminar.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/its-not-just-about-the-teaching-integrating-basic-writing-history-and-theory-in-a-masters-level-graduate-seminar.pdf",
+      "keywords": [
+        "Basic Writing",
+        "deficit notions",
+        "definitions of basic writers"
+      ]
     },
     {
       "volume": 37,
@@ -8860,7 +9210,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2018.37.2.06",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v37n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/who-is-the-basic-writer-reclaiming-a-foundational-question-for-graduate-students-new-teachers-and-emerging-scholars.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v37n2/who-is-the-basic-writer-reclaiming-a-foundational-question-for-graduate-students-new-teachers-and-emerging-scholars.pdf",
+      "keywords": [
+        "affect",
+        "Basic Writing",
+        "basic writers",
+        "community college",
+        "Errors and Expecta-tions",
+        "Quentin Pierce",
+        "Shaughnessy",
+        "social justice",
+        "two-year college"
+      ]
     },
     {
       "volume": 37,
@@ -8907,7 +9268,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/a-developmental-writing-experiment-mixing-ell-and-nes-student-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/a-developmental-writing-experiment-mixing-ell-and-nes-student-writers.pdf",
+      "keywords": [
+        "accelerated learning program",
+        "developmental writing",
+        "English language learn-ers",
+        "supplemental instruction",
+        "translingual approach"
+      ]
     },
     {
       "volume": 38,
@@ -8920,7 +9288,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/binary-structures-in-a-translingual-age-investigating-community-college-writing-placement-to-support-linguistic-diversity.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/binary-structures-in-a-translingual-age-investigating-community-college-writing-placement-to-support-linguistic-diversity.pdf",
+      "keywords": [
+        "community college",
+        "ESL placement",
+        "translingual",
+        "writing program adminis-tration"
+      ]
     },
     {
       "volume": 38,
@@ -8933,7 +9307,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/directed-self-placement-corequisite-models-and-curricular-choice.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/directed-self-placement-corequisite-models-and-curricular-choice.pdf",
+      "keywords": [
+        "basic writing",
+        "corequisites",
+        "directed self-placement",
+        "DSP",
+        "student agency"
+      ]
     },
     {
       "volume": 38,
@@ -8949,7 +9330,7 @@
     {
       "volume": 38,
       "issue": 1,
-      "title": "Designing Rubrics to Foster Students’ Diverse Language Backgrounds",
+      "title": "Designing Rubrics to Foster Students\u2019 Diverse Language Backgrounds",
       "authors": [
         "Amanda Athon"
       ],
@@ -8957,7 +9338,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/designing-rubrics-to-foster-students-diverse-language-backgrounds.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n1/designing-rubrics-to-foster-students-diverse-language-backgrounds.pdf",
+      "keywords": [
+        "assessment",
+        "basic writing",
+        "language diversity",
+        "rubrics"
+      ]
     },
     {
       "volume": 38,
@@ -8993,7 +9380,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/frustration-and-hope-examining-students-emotional-responses-to-reading.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/frustration-and-hope-examining-students-emotional-responses-to-reading.pdf",
+      "keywords": [
+        "basic writing",
+        "critical reading",
+        "emotion",
+        "ideal reader",
+        "identity",
+        "reading in basic writing",
+        "rhetorical reading",
+        "Hock and Deshler",
+        "Kieffer and Lesaux"
+      ]
     },
     {
       "volume": 38,
@@ -9006,7 +9404,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/subsidizing-basic-writers-resources-and-demands-in-literacy-sponsorship.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/subsidizing-basic-writers-resources-and-demands-in-literacy-sponsorship.pdf",
+      "keywords": [
+        "basic writers",
+        "literacy sponsorship",
+        "resources",
+        "support services"
+      ]
     },
     {
       "volume": 38,
@@ -9030,7 +9434,11 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/thats-me-on-a-horse-of-many-colors-native-american-college-students-self-portraits-as-academic-writers.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/thats-me-on-a-horse-of-many-colors-native-american-college-students-self-portraits-as-academic-writers.pdf",
+      "keywords": [
+        "George Ann Gregory",
+        "then an"
+      ]
     },
     {
       "volume": 38,
@@ -9043,7 +9451,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2019.38.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v38n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/let-the-people-rap-cultural-rhetorics-pedagogy-and-practices-under-cunys-open-admissions-1968-1978.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v38n2/let-the-people-rap-cultural-rhetorics-pedagogy-and-practices-under-cunys-open-admissions-1968-1978.pdf",
+      "keywords": [
+        "Adrienne Rich",
+        "Basic Writing",
+        "Black Arts Movement",
+        "cultural rhetorics",
+        "hip-hop",
+        "June Jordan",
+        "Open Admissions"
+      ]
     },
     {
       "volume": 38,
@@ -9079,7 +9496,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2020.39.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v39n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/the-impact-of-taking-basic-writing-on-later-writing-course-performance-and-graduation-at-a-career-focused-four-year-university.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/the-impact-of-taking-basic-writing-on-later-writing-course-performance-and-graduation-at-a-career-focused-four-year-university.pdf",
+      "keywords": [
+        "Basic Writing",
+        "curricular assessment",
+        "first-year writing",
+        "persistence"
+      ]
     },
     {
       "volume": 39,
@@ -9093,7 +9516,19 @@
       "doi": "https://doi.org/10.37514/JBW-J.2020.39.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v39n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/root-and-branch-resisting-a-basic-writing-legacy-system.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/root-and-branch-resisting-a-basic-writing-legacy-system.pdf",
+      "keywords": [
+        "basic writing",
+        "desegregation",
+        "civil rights",
+        "college writing",
+        "disparate impact",
+        "harm",
+        "root and branch",
+        "testing",
+        "writing assessment",
+        "writing placement"
+      ]
     },
     {
       "volume": 39,
@@ -9117,7 +9552,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2020.39.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v39n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/back-to-basics.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n1/back-to-basics.pdf",
+      "keywords": [
+        "Basic Writing",
+        "Cambridge English",
+        "language difference",
+        "ordinary language",
+        "travel writing",
+        "translingual composition"
+      ]
     },
     {
       "volume": 39,
@@ -9217,7 +9660,10 @@
       "doi": "https://doi.org/10.37514/JBW-J.2020.39.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v39n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n2/basic-writing-reform-as-an-opportunity-to-rethink-first-year-composition-new-evidence-from-an-accelerated-learning-program.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v39n2/basic-writing-reform-as-an-opportunity-to-rethink-first-year-composition-new-evidence-from-an-accelerated-learning-program.pdf",
+      "keywords": [
+        "however, critiques of Basic"
+      ]
     },
     {
       "volume": 39,
@@ -9340,7 +9786,18 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/open-admissions-resilience-and-basic-writing-ecologies-a-new-cultural-narrative.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/open-admissions-resilience-and-basic-writing-ecologies-a-new-cultural-narrative.pdf",
+      "keywords": [
+        "Basic Writing",
+        "conservation phase",
+        "growth phase",
+        "institutional narratives",
+        "Open Admissions",
+        "program narratives",
+        "release phase",
+        "reorganization phase",
+        "resilience science"
+      ]
     },
     {
       "volume": 42,
@@ -9353,7 +9810,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/admission-to-one-admission-to-all-the-end-of-the-radical-dream-of-open-admissions-in-the-post-desegregation-south.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/admission-to-one-admission-to-all-the-end-of-the-radical-dream-of-open-admissions-in-the-post-desegregation-south.pdf",
+      "keywords": [
+        "corequisite Basic Writing",
+        "desegregation",
+        "directed self-placement",
+        "Historically"
+      ]
     },
     {
       "volume": 42,
@@ -9378,7 +9841,17 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/valuing-an-embodied-epistemology-to-counter-neoliberal-programmatic-reform-at-the-two-year-college.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/valuing-an-embodied-epistemology-to-counter-neoliberal-programmatic-reform-at-the-two-year-college.pdf",
+      "keywords": [
+        "Accelerated Learning Program",
+        "ALP",
+        "Basic Writing",
+        "embodiment",
+        "epistemology",
+        "two-year college",
+        "neoliberalism",
+        "writing program reform"
+      ]
     },
     {
       "volume": 42,
@@ -9391,7 +9864,20 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/access-and-exclusion-chinese-undergraduates-and-basic-writing-in-the-global-university.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n1/access-and-exclusion-chinese-undergraduates-and-basic-writing-in-the-global-university.pdf",
+      "keywords": [
+        "access",
+        "activism",
+        "Basic Writing",
+        "belonging",
+        "Chinese international students",
+        "critical pedagogy",
+        "ELL",
+        "English language learning",
+        "international students",
+        "internationaliza-tion",
+        "race"
+      ]
     },
     {
       "volume": 42,
@@ -9407,7 +9893,7 @@
     {
       "volume": 42,
       "issue": 2,
-      "title": "Editors’ Column",
+      "title": "Editors\u2019 Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n2/editors.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.01",
@@ -9427,7 +9913,17 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/ungrading-the-composition-classroom-affect-metacognition-and-qualitative-learning.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/ungrading-the-composition-classroom-affect-metacognition-and-qualitative-learning.pdf",
+      "keywords": [
+        "affect",
+        "assessment",
+        "alternative assessment",
+        "basic writers",
+        "basic writing",
+        "contract grading",
+        "metacognition, pedagogy",
+        "ungrading"
+      ]
     },
     {
       "volume": 42,
@@ -9440,7 +9936,24 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/terms-and-conditions-working-with-and-in-spite-of-our-multilingual-student-frameworks.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/terms-and-conditions-working-with-and-in-spite-of-our-multilingual-student-frameworks.pdf",
+      "keywords": [
+        "ESL",
+        "ELL",
+        "English language learning",
+        "multilingual students",
+        "community col-leges",
+        "identity",
+        "translingualism",
+        "writing pedagogy",
+        "intersectionality",
+        "race",
+        "cultural awareness",
+        "assessment",
+        "placement",
+        "writing support",
+        "first-year writing"
+      ]
     },
     {
       "volume": 42,
@@ -9456,7 +9969,7 @@
     {
       "volume": 42,
       "issue": 2,
-      "title": "Explicit Language Instruction: Developing Writers’ Metalinguistic Awareness to Facilitate Transfer",
+      "title": "Explicit Language Instruction: Developing Writers\u2019 Metalinguistic Awareness to Facilitate Transfer",
       "authors": [
         "Tom Slagle"
       ],
@@ -9464,7 +9977,15 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/explicit-language-instruction-developing-writers-metalinguistic-awareness-to-facilitate-transfer.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/explicit-language-instruction-developing-writers-metalinguistic-awareness-to-facilitate-transfer.pdf",
+      "keywords": [
+        "corequisite",
+        "explicit instruction",
+        "functional grammar",
+        "metacognition",
+        "stretch",
+        "transfer"
+      ]
     },
     {
       "volume": 42,
@@ -9477,7 +9998,17 @@
       "doi": "https://doi.org/10.37514/JBW-J.2023.42.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v42n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/promising-but-struggling-multilinguals-a-one-on-one-intervention-for-getting-on-track-in-first-year-composition.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v42n2/promising-but-struggling-multilinguals-a-one-on-one-intervention-for-getting-on-track-in-first-year-composition.pdf",
+      "keywords": [
+        "multilingual",
+        "one-on-one",
+        "intervention",
+        "first-year composition",
+        "Hispanic-Serving Institution (HSI)",
+        "two-year institution",
+        "community college",
+        "professional development Road Map of an Intervention"
+      ]
     },
     {
       "volume": 42,
@@ -9493,7 +10024,7 @@
     {
       "volume": 43,
       "issue": 1,
-      "title": "Editors’ Column",
+      "title": "Editors\u2019 Column",
       "authors": [],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n1/editors.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.01",
@@ -9504,7 +10035,7 @@
     {
       "volume": 43,
       "issue": 1,
-      "title": "Instructor Alienation and the Accelerated Pipeline of the Post Pandemic’s ALP Classroom",
+      "title": "Instructor Alienation and the Accelerated Pipeline of the Post Pandemic\u2019s ALP Classroom",
       "authors": [
         "Jacqueline Brady"
       ],
@@ -9512,7 +10043,16 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/instructor-alienation-and-the-accelerated-pipeline-of-the-post-pandemics-alp-classroom.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/instructor-alienation-and-the-accelerated-pipeline-of-the-post-pandemics-alp-classroom.pdf",
+      "keywords": [
+        "accelerated learning",
+        "alienated labor",
+        "ALP instructors",
+        "basic writing",
+        "composition pipeline",
+        "COVID-19",
+        "culture of speed"
+      ]
     },
     {
       "volume": 43,
@@ -9526,7 +10066,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/time-as-a-wicked-problem-a-study-of-community-college-faculty-experiences-with-state-mandated-acceleration.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/time-as-a-wicked-problem-a-study-of-community-college-faculty-experiences-with-state-mandated-acceleration.pdf",
+      "keywords": [
+        "acceleration",
+        "ALP",
+        "AB705",
+        "basic writing",
+        "developmental education legislation"
+      ]
     },
     {
       "volume": 43,
@@ -9539,12 +10086,20 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/letting-go-and-going-all-in-a-reflection-on-liminality.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/letting-go-and-going-all-in-a-reflection-on-liminality.pdf",
+      "keywords": [
+        "corequisite writing courses",
+        "COVID-19",
+        "course design",
+        "curricular design",
+        "first-year writing",
+        "liminality"
+      ]
     },
     {
       "volume": 43,
       "issue": 1,
-      "title": "Recalibrating Confusion: Reflections on My Hybrid ALP’s Deictic Center",
+      "title": "Recalibrating Confusion: Reflections on My Hybrid ALP\u2019s Deictic Center",
       "authors": [
         "John Paul Tassoni"
       ],
@@ -9552,7 +10107,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.1.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n1/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/recalibrating-confusion-reflections-on-my-hybrid-alps-deictic-center.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n1/recalibrating-confusion-reflections-on-my-hybrid-alps-deictic-center.pdf",
+      "keywords": [
+        "Accelerated Learning Program (ALP)",
+        "Confusion",
+        "Pandemic",
+        "basic writing"
+      ]
     },
     {
       "volume": 43,
@@ -9579,7 +10140,7 @@
     {
       "volume": 43,
       "issue": 2,
-      "title": "Editors’ Column: The Corequisite Landscape and Envisioning Beyond the Horizon",
+      "title": "Editors\u2019 Column: The Corequisite Landscape and Envisioning Beyond the Horizon",
       "authors": [
         "Leah Anderst, Cheryl Comeau-Kirschner,",
         "Jennifer Maloy"
@@ -9602,7 +10163,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.03",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/adapting-writing-studio-pedagogy-for-flexible-and-equitable-acceleration.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/adapting-writing-studio-pedagogy-for-flexible-and-equitable-acceleration.pdf",
+      "keywords": [
+        "acceleration",
+        "adaptability",
+        "corequisite",
+        "studio"
+      ]
     },
     {
       "volume": 43,
@@ -9616,7 +10183,14 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.02",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/responding-to-disruption-with-feminist-hospita.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/responding-to-disruption-with-feminist-hospita.pdf",
+      "keywords": [
+        "belonging",
+        "disruption",
+        "first-year writing",
+        "hospitality",
+        "team teaching"
+      ]
     },
     {
       "volume": 43,
@@ -9641,7 +10215,13 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.05",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/rebooting-alp.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/rebooting-alp.pdf",
+      "keywords": [
+        "Accelerated Learning Program (ALP)",
+        "COVID-19",
+        "critical reading",
+        "inquiry-based"
+      ]
     },
     {
       "volume": 43,
@@ -9666,7 +10246,12 @@
       "doi": "https://doi.org/10.37514/JBW-J.2024.43.2.04",
       "page_numbers": null,
       "issue_url": "https://wac.colostate.edu/jbw/v43n2/",
-      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/crisis-as-a-catalyst-for-change-supporting-student-success-with-gsp-and-alp-during-the-pandemic.pdf"
+      "local_path": "/Users/zacharymuhlbauer/Desktop/studio/sites/jbw/jbw-archive/v43n2/crisis-as-a-catalyst-for-change-supporting-student-success-with-gsp-and-alp-during-the-pandemic.pdf",
+      "keywords": [
+        "Accelerated Learning Program (ALP)",
+        "COVID",
+        "Directed Self-Placement (DSP)"
+      ]
     },
     {
       "title": "Editors' Column",
@@ -9698,7 +10283,16 @@
       "issue": "1-2",
       "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/wittstock.pdf",
-      "doi": "10.37514/JBW-J.2022.41.1.03"
+      "doi": "10.37514/JBW-J.2022.41.1.03",
+      "keywords": [
+        "Basic Writing",
+        "basic writers",
+        "community college faculty",
+        "critical systems think-ing",
+        "ecological models",
+        "exit exams",
+        "institutional ethnography"
+      ]
     },
     {
       "title": "Challenging Assumptions about Basic Writers and Corequisites at Four-Year Institutions",
@@ -9722,7 +10316,87 @@
       "issue": "1-2",
       "season": "Spring/Fall",
       "pdf_url": "https://wac.colostate.edu/jbw/v41n1-2/sladek.pdf",
-      "doi": "10.37514/JBW-J.2022.41.1.05"
+      "doi": "10.37514/JBW-J.2022.41.1.05",
+      "keywords": [
+        "antiracism",
+        "Basic Writing",
+        "feedback",
+        "grammar correction",
+        "language",
+        "predomi-nantly White institution",
+        "PWI",
+        "standardized English",
+        "translingualism",
+        "White instructor"
+      ]
+    },
+    {
+      "title": "Editors' Column",
+      "authors": [
+        "Lisa Blankenship",
+        "Dominique Zino"
+      ],
+      "volume": 44,
+      "issue": 1,
+      "season": "Spring",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v44n1/editors.pdf",
+      "doi": "https://doi.org/10.37514/JBW-J.2025.44.1.01",
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v44n1/"
+    },
+    {
+      "title": "Bringing a Folding Chair to the Table: Building Towards Authentic Equity in Professional Conversations about Developmental Education",
+      "authors": [
+        "Emily K. Suh",
+        "Bethany E. Sweeney"
+      ],
+      "volume": 44,
+      "issue": 1,
+      "season": "Spring",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v44n1/suh-sweeney.pdf",
+      "doi": "https://doi.org/10.37514/JBW-J.2025.44.1.02",
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v44n1/"
+    },
+    {
+      "title": "It's Not a Neutral Choice: Implications of Student Self-Placement in a Basic Writing Course",
+      "authors": [
+        "Jennifer Burke Reifman"
+      ],
+      "volume": 44,
+      "issue": 1,
+      "season": "Spring",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v44n1/reifman.pdf",
+      "doi": "https://doi.org/10.37514/JBW-J.2025.44.1.03",
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v44n1/"
+    },
+    {
+      "title": "\"I come from a different generation\": Quare Dreaming and Career-Making in Basic Writing",
+      "authors": [
+        "Candace Chambers",
+        "Spencer Salas"
+      ],
+      "volume": 44,
+      "issue": 1,
+      "season": "Spring",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v44n1/chambers-salas.pdf",
+      "doi": "https://doi.org/10.37514/JBW-J.2025.44.1.04",
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v44n1/"
+    },
+    {
+      "title": "Errors & Excitations: William Steig's *The Bad Speller*",
+      "authors": [
+        "William DeGenaro"
+      ],
+      "volume": 44,
+      "issue": 1,
+      "season": "Spring",
+      "pdf_url": "https://wac.colostate.edu/docs/jbw/v44n1/degenaro.pdf",
+      "doi": "https://doi.org/10.37514/JBW-J.2025.44.1.05",
+      "page_numbers": null,
+      "issue_url": "https://wac.colostate.edu/jbw/v44n1/"
     }
   ],
   "errors": [

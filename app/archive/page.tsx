@@ -1,10 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
-import { getYearFromVolume, getIssueYear, getIssueSeason } from '@/lib/utils';
+import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent } from '@/lib/utils';
 
 function getArticlePDFPath(article: Article): string {
   return article.pdf_url;
@@ -13,7 +12,7 @@ function getArticlePDFPath(article: Article): string {
 
 export default function ArchivePage() {
   const [volumes, setVolumes] = useState<VolumeData[]>([]);
-  const [expandedVolumes, setExpandedVolumes] = useState<Set<number>>(new Set([43]));
+  const [expandedVolumes, setExpandedVolumes] = useState<Set<number>>(new Set([44]));
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -87,7 +86,7 @@ export default function ArchivePage() {
             Complete Archive
           </h1>
           <p className="text-xl text-gray-600">
-            Browse all {volumes.length} volumes of the Journal of First-Year Writing (1975–2024)
+            Browse all {volumes.length} volumes of the Journal of First-Year Writing (1975–2025)
           </p>
         </div>
 
@@ -105,7 +104,7 @@ export default function ArchivePage() {
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold">
-              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.totalArticles, 0)}</span>
+              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.issues.reduce((iSum, issue) => iSum + issue.articles.filter((a: Article) => !isEditorialContent(a.title)).length, 0), 0)}</span>
             </div>
             <div className="text-sm text-gray-600">Articles</div>
           </div>
