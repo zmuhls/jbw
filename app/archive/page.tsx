@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
-import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent } from '@/lib/utils';
+import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
 
 function getArticlePDFPath(article: Article): string {
   return article.pdf_url;
@@ -168,9 +168,8 @@ export default function ArchivePage() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-blue-600 hover:text-blue-800 hover:underline font-medium block"
-                                  >
-                                    {article.title}
-                                  </a>
+                                    dangerouslySetInnerHTML={{ __html: renderMarkdownItalics(article.title) }}
+                                  />
                                   {article.authors.length > 0 && (
                                     <p className="text-sm text-gray-600 mt-1">
                                       {article.authors
@@ -192,6 +191,19 @@ export default function ArchivePage() {
                                 </div>
                               </div>
                             ))}
+                          </div>
+
+                          {/* Open Entire Issue Link */}
+                          <div className="mt-4 pt-4 border-t border-gray-200">
+                            <a
+                              href={`https://wacclearinghouse.org/docs/jbw/v${issue.volume}n${issue.issue}/v${issue.volume}n${issue.issue}.pdf`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline font-medium"
+                            >
+                              <BookOpen className="h-4 w-4 mr-2" />
+                              Open the entire issue
+                            </a>
                           </div>
                         </div>
                       </div>
