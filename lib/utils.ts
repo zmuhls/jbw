@@ -122,3 +122,8 @@ export function isEditorialContent(title: string): boolean {
     lowerTitle === 'view the members'
   );
 }
+
+// Convert markdown italics (*text*) to HTML for rendering
+export function renderMarkdownItalics(text: string): string {
+  return text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}

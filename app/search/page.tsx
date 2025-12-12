@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
 import type { Article, JBWIndex } from '@/lib/types';
-import { isEditorialContent } from '@/lib/utils';
+import { isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
@@ -172,9 +172,8 @@ export default function SearchPage() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xl font-semibold text-blue-600 hover:text-blue-800 hover:underline block mb-2"
-                      >
-                        {article.title}
-                      </a>
+                        dangerouslySetInnerHTML={{ __html: renderMarkdownItalics(article.title) }}
+                      />
 
                       {article.authors.length > 0 && (
                         <p className="text-gray-700 mb-2">
