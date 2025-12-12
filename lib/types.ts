@@ -8,6 +8,7 @@ export interface Article {
   page_numbers: string | null;
   issue_url: string;
   local_path: string;
+  keywords?: string[];
 }
 
 export interface JBWIndex {

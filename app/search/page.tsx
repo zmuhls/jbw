@@ -32,7 +32,10 @@ export default function SearchPage() {
       const authorMatch = article.authors.some(author =>
         author.toLowerCase().includes(lowerQuery)
       );
-      return titleMatch || authorMatch;
+      const keywordMatch = article.keywords?.some(keyword =>
+        keyword.toLowerCase().includes(lowerQuery)
+      ) ?? false;
+      return titleMatch || authorMatch || keywordMatch;
     });
 
     // Apply filters
@@ -78,7 +81,7 @@ export default function SearchPage() {
                   setQuery(e.target.value);
                   handleSearch(e.target.value);
                 }}
-                placeholder="Search by title or author..."
+                placeholder="Search by title, author, or keyword..."
                 className="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
               {query && (
@@ -199,6 +202,23 @@ export default function SearchPage() {
                         >
                           {article.doi}
                         </a>
+                      )}
+
+                      {article.keywords && article.keywords.length > 0 && (
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {article.keywords.map((keyword, kidx) => (
+                            <span
+                              key={kidx}
+                              onClick={() => {
+                                setQuery(keyword);
+                                handleSearch(keyword);
+                              }}
+                              className="inline-block px-2 py-1 text-xs bg-blue-50 text-blue-700 rounded-full cursor-pointer hover:bg-blue-100 transition-colors"
+                            >
+                              {keyword}
+                            </span>
+                          ))}
+                        </div>
                       )}
                     </div>
                   </div>
