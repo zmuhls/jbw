@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Users, FileText } from 'lucide-react';
 import { getYearFromVolume } from '@/lib/utils';
+import { getBasePath } from '@/lib/basePath';
 import type { Article, JBWIndex } from '@/lib/types';
 
 function cleanAuthorName(author: string): string {
@@ -64,7 +65,7 @@ export default function AuthorsPage() {
   const [selectedLetter, setSelectedLetter] = useState<string>('');
 
   useEffect(() => {
-    fetch('/jbw/jbw-index.json')
+    fetch(`${getBasePath()}/jbw-index.json`)
       .then((res) => res.json())
       .then((data: JBWIndex) => {
         setAuthorMap(buildAuthorIndex(data.articles));

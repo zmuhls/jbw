@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.DEPLOY_TARGET !== 'fly';
+
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/jbw',
-  assetPrefix: '/jbw/',
+  ...(isGitHubPages && {
+    basePath: '/jbw',
+    assetPrefix: '/jbw/',
+  }),
   images: {
     unoptimized: true
   },

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
 import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
+import { getBasePath } from '@/lib/basePath';
 
 function getArticlePDFPath(article: Article): string {
   return article.pdf_url;
@@ -16,7 +17,7 @@ export default function ArchivePage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/jbw/jbw-index.json')
+    fetch(`${getBasePath()}/jbw-index.json`)
       .then((res) => res.json())
       .then((data) => {
         // Transform data to volumes format

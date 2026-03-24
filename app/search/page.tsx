@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
 import type { Article, JBWIndex } from '@/lib/types';
 import { isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
+import { getBasePath } from '@/lib/basePath';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
@@ -14,7 +15,7 @@ export default function SearchPage() {
   const [yearFilter, setYearFilter] = useState<string>('');
 
   useEffect(() => {
-    fetch('/jbw/jbw-index.json')
+    fetch(`${getBasePath()}/jbw-index.json`)
       .then((res) => res.json())
       .then((data: JBWIndex) => setAllArticles(data.articles));
   }, []);
