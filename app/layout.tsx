@@ -3,6 +3,7 @@ import { Inter, Crimson_Text } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import NewIssueBanner from "@/components/NewIssueBanner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <div className="flex flex-col min-h-screen">
           <Header />
+          <NewIssueBanner />
           <main className="flex-grow">
             {children}
           </main>
