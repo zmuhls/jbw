@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { BookOpen, FileText, Search } from 'lucide-react';
 import { getUniqueAuthorCount, getAllArticles, getAllVolumes, getAllIssues } from '@/lib/data';
 import { isEditorialContent } from '@/lib/utils';
+import { LATEST_ISSUE } from '@/lib/latestIssue';
 
 export default async function Home() {
   const [authorCount, articles, volumes, issues] = await Promise.all([
@@ -30,13 +31,20 @@ export default async function Home() {
           <div className="journal-block">
             <div className="journal-block-title">Current Issue</div>
             <div className="p-4">
-              <div className="text-xs text-gray-600 mb-2">Vol. 44 No. 1 (2025)</div>
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">Spring 2025</h3>
+              <div className="text-xs text-gray-600 mb-2">
+                Vol. {LATEST_ISSUE.volume} No. {LATEST_ISSUE.issue} ({LATEST_ISSUE.year})
+              </div>
+              <h3 className="text-sm font-semibold text-gray-900 mb-2">{LATEST_ISSUE.season} {LATEST_ISSUE.year}</h3>
+              <p className="mb-3 text-xs leading-relaxed text-gray-600">
+                {LATEST_ISSUE.title}
+              </p>
               <Link
-                href="/archive"
+                href={LATEST_ISSUE.pdfPath}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
               >
-                View Issue →
+                Read the issue (PDF) →
               </Link>
             </div>
           </div>
