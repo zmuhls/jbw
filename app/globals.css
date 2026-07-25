@@ -19,22 +19,26 @@ body {
 }
 
 .site-banner {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  aspect-ratio: 2172 / 252;
+  height: clamp(3.75rem, 10vw, 12.5rem);
+  padding: 0.5rem clamp(0.75rem, 2vw, 2rem);
   overflow: hidden;
-  background: #111214;
+  background: #141514;
 }
 
 .site-banner__link {
-  position: absolute;
-  inset: 0;
+  position: relative;
   display: block;
+  width: min(100%, 100rem);
+  height: 100%;
 }
 
 .site-banner__image {
-  object-fit: cover;
-  object-position: center 43.5%;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Academic journal styling */
@@ -84,6 +88,7 @@ body {
 
 /* Current issue stays in the reading flow instead of becoming another panel. */
 .new-issue-banner {
+  overflow: hidden;
   background: rgb(248 250 252 / 82%);
   color: #4b5563;
   backdrop-filter: blur(10px);
@@ -98,6 +103,8 @@ body {
   margin: 0 auto;
   padding: 0.375rem 1rem;
   white-space: nowrap;
+  animation: new-issue-banner-cycle 13s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  will-change: transform, opacity;
 }
 
 .new-issue-banner__copy {
@@ -162,5 +169,32 @@ body {
 @media (max-width: 40rem) {
   .new-issue-banner__meta {
     display: none;
+  }
+}
+
+@keyframes new-issue-banner-cycle {
+  0% {
+    opacity: 0;
+    transform: translate3d(100vw, 0, 0);
+  }
+
+  4%,
+  66% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  70%,
+  100% {
+    opacity: 0;
+    transform: translate3d(100vw, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .new-issue-banner__inner {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 }
