@@ -18,6 +18,25 @@ body {
   font-family: var(--font-crimson), Georgia, serif;
 }
 
+.site-banner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2172 / 232;
+  overflow: hidden;
+  background: #111214;
+}
+
+.site-banner__link {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.site-banner__image {
+  object-fit: cover;
+  object-position: center 43.5%;
+}
+
 /* Academic journal styling */
 .sidebar-nav a {
   @apply block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-[#2B5AA0] border-l-4 border-transparent hover:border-[#2B5AA0] transition-all;
