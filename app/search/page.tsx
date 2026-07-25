@@ -3,8 +3,15 @@
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
 import type { Article, JBWIndex } from '@/lib/types';
-import { isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
+import { getIssueYear, getYearFromVolume, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
 import { getBasePath } from '@/lib/basePath';
+
+function getArticleYear(article: Article): number {
+  const issueNumber = Number.parseInt(String(article.issue), 10);
+  return Number.isNaN(issueNumber)
+    ? getYearFromVolume(article.volume)
+    : getIssueYear(article.volume, issueNumber);
+}
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
@@ -46,7 +53,7 @@ export default function SearchPage() {
     }
     if (yearFilter) {
       const year = parseInt(yearFilter);
-      filtered = filtered.filter((a: Article) => 1974 + a.volume === year);
+      filtered = filtered.filter((a: Article) => getArticleYear(a) === year);
     }
 
     setResults(filtered);
@@ -57,7 +64,9 @@ export default function SearchPage() {
     new Set(allArticles.map((a) => a.volume))
   ).sort((a, b) => b - a);
 
-  const uniqueYears = uniqueVolumes.map((v) => 1974 + v);
+  const uniqueYears = Array.from(
+    new Set(allArticles.map(getArticleYear))
+  ).sort((a, b) => b - a);
 
   return (
     <div className="bg-gray-50 min-h-screen py-12">

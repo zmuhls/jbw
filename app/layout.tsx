@@ -19,9 +19,9 @@ const crimson = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Journal of First-Year Writing | CUNY",
-  description: "Founded in 1975 by Mina Shaughnessy, the Journal of First-Year Writing is a premier academic journal dedicated to research, theory, and pedagogy in first-year writing and composition studies.",
-  keywords: "first-year writing, composition, rhetoric, writing pedagogy, CUNY, Mina Shaughnessy",
+  title: "Journal of Basic Writing | CUNY",
+  description: "Founded in 1975 by Mina Shaughnessy, the Journal of Basic Writing publishes peer-reviewed research, theory, and pedagogy focused on basic writing, access, and equity in college writing.",
+  keywords: "basic writing, college writing, composition, rhetoric, writing pedagogy, CUNY, Mina Shaughnessy",
 };
 
 export default function RootLayout({

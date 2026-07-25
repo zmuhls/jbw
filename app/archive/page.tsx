@@ -5,12 +5,23 @@ import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
 import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
 import { getBasePath } from '@/lib/basePath';
+import { LATEST_ISSUE } from '@/lib/latestIssue';
 
 function getArticlePDFPath(article: Article): string {
   return article.pdf_url;
 }
 
+function isLatestIssue(volume: number, issue: number): boolean {
+  return volume === LATEST_ISSUE.volume && issue === LATEST_ISSUE.issue;
+}
 
+function getIssuePDFPath(volume: number, issue: number): string {
+  if (isLatestIssue(volume, issue)) {
+    return `${getBasePath()}${LATEST_ISSUE.pdfPath}`;
+  }
+
+  return `https://wacclearinghouse.org/docs/jbw/v${volume}n${issue}/v${volume}n${issue}.pdf`;
+}
 export default function ArchivePage() {
   const [volumes, setVolumes] = useState<VolumeData[]>([]);
   const [expandedVolumes, setExpandedVolumes] = useState<Set<number>>(new Set([44]));
@@ -87,7 +98,7 @@ export default function ArchivePage() {
             Complete Archive
           </h1>
           <p className="text-xl text-gray-600">
-            Browse all {volumes.length} volumes of the Journal of First-Year Writing (1975–2025)
+            Browse all {volumes.length} volumes of the Journal of Basic Writing (1975–2025)
           </p>
         </div>
 
@@ -149,11 +160,18 @@ export default function ArchivePage() {
                     {volumeData.issues.map((issue) => (
                       <div key={`${issue.volume}-${issue.issue}`} className="border-b border-gray-200 last:border-0">
                         <div className="p-6">
-                          <div className="flex items-center justify-between mb-4">
-                            <h4 className="text-lg font-semibold text-gray-900">
-                              Issue {issue.issue}: {issue.season} {issue.year}
-                            </h4>
-                            <span className="text-sm text-gray-600">
+                          <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                            <div>
+                              <h4 className="text-lg font-semibold text-gray-900">
+                                Issue {issue.issue}: {issue.season} {issue.year}
+                              </h4>
+                              {isLatestIssue(issue.volume, issue.issue) && (
+                                <p className="mt-1 text-sm text-gray-600">
+                                  {LATEST_ISSUE.title}
+                                </p>
+                              )}
+                            </div>
+                            <span className="flex-none text-sm text-gray-600">
                               {issue.articles.length} article{issue.articles.length !== 1 ? 's' : ''}
                             </span>
                           </div>
@@ -197,7 +215,7 @@ export default function ArchivePage() {
                           {/* Open Entire Issue Link */}
                           <div className="mt-4 pt-4 border-t border-gray-200">
                             <a
-                              href={`https://wacclearinghouse.org/docs/jbw/v${issue.volume}n${issue.issue}/v${issue.volume}n${issue.issue}.pdf`}
+                              href={getIssuePDFPath(issue.volume, issue.issue)}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline font-medium"

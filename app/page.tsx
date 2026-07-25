@@ -12,6 +12,7 @@ export default async function Home() {
     getAllIssues()
   ]);
   const articleCount = articles.filter(a => !isEditorialContent(a.title)).length;
+  const yearsPublished = LATEST_ISSUE.year - 1975;
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -66,14 +67,14 @@ export default async function Home() {
           {/* Welcome Message */}
           <div className="bg-white border border-gray-300 p-6 mb-6">
             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">
-              Journal of First-Year Writing
+              Journal of Basic Writing
             </h2>
             <div className="prose max-w-none font-serif text-gray-700">
               <p className="mb-4">
-                The Journal of First-Year Writing (formerly the Journal of Basic Writing), is dedicated to publishing research supporting equity and access to college through innovative writing and literacy instruction in first-year composition.
+                The Journal of Basic Writing is dedicated to publishing research supporting equity and access to college through innovative writing and literacy instruction, with a particular focus on basic writing.
               </p>
               <p className="mb-4">
-                Since its founding at the City University of New York in 1975, JFW (formerly known by the shorthand JBW) has published peer-reviewed scholarship on writing instruction, assessment, critical pedagogy, multilingual writing, and educational equity, and continues to be an important resource for writing instructors, administrators, and scholars worldwide.
+                Since its founding at the City University of New York in 1975, JBW has published peer-reviewed scholarship on writing instruction, assessment, critical pedagogy, multilingual writing, and educational equity, and continues to be an important resource for writing instructors, administrators, and scholars worldwide.
               </p>
             </div>
           </div>
@@ -97,7 +98,7 @@ export default async function Home() {
               <div className="text-xs text-gray-600">Authors</div>
             </div>
             <div className="bg-white border border-gray-300 p-4 text-center">
-              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">50</span></div>
+              <div className="text-3xl font-bold mb-1"><span className="text-[#2B5AA0]">{yearsPublished}</span></div>
               <div className="text-xs text-gray-600">Years</div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_volumes": 43,
-    "total_issues": 87,
-    "total_articles": 780,
-    "total_pdfs_downloaded": 771,
+    "total_volumes": 44,
+    "total_issues": 89,
+    "total_articles": 791,
+    "total_pdfs_downloaded": 772,
     "scrape_date": "2025-10-08 17:06:36",
     "status": "completed",
     "errors_count": 10
@@ -10957,6 +10957,96 @@
         "style",
         "william Steig"
       ]
+    },
+    {
+      "title": "Editors' Column: Our Words (and Actions) Must Grow: Special Issue on Antiracist Decolonial Teaching and Writing",
+      "authors": [
+        "Chy Sprauve",
+        "Anna Zeemont",
+        "Conor Tomás Reed",
+        "Sean Molloy"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=6",
+      "doi": null,
+      "page_numbers": "1–12",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
+    },
+    {
+      "title": "In Honor of the Earthworm: Pockets of Air for “Decolonial Riders” and Activist Literacies in White Settler Writing Programs and English Departments",
+      "authors": [
+        "Carmen Kynard"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=18",
+      "doi": null,
+      "page_numbers": "13–37",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
+    },
+    {
+      "title": "Antiracist Rhetorical Praxis in the 1960s-70s Tech News/The Paper at the City College of New York",
+      "authors": [
+        "Conor Tomás Reed",
+        "Anna Zeemont",
+        "Sean Molloy"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=43",
+      "doi": null,
+      "page_numbers": "38–67",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
+    },
+    {
+      "title": "Oil/School: Land and Affiliation in the Age of Fossil Ed",
+      "authors": [
+        "Daisy Atterbury"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=73",
+      "doi": null,
+      "page_numbers": "68–94",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
+    },
+    {
+      "title": "Community Notes, CUNY & the Bronx County Historical Society Archives",
+      "authors": [
+        "Vani Kannan",
+        "Steven Payne"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=100",
+      "doi": null,
+      "page_numbers": "95–104",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
+    },
+    {
+      "title": "Activating Legacies of Freedom to Transform Economies of Prestige in Academia and Ourselves",
+      "authors": [
+        "Javiela Evangelista"
+      ],
+      "volume": 44,
+      "issue": 2,
+      "season": "Fall",
+      "pdf_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf#page=110",
+      "doi": null,
+      "page_numbers": "105–120",
+      "issue_url": "https://zmuhls.github.io/jbw/issues/JBW-44.2.pdf",
+      "local_path": null
     }
   ],
   "errors": [
