@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import bannerImage from '@/img/jbw-banner.png';
+import bannerImage from '@/img/jbw-banner.webp';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -12,14 +12,14 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm">
       {/* Photo Collage Header */}
-      <div className="site-banner">
+      <div className="site-banner" style={{ backgroundColor: '#141514' }}>
         <Link href="/" className="site-banner__link" aria-label="Home">
           <Image
             src={bannerImage}
             alt="Journal of Basic Writing banner with portraits of writers and educators"
             priority
-            fill
-            sizes="100vw"
+            placeholder="blur"
+            sizes="(max-width: 100rem) 100vw, 100rem"
             className="site-banner__image"
           />
         </Link>

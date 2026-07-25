@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center text-sm text-gray-600 space-y-2">
           <p>
-            <strong>Journal of Basic Writing</strong> | ISSN 0147-1635
+            <strong><em>Journal of Basic Writing</em></strong> | ISSN 0147-1635
           </p>
           <p>
             Published by Baruch College, CUNY

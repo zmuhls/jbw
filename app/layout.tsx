@@ -20,7 +20,7 @@ const crimson = Crimson_Text({
 
 export const metadata: Metadata = {
   title: "Journal of Basic Writing | CUNY",
-  description: "Founded in 1975 by Mina Shaughnessy, the Journal of Basic Writing publishes peer-reviewed research, theory, and pedagogy focused on basic writing, access, and equity in college writing.",
+  description: "Founded in 1975 by Mina Shaughnessy, Journal of Basic Writing publishes peer-reviewed research, theory, and pedagogy focused on basic writing, access, and equity in college writing.",
   keywords: "basic writing, college writing, composition, rhetoric, writing pedagogy, CUNY, Mina Shaughnessy",
 };
 

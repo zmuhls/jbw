@@ -67,14 +67,14 @@ export default async function Home() {
           {/* Welcome Message */}
           <div className="bg-white border border-gray-300 p-6 mb-6">
             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">
-              Journal of Basic Writing
+              <em>Journal of Basic Writing</em>
             </h2>
             <div className="prose max-w-none font-serif text-gray-700">
               <p className="mb-4">
-                The Journal of Basic Writing is dedicated to publishing research supporting equity and access to college through innovative writing and literacy instruction, with a particular focus on basic writing.
+                <em>Journal of Basic Writing</em> is dedicated to publishing research supporting equity and access to college through innovative writing and literacy instruction, with a particular focus on basic writing.
               </p>
               <p className="mb-4">
-                Since its founding at the City University of New York in 1975, JBW has published peer-reviewed scholarship on writing instruction, assessment, critical pedagogy, multilingual writing, and educational equity, and continues to be an important resource for writing instructors, administrators, and scholars worldwide.
+                Since its founding at the City University of New York in 1975, <em>JBW</em> has published peer-reviewed scholarship on writing instruction, assessment, critical pedagogy, multilingual writing, and educational equity, and continues to be an important resource for writing instructors, administrators, and scholars worldwide.
               </p>
             </div>
           </div>

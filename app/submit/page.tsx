@@ -43,7 +43,7 @@ export default function SubmitPage() {
           <section className="bg-white border border-gray-300 p-6">
             <div className="prose prose-lg max-w-none font-serif">
               <p className="text-gray-700 leading-relaxed">
-                The <em>Journal of Basic Writing</em> welcomes submissions that address basic writing
+                <em>Journal of Basic Writing</em> welcomes submissions that address basic writing
                 pedagogy, theory, and research. Articles must clearly address basic writing and/or
                 must situate settings of instruction or institutional agency in explicit relation
                 to basic writing concerns.

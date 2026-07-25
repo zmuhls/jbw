@@ -98,7 +98,7 @@ export default function ArchivePage() {
             Complete Archive
           </h1>
           <p className="text-xl text-gray-600">
-            Browse all {volumes.length} volumes of the Journal of Basic Writing (1975–2025)
+            Browse all {volumes.length} volumes of <em>Journal of Basic Writing</em> (1975–2025)
           </p>
         </div>
 
