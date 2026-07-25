@@ -199,7 +199,7 @@ export default function SearchPage() {
                           Volume {article.volume}, Issue {article.issue}
                         </span>
                         <span>•</span>
-                        <span>{1974 + article.volume}</span>
+                        <span>{getArticleYear(article)}</span>
                       </div>
 
                       {article.doi && (
