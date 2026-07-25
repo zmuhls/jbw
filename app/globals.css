@@ -18,62 +18,6 @@ body {
   font-family: var(--font-crimson), Georgia, serif;
 }
 
-/* The masthead stays full-bleed while the collage recedes into the page. */
-.site-masthead {
-  position: relative;
-  height: clamp(3.5rem, 7vw, 5.5rem);
-  overflow: hidden;
-  background: linear-gradient(90deg, var(--bg-cream), #e9eff6 50%, var(--bg-cream));
-}
-
-.site-masthead__link {
-  position: absolute;
-  inset: 0;
-  display: block;
-}
-
-.site-masthead__link::after {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, var(--bg-cream) 0%, transparent 8%, transparent 92%, var(--bg-cream) 100%),
-    linear-gradient(180deg, rgb(248 250 252 / 18%), rgb(248 250 252 / 48%));
-  content: "";
-  pointer-events: none;
-}
-
-.site-masthead__image {
-  object-fit: contain;
-  object-position: center;
-  opacity: 0.58;
-  filter: grayscale(35%) saturate(65%) contrast(88%);
-  mix-blend-mode: multiply;
-  transition: opacity 160ms ease;
-}
-
-.site-masthead__wash {
-  object-fit: cover;
-  opacity: 0.14;
-  filter: blur(7px) grayscale(65%) saturate(40%);
-  mix-blend-mode: multiply;
-  transform: scale(1.04);
-}
-
-.site-masthead__link:hover .site-masthead__image {
-  opacity: 0.66;
-}
-
-.site-masthead__link:focus-visible {
-  outline: 2px solid var(--primary-blue);
-  outline-offset: -2px;
-}
-
-.site-nav {
-  border-bottom: 1px solid rgb(209 213 219 / 70%);
-  background: rgb(255 255 255 / 82%);
-  backdrop-filter: blur(12px);
-}
-
 /* Academic journal styling */
 .sidebar-nav a {
   @apply block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-[#2B5AA0] border-l-4 border-transparent hover:border-[#2B5AA0] transition-all;

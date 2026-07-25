@@ -10,29 +10,24 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header>
-      <div className="site-masthead">
-        <Link href="/" className="site-masthead__link" aria-label="Home">
-          <Image
-            src={coverImage}
-            alt=""
-            aria-hidden="true"
-            fill
-            sizes="100vw"
-            className="site-masthead__wash"
-          />
+    <header className="bg-white shadow-sm">
+      {/* Photo Collage Header */}
+      <div className="relative bg-[#1E5B8C]">
+        <Link href="/" className="block hover:opacity-95 transition-opacity" aria-label="Home">
           <Image
             src={coverImage}
             alt="Journal of First-Year Writing header with portraits of notable writers and educators"
             priority
-            fill
             sizes="100vw"
-            className="site-masthead__image"
+            className="w-full h-auto object-contain"
           />
         </Link>
       </div>
 
-      <nav className="site-nav">
+      {/* Navigation Bar with gradient blend */}
+      <nav className="bg-gradient-to-b from-[#2B5AA0]/20 via-[#2B5AA0]/10 to-white border-b border-gray-200" style={{
+        background: 'linear-gradient(to bottom, rgba(43, 90, 160, 0.15) 0%, rgba(43, 90, 160, 0.08) 30%, rgba(255, 255, 255, 1) 70%)'
+      }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-12">
             {/* Desktop Navigation */}
