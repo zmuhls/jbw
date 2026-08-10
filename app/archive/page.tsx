@@ -22,6 +22,42 @@ function getIssuePDFPath(volume: number, issue: number): string {
 
   return `https://wacclearinghouse.org/docs/jbw/v${volume}n${issue}/v${volume}n${issue}.pdf`;
 }
+
+function ArticleLink({ article }: { article: Article }) {
+  return (
+    <div className="flex items-start space-x-3 p-3 hover:bg-white rounded transition-colors">
+      <FileText className="h-5 w-5 text-gray-400 mt-0.5 flex-shrink-0" />
+      <div className="flex-1 min-w-0">
+        <a
+          href={getArticlePDFPath(article)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 hover:underline font-medium block"
+          dangerouslySetInnerHTML={{ __html: renderMarkdownItalics(article.title) }}
+        />
+        {article.authors.length > 0 && (
+          <p className="text-sm text-gray-600 mt-1">
+            {article.authors
+              .map((a) => a.split('\n')[0].replace(/DOI:.*$/i, '').trim())
+              .filter((a) => a)
+              .join(', ')}
+          </p>
+        )}
+        {article.doi && (
+          <a
+            href={article.doi}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-gray-500 hover:text-gray-700 mt-1 inline-block"
+          >
+            DOI: {article.doi.split('/').slice(-3).join('/')}
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function ArchivePage() {
   const [volumes, setVolumes] = useState<VolumeData[]>([]);
   const [expandedVolumes, setExpandedVolumes] = useState<Set<number>>(new Set([44]));
@@ -156,77 +192,69 @@ export default function ArchivePage() {
 
                 {/* Issues List */}
                 {isExpanded && (
-                  <div className="border-t border-gray-200 bg-gray-50">
-                    {volumeData.issues.map((issue) => (
-                      <div key={`${issue.volume}-${issue.issue}`} className="border-b border-gray-200 last:border-0">
-                        <div className="p-6">
-                          <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                            <div>
-                              <h4 className="text-lg font-semibold text-gray-900">
-                                Issue {issue.issue}: {issue.season} {issue.year}
-                              </h4>
-                              {isLatestIssue(issue.volume, issue.issue) && (
-                                <p className="mt-1 text-sm text-gray-600">
-                                  {LATEST_ISSUE.title}
-                                </p>
-                              )}
-                            </div>
-                            <span className="flex-none text-sm text-gray-600">
-                              {issue.articles.length} article{issue.articles.length !== 1 ? 's' : ''}
-                            </span>
-                          </div>
+          <div className="border-t border-gray-200 bg-gray-50">
+            {volumeData.issues.map((issue) => (
+              <div key={`${issue.volume}-${issue.issue}`} className="border-b border-gray-200 last:border-0">
+                <div className="p-6">
+                  <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-900">
+                        Issue {issue.issue}: {issue.season} {issue.year}
+                      </h4>
+                      {isLatestIssue(issue.volume, issue.issue) && (
+                        <p className="mt-1 text-sm text-gray-600">
+                          {LATEST_ISSUE.title}
+                        </p>
+                      )}
+                    </div>
+                    <span className="flex-none text-sm text-gray-600">
+                      {issue.articles.filter((article) => !isEditorialContent(article.title)).length} article{issue.articles.filter((article) => !isEditorialContent(article.title)).length !== 1 ? 's' : ''}
+                    </span>
+                  </div>
 
-                          {/* Articles List */}
-                          <div className="space-y-3">
-                            {issue.articles.map((article, idx) => (
-                              <div key={idx} className="flex items-start space-x-3 p-3 hover:bg-white rounded transition-colors">
-                                <FileText className="h-5 w-5 text-gray-400 mt-0.5 flex-shrink-0" />
-                                <div className="flex-1 min-w-0">
-                                  <a
-                                    href={getArticlePDFPath(article)}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 hover:underline font-medium block"
-                                    dangerouslySetInnerHTML={{ __html: renderMarkdownItalics(article.title) }}
-                                  />
-                                  {article.authors.length > 0 && (
-                                    <p className="text-sm text-gray-600 mt-1">
-                                      {article.authors
-                                        .map((a) => a.split('\n')[0].replace(/DOI:.*$/i, '').trim())
-                                        .filter((a) => a)
-                                        .join(', ')}
-                                    </p>
-                                  )}
-                                  {article.doi && (
-                                    <a
-                                      href={article.doi}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                      className="text-xs text-gray-500 hover:text-gray-700 mt-1 inline-block"
-                                    >
-                                      DOI: {article.doi.split('/').slice(-3).join('/')}
-                                    </a>
-                                  )}
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-
-                          {/* Open Entire Issue Link */}
-                          <div className="mt-4 pt-4 border-t border-gray-200">
-                            <a
-                              href={getIssuePDFPath(issue.volume, issue.issue)}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline font-medium"
-                            >
-                              <BookOpen className="h-4 w-4 mr-2" />
-                              Open the entire issue
-                            </a>
-                          </div>
-                        </div>
+                  {issue.articles.some((article) => isEditorialContent(article.title)) && (
+                    <section className="mb-6 rounded border border-blue-100 bg-blue-50/50 p-4">
+                      <h5 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#2B5AA0]">
+                        Editors&apos; Column
+                      </h5>
+                      <div className="space-y-3">
+                        {issue.articles
+                          .filter((article) => isEditorialContent(article.title))
+                          .map((article, idx) => (
+                            <ArticleLink key={`editorial-${idx}`} article={article} />
+                          ))}
                       </div>
-                    ))}
+                    </section>
+                  )}
+
+                  <section>
+                    <h5 className="mb-2 text-sm font-semibold uppercase tracking-wide text-gray-700">
+                      Articles
+                    </h5>
+                    <div className="space-y-3">
+                      {issue.articles
+                        .filter((article) => !isEditorialContent(article.title))
+                        .map((article, idx) => (
+                          <ArticleLink key={`article-${idx}`} article={article} />
+                        ))}
+                    </div>
+                  </section>
+
+                  {/* Open Entire Issue Link */}
+                  <div className="mt-4 pt-4 border-t border-gray-200">
+                    <a
+                      href={getIssuePDFPath(issue.volume, issue.issue)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline font-medium"
+                    >
+                      <BookOpen className="h-4 w-4 mr-2" />
+                      Open the entire issue
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
                   </div>
                 )}
               </div>
