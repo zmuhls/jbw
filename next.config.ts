@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
-const isGitHubPages = process.env.DEPLOY_TARGET !== 'fly';
+// GitHub Pages serves this project at the custom-domain root.  Retain the
+// project-path build only when an explicitly named preview needs it.
+const isGitHubProjectPath = process.env.DEPLOY_TARGET === 'github-project-pages';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  ...(isGitHubPages && {
+  ...(isGitHubProjectPath && {
     basePath: '/jbw',
     assetPrefix: '/jbw/',
   }),
