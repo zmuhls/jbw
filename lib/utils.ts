@@ -1,3 +1,47 @@
+import type { Article } from './types';
+
+const normalizeArchiveTitle = (title: string): string =>
+  title
+    .normalize('NFKC')
+    .replace(/[’‘]/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+
+const canonicalAuthorNames: Record<string, string> = {
+  "Sarah D'eloia": "Sarah D'Eloia",
+  'Victor Villanueva, Jr.': 'Victor Villanueva',
+  'Donald Mccrary': 'Donald McCrary',
+  'Irvin Hashimoto': 'Irvin Y. Hashimoto',
+  'Terence Collins': 'Terence G. Collins',
+  'Rebecca Mlynarczyk': 'Rebecca Williams Mlynarczyk',
+  'Hope A. Parisi': 'Hope Parisi',
+  'Linda Stine': 'Linda J. Stine',
+  'Emily Suh': 'Emily K. Suh',
+  'Peter Adams': 'Peter Dow Adams',
+  'Rexford Brown': 'Rexford G. Brown',
+  'Andrea L. Lunsford': 'Andrea A. Lunsford',
+  'E. D. Hirsch': 'E. D. Hirsch, Jr.',
+  'E.D. Hirsch, Jr.': 'E. D. Hirsch, Jr.',
+  'Tom Reynolds': 'Thomas Reynolds',
+  'Mary Hurley Moran': 'Molly Hurley Moran',
+  'Wilma Wolcott': 'Willa Wolcott',
+  'Kathryn A. Fitzgerald': 'Kathryn R. Fitzgerald',
+};
+
+export function cleanAuthorName(author: string): string {
+  let cleaned = author
+    .split('\n')[0]
+    .replace(/DOI:.*$/i, '')
+    .replace(/^by\s+/i, '')
+    .trim();
+
+  if (/^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(cleaned)) return '';
+
+  cleaned = cleaned.replace(/\s*\(pp\.\s*\d+[-–]\s*\d+\)\s*$/i, '').trim();
+  return canonicalAuthorNames[cleaned] ?? cleaned;
+}
+
 export function getYearFromVolume(volume: number): number {
   // Complete volume-to-year mapping based on actual publication data
   const volumeToYear: { [key: number]: number } = {
@@ -114,13 +158,28 @@ export function getSeason(issue: number): string {
 
 // Check if an article title is editorial content (not a peer-reviewed article)
 export function isEditorialContent(title: string): boolean {
-  const lowerTitle = title.toLowerCase();
+  const lowerTitle = normalizeArchiveTitle(title);
   return (
-    lowerTitle.startsWith("editors' column") ||
-    lowerTitle.startsWith("editor's column") ||
+    /^(?:editor's|editors') column(?::|$)/.test(lowerTitle) ||
     lowerTitle === 'editorial board' ||
     lowerTitle === 'view the members'
   );
+}
+
+// The WAC archive assigns DOIs to article-level records. JBW 44.2 is the
+// locally archived exception because its DOI deposits are still pending.
+export function isArticleContent(article: Pick<Article, 'doi' | 'issue' | 'title' | 'volume'>): boolean {
+  if (isEditorialContent(article.title)) return false;
+
+  const normalizedTitle = normalizeArchiveTitle(article.title);
+  if (
+    normalizedTitle === 'news and announcements' ||
+    normalizedTitle.startsWith('cumulative index')
+  ) {
+    return false;
+  }
+
+  return Boolean(article.doi) || (article.volume === 44 && article.issue === 2);
 }
 
 // Convert markdown italics (*text*) to HTML for rendering

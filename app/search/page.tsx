@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon, FileText, X } from 'lucide-react';
 import type { Article, JBWIndex } from '@/lib/types';
-import { getIssueYear, getYearFromVolume, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
+import { getIssueYear, getYearFromVolume, isArticleContent, renderMarkdownItalics } from '@/lib/utils';
 import { getBasePath } from '@/lib/basePath';
 
 function getArticleYear(article: Article): number {
@@ -24,7 +24,7 @@ export default function SearchPage() {
   useEffect(() => {
     fetch(`${getBasePath()}/jbw-index.json`)
       .then((res) => res.json())
-      .then((data: JBWIndex) => setAllArticles(data.articles));
+      .then((data: JBWIndex) => setAllArticles(data.articles.filter(isArticleContent)));
   }, []);
 
   const handleSearch = (searchQuery: string) => {
@@ -75,7 +75,7 @@ export default function SearchPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Search the Archive</h1>
           <p className="text-xl text-gray-600">
-            Search across {allArticles.length > 0 ? `${allArticles.filter(a => !isEditorialContent(a.title)).length}+` : ''} articles by title, author, or keyword
+            Search across {allArticles.length > 0 ? allArticles.length : ''} articles by title, author, or keyword
           </p>
         </div>
 

@@ -2,29 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import { Users, FileText } from 'lucide-react';
-import { getYearFromVolume } from '@/lib/utils';
+import { cleanAuthorName, getYearFromVolume, isArticleContent } from '@/lib/utils';
 import { getBasePath } from '@/lib/basePath';
 import type { Article, JBWIndex } from '@/lib/types';
-
-function cleanAuthorName(author: string): string {
-  let cleaned = author
-    .split('\n')[0]
-    .replace(/DOI:.*$/i, '')
-    .replace(/^by\s+/i, '')
-    .trim();
-
-  if (/^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(cleaned)) {
-    return '';
-  }
-
-  cleaned = cleaned.replace(/\s*\(pp\.\s*\d+[-–]\s*\d+\)\s*$/i, '').trim();
-  return cleaned;
-}
 
 function buildAuthorIndex(articles: Article[]): Map<string, Article[]> {
   const authorMap = new Map<string, Article[]>();
 
-  articles.forEach(article => {
+  articles.filter(isArticleContent).forEach(article => {
     const hasOnlyPageNumbers = article.authors.length > 0 &&
       article.authors.every(author => /^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(author.trim()));
     const isShaughnessyArticle = article.pdf_url.toLowerCase().includes('shaughnessy');
@@ -107,7 +92,7 @@ export default function AuthorsPage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Author Index</h1>
           <p className="text-xl text-gray-600">
-            Browse works by {authors.length}+ authors who have published in <em>JBW</em>
+            Browse works by {authors.length} authors who have published in <em>JBW</em>
           </p>
         </div>
 

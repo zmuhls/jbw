@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { BookOpen, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import type { VolumeData, Article } from '@/lib/types';
-import { getYearFromVolume, getIssueYear, getIssueSeason, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
+import { getYearFromVolume, getIssueYear, getIssueSeason, isArticleContent, isEditorialContent, renderMarkdownItalics } from '@/lib/utils';
 import { getBasePath } from '@/lib/basePath';
 import { LATEST_ISSUE } from '@/lib/latestIssue';
 
@@ -95,7 +95,7 @@ export default function ArchivePage() {
           volumesData.push({
             volume,
             issues,
-            totalArticles: articles.length
+            totalArticles: articles.filter(isArticleContent).length
           });
         });
 
@@ -152,7 +152,7 @@ export default function ArchivePage() {
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold">
-              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.issues.reduce((iSum, issue) => iSum + issue.articles.filter((a: Article) => !isEditorialContent(a.title)).length, 0), 0)}</span>
+              <span className="text-[#2B5AA0]">{volumes.reduce((sum, v) => sum + v.totalArticles, 0)}</span>
             </div>
             <div className="text-sm text-gray-600">Articles</div>
           </div>
@@ -208,7 +208,7 @@ export default function ArchivePage() {
                       )}
                     </div>
                     <span className="flex-none text-sm text-gray-600">
-                      {issue.articles.filter((article) => !isEditorialContent(article.title)).length} article{issue.articles.filter((article) => !isEditorialContent(article.title)).length !== 1 ? 's' : ''}
+                      {issue.articles.filter(isArticleContent).length} article{issue.articles.filter(isArticleContent).length !== 1 ? 's' : ''}
                     </span>
                   </div>
 
@@ -233,12 +233,31 @@ export default function ArchivePage() {
                     </h5>
                     <div className="space-y-3">
                       {issue.articles
-                        .filter((article) => !isEditorialContent(article.title))
+                        .filter(isArticleContent)
                         .map((article, idx) => (
                           <ArticleLink key={`article-${idx}`} article={article} />
                         ))}
                     </div>
                   </section>
+
+                  {issue.articles.some((article) =>
+                    !isArticleContent(article) && !isEditorialContent(article.title)
+                  ) && (
+                    <section className="mt-6">
+                      <h5 className="mb-2 text-sm font-semibold uppercase tracking-wide text-gray-700">
+                        Archive Materials
+                      </h5>
+                      <div className="space-y-3">
+                        {issue.articles
+                          .filter((article) =>
+                            !isArticleContent(article) && !isEditorialContent(article.title)
+                          )
+                          .map((article, idx) => (
+                            <ArticleLink key={`archive-material-${idx}`} article={article} />
+                          ))}
+                      </div>
+                    </section>
+                  )}
 
                   {/* Open Entire Issue Link */}
                   <div className="mt-4 pt-4 border-t border-gray-200">

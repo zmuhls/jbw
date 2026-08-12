@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { BookOpen, FileText, Search } from 'lucide-react';
 import { getUniqueAuthorCount, getAllArticles, getAllVolumes, getAllIssues } from '@/lib/data';
-import { isEditorialContent } from '@/lib/utils';
+import { isArticleContent } from '@/lib/utils';
 import { LATEST_ISSUE } from '@/lib/latestIssue';
 
 export default async function Home() {
@@ -11,7 +11,7 @@ export default async function Home() {
     getAllVolumes(),
     getAllIssues()
   ]);
-  const articleCount = articles.filter(a => !isEditorialContent(a.title)).length;
+  const articleCount = articles.filter(isArticleContent).length;
   const yearsPublished = LATEST_ISSUE.year - 1975;
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

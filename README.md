@@ -55,8 +55,8 @@ npm run lint
 The site is configured for static deployment with no server-side rendering:
 
 - Outputs to `/out` directory
-- Base path: `/jbw` (for deployment under subdirectory)
-- All assets prefixed with `/jbw/`
+- Custom-domain builds run at the site root
+- Set `DEPLOY_TARGET=github-project-pages` for `/jbw` project-path previews
 - Images unoptimized (no Next.js Image Optimization API)
 
 ### Data Architecture
@@ -66,9 +66,11 @@ All journal data is stored in a single JSON file at `/public/jbw-index.json`:
 ```
 {
   "metadata": {
-    "total_volumes": 43,
-    "total_issues": 87,
-    "total_articles": 747,
+    "total_volumes": 44,
+    "total_issues": 89,
+    "total_records": 791,
+    "total_articles": 533,
+    "total_authors": 533,
     ...
   },
   "articles": [
@@ -126,13 +128,18 @@ Brand colors:
 
 Volumes don't map linearly to years due to publication gaps (2014-2021). The `getYearFromVolume()` function in `lib/data.ts` handles this mapping correctly.
 
-### Author Name Cleaning
+### Archive Statistics and Author Names
 
-Scraped author data contains metadata (DOIs, page numbers). The `cleanAuthorName()` function strips this before display.
+The homepage counts 533 article-level records, excluding editors' columns,
+editorial-board links, news, and cumulative indexes. The author index normalizes
+documented name variants while preserving distinct people with similar names.
+Run `npm run verify:archive` after every archive update.
 
 ### Dynamic Statistics
 
-The homepage displays dynamic counts for articles and unique authors, calculated from the JSON index at build time.
+The homepage displays dynamic counts for volumes, issues, article-level records,
+unique authors, and elapsed publication years, calculated from the JSON index at
+build time.
 
 ### External PDF Links
 

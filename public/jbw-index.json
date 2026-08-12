@@ -2,9 +2,13 @@
   "metadata": {
     "total_volumes": 44,
     "total_issues": 89,
-    "total_articles": 791,
+    "total_records": 791,
+    "total_articles": 533,
+    "total_authors": 533,
     "total_pdfs_downloaded": 772,
     "scrape_date": "2025-10-08 17:06:36",
+    "audit_date": "2026-08-11",
+    "coverage_through": "Volume 44, Number 2 (2025)",
     "status": "completed",
     "errors_count": 10
   },
@@ -132,7 +136,8 @@
       "issue": 2,
       "title": "A Design for a Developmental Writing Course for Academically Underprepared Black Students",
       "authors": [
-        "Dianna S"
+        "Dianna S. Campbell",
+        "Terry Ryan Meier"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/campbell.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.03",
@@ -171,7 +176,7 @@
       "issue": 2,
       "title": "Teaching the Thinking Process in Essay Writing",
       "authors": [
-        "Ann Petrie (pp"
+        "Ann Petrie"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/petrie.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.06",
@@ -184,7 +189,7 @@
       "issue": 2,
       "title": "Language and Composition: Three Mastery Learning Courses in One Classroom",
       "authors": [
-        "Helen Mills (pp"
+        "Helen Mills"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/mills.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.05",
@@ -197,7 +202,7 @@
       "issue": 2,
       "title": "Coaching Writing",
       "authors": [
-        "Paul Pierog (pp"
+        "Paul Pierog"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n2/pierog.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1976.1.2.07",
@@ -263,7 +268,7 @@
       "issue": 4,
       "title": "What We Know Now and How We Could Know More About Writing Ability in America",
       "authors": [
-        "Rexford Brown (pp"
+        "Rexford Brown"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/brown.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.01",
@@ -276,7 +281,7 @@
       "issue": 4,
       "title": "Re-Evaluating Evaluating",
       "authors": [
-        "Joseph Williams (pp"
+        "Joseph Williams"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/williams.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.02",
@@ -289,7 +294,7 @@
       "issue": 4,
       "title": "Mass Testing of Individual Writing: The California Model",
       "authors": [
-        "Edward M"
+        "Edward M. White"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/white.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.03",
@@ -302,7 +307,7 @@
       "issue": 4,
       "title": "The Evolution of One College's Attempt to Evaluate Student Writing",
       "authors": [
-        "Roberta S"
+        "Roberta S. Matthews"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/matthews.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.05",
@@ -315,7 +320,7 @@
       "issue": 4,
       "title": "Measuring Growth in College Writing",
       "authors": [
-        "Elizabeth Metzger (pp"
+        "Elizabeth Metzger"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/metzger.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.06",
@@ -328,7 +333,7 @@
       "issue": 4,
       "title": "With No Apology: Teaching to the Test",
       "authors": [
-        "Rosemary Hake (pp"
+        "Rosemary Hake"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/hake.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.04",
@@ -341,7 +346,7 @@
       "issue": 4,
       "title": "Evaluation: The Process for Revision",
       "authors": [
-        "Muriel Harris (pp"
+        "Muriel Harris"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/harris.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.07",
@@ -354,7 +359,7 @@
       "issue": 4,
       "title": "Selected Bibliography of Writings on the Evaluation of Students' Achievements in Composition",
       "authors": [
-        "Richard L"
+        "Richard L. Larson"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v1n4/larson.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.1.4.08",
@@ -367,7 +372,7 @@
       "issue": 1,
       "title": "A Prefatory Note",
       "authors": [
-        "Marylea Meyersohn (p. 1)"
+        "Marylea Meyersohn"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n1/meyersohn.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1978.2.1.01",
@@ -458,7 +463,9 @@
       "issue": 2,
       "title": "The Comp-Lab Writing Program: An Experimental Basic Writing Course",
       "authors": [
-        "Mary Epes, Carolyn Kirkpatrick, Michael G. Southwell"
+        "Mary Epes",
+        "Carolyn Kirkpatrick",
+        "Michael G. Southwell"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n2/epes.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.2.03",
@@ -471,7 +478,8 @@
       "issue": 2,
       "title": "Anatomy of a Basic Writing Program",
       "authors": [
-        "Andrea L. Lunsford, Sara Garnes"
+        "Andrea L. Lunsford",
+        "Sara Garnes"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n2/lunsford.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.2.04",
@@ -602,7 +610,8 @@
       "issue": 3,
       "title": "Recognizing the Basic Writer's Vocabulary Acquisition Sequence",
       "authors": [
-        "Jeanette Harris, Lil Brannon"
+        "Jeanette Harris",
+        "Lil Brannon"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n3/harris.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1979.2.3.07",
@@ -719,7 +728,8 @@
       "issue": 4,
       "title": "An Approach to Integrating Writing into a History Course",
       "authors": [
-        "Anita Brostoff, Barry K. Beyer"
+        "Anita Brostoff",
+        "Barry K. Beyer"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v2n4/brostoff.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.2.4.05",
@@ -849,7 +859,7 @@
       "issue": 1,
       "title": "The English Professor's Malady",
       "authors": [
-        ""
+        "Mina P. Shaughnessy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_malady.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.08",
@@ -875,7 +885,7 @@
       "issue": 1,
       "title": "Some Needed Research on Writing",
       "authors": [
-        ""
+        "Mina P. Shaughnessy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_research.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.09",
@@ -888,7 +898,7 @@
       "issue": 1,
       "title": "Open Admissions and the Disadvantaged Teacher",
       "authors": [
-        ""
+        "Mina P. Shaughnessy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_admissions.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.10",
@@ -901,7 +911,7 @@
       "issue": 1,
       "title": "The Miserable Truth",
       "authors": [
-        ""
+        "Mina P. Shaughnessy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_truth.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.11",
@@ -914,7 +924,7 @@
       "issue": 1,
       "title": "Statement on Criteria for Writing Proficiency",
       "authors": [
-        ""
+        "Mina P. Shaughnessy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n1/shaughnessy_proficiency.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1980.3.1.12",
@@ -1242,7 +1252,7 @@
       "issue": 4,
       "title": "Choosing Your Doctoral Program",
       "authors": [
-        "Patrick Hartwell (p. 74)"
+        "Patrick Hartwell"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v3n4/hartwell.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1984.3.4.08",
@@ -2163,7 +2173,11 @@
       "issue": 1,
       "title": "Competing Epistemologies and Female Basic Writers",
       "authors": [
-        "Paul Hunter, Nadine Pearce, Sue Lee, Shirley Goldsmith, Patricia Feldman,",
+        "Paul Hunter",
+        "Nadine Pearce",
+        "Sue Lee",
+        "Shirley Goldsmith",
+        "Patricia Feldman",
         "Holly Weaver"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v7n1/hunter.pdf",
@@ -3164,7 +3178,9 @@
       "issue": 1,
       "title": "A Combined Basic Writing/English as a Second Language Class: Melting Pot or Mishmash?",
       "authors": [
-        "Beverly Benson, Mary Deming, Debra Denzer,",
+        "Beverly Benson",
+        "Mary Deming",
+        "Debra Denzer",
         "Maria Valeri-Gold"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v11n1/benson.pdf",
@@ -3707,7 +3723,9 @@
       "volume": 13,
       "issue": 1,
       "title": "Janet Emig",
-      "authors": [],
+      "authors": [
+        "Janet Emig"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/emig.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1994.13.1.07",
       "page_numbers": null,
@@ -3718,7 +3736,9 @@
       "volume": 13,
       "issue": 1,
       "title": "E. D. Hirsch",
-      "authors": [],
+      "authors": [
+        "E. D. Hirsch"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/hirsch.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1994.13.1.08",
       "page_numbers": null,
@@ -3729,7 +3749,13 @@
       "volume": 13,
       "issue": 1,
       "title": "Richard Goldstone",
-      "authors": [],
+      "authors": [
+        "Richard Goldstone",
+        "Leonard Kriegel",
+        "Edward Quinn",
+        "Irving Howe",
+        "Adrienne Rich"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/goldstone.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1994.13.1.09",
       "page_numbers": null,
@@ -3740,7 +3766,9 @@
       "volume": 13,
       "issue": 1,
       "title": "Some New Approaches Toward Teaching",
-      "authors": [],
+      "authors": [
+        "Mina P. Shaughnessy"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/approaches.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1994.13.1.10",
       "page_numbers": null,
@@ -3751,7 +3779,9 @@
       "volume": 13,
       "issue": 1,
       "title": "The English Professor's Malady",
-      "authors": [],
+      "authors": [
+        "Mina P. Shaughnessy"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v13n1/malady.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1994.13.1.11",
       "page_numbers": null,
@@ -4434,7 +4464,8 @@
       "issue": 1,
       "title": "Class Talk",
       "authors": [
-        "Gary Tate, John McMillan,",
+        "Gary Tate",
+        "John McMillan",
         "Elizabeth Woodworth"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n1/tate.pdf",
@@ -4660,7 +4691,9 @@
       "volume": 16,
       "issue": 2,
       "title": "Karen L. Greenberg Responds to Ira Shor",
-      "authors": [],
+      "authors": [
+        "Karen L. Greenberg"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n2/greenberg.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1997.16.2.07",
       "page_numbers": null,
@@ -4671,7 +4704,9 @@
       "volume": 16,
       "issue": 2,
       "title": "Terence G. Collins Responds to Ira Shor",
-      "authors": [],
+      "authors": [
+        "Terence G. Collins"
+      ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v16n2/collins.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1997.16.2.08",
       "page_numbers": null,
@@ -4756,7 +4791,8 @@
       "issue": 1,
       "title": "Mediated Texts: A Heuristic for Academic Writing",
       "authors": [
-        "Eileen Biser, Linda Rubel,",
+        "Eileen Biser",
+        "Linda Rubel",
         "Rose Marie Toscano"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/biser.pdf",
@@ -4783,7 +4819,11 @@
       "issue": 1,
       "title": "Assessing Our Assessments: A Collective Questioning of What Students Need—And Get",
       "authors": [
-        "Liza Bruna, Ian Marshall, Tim McCormack, Leo Parascondola, Wendy Ryden,",
+        "Liza Bruna",
+        "Ian Marshall",
+        "Tim McCormack",
+        "Leo Parascondola",
+        "Wendy Ryden",
         "Carl Whithaus"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v17n1/bruna.pdf",
@@ -5055,7 +5095,7 @@
       "issue": 1,
       "title": "Freshgirls: Overwhelmed by Discordant Pedagogies and the Anxiety of Leaving Home",
       "authors": [
-        "Discordant Pedagogies and the Anxiety of Leaving Home"
+        "Beth Counihan"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v18n1/counihan.pdf",
       "doi": "https://doi.org/10.37514/JBW-J.1999.18.1.08",
@@ -5847,7 +5887,8 @@
       "issue": 1,
       "title": "Be Careful What You Ask For: When Basic Writers Take the Rhetorical Stage",
       "authors": [
-        "Eileen Biser, Linda Rubel,",
+        "Eileen Biser",
+        "Linda Rubel",
         "Rose Marie Toscano"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n1/biser.pdf",
@@ -5921,7 +5962,9 @@
       "issue": 1,
       "title": "What Is Learned in Sustained-Content Writing Classes Along with Writing?",
       "authors": [
-        "Marcia Pally, Helen Katznelson, Hadara Peroignan,",
+        "Marcia Pally",
+        "Helen Katznelson",
+        "Hadara Peroignan",
         "Bella Rubin"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v21n1/pally.pdf",
@@ -6195,7 +6238,8 @@
       "issue": 1,
       "title": "Rethinking the Basic Writing Fontier: Native American Students' Challenge to Our Histories",
       "authors": [
-        "Laura Gray-Rosendale, Loyola K. Bird,",
+        "Laura Gray-Rosendale",
+        "Loyola K. Bird",
         "Judith F. Bullock"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v22n1/gray-rosendale.pdf",
@@ -6482,7 +6526,8 @@
       "issue": 2,
       "title": "Building Academic Literacy from Student Strength: An Interdisciplinary Life History Project",
       "authors": [
-        "Robin Murie, Molly Rojas Collins,",
+        "Robin Murie",
+        "Molly Rojas Collins",
         "Daniel F. Detzner"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v23n2/murie.pdf",
@@ -6631,7 +6676,9 @@
       "issue": 2,
       "title": "It's Not Remedial: Re-envisioning Pre-First-Year College Writing",
       "authors": [
-        "Heidi Huse, Jenna Wright, Anna Clark,",
+        "Heidi Huse",
+        "Jenna Wright",
+        "Anna Clark",
         "Tim Hacker"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v24n2/huse.pdf",
@@ -9608,7 +9655,11 @@
       "issue": 2,
       "title": "Forming Adult Educators: The CCNY MA in Language and Literacy",
       "authors": [
-        "Barbara Gleason, with Anita Caref, James Dunn, Erick Martinez, Lynn Reid,",
+        "Barbara Gleason",
+        "Anita Caref",
+        "James Dunn",
+        "Erick Martinez",
+        "Lynn Reid",
         "Maria Vint"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v37n2/gleason.pdf",
@@ -10359,7 +10410,8 @@
       "issue": 1,
       "title": "Valuing an Embodied Epistemology to Counter Neoliberal Programmatic Reform at the Two-Year College",
       "authors": [
-        "Alison Cardinal, Kirsten Higgins,",
+        "Alison Cardinal",
+        "Kirsten Higgins",
         "Anthony Warnke"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v42n1/cardinal-higgins-warnke.pdf",
@@ -10671,7 +10723,8 @@
       "issue": 2,
       "title": "Editors’ Column: The Corequisite Landscape and Envisioning Beyond the Horizon",
       "authors": [
-        "Leah Anderst, Cheryl Comeau-Kirschner,",
+        "Leah Anderst",
+        "Cheryl Comeau-Kirschner",
         "Jennifer Maloy"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/editors.pdf",
@@ -10770,7 +10823,10 @@
       "issue": 2,
       "title": "Crisis as a Catalyst for Change: Supporting Student Success with GSP and ALP During the Pandemic",
       "authors": [
-        "Ian Golding, Sonja Andrus, Kevin Oberlin, Brenda Refaei,",
+        "Ian Golding",
+        "Sonja Andrus",
+        "Kevin Oberlin",
+        "Brenda Refaei",
         "Anna Hensley"
       ],
       "pdf_url": "https://wac.colostate.edu/docs/jbw/v43n2/goldingetal.pdf",

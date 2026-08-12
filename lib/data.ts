@@ -2,7 +2,7 @@ import 'server-only';
 import { Article, JBWIndex, Issue, VolumeData } from './types';
 import { readFile } from 'fs/promises';
 import path from 'path';
-import { getYearFromVolume, getSeason } from './utils';
+import { cleanAuthorName, getYearFromVolume, getSeason, isArticleContent } from './utils';
 
 export { getYearFromVolume } from './utils';
 
@@ -116,7 +116,10 @@ export async function getAllVolumes(): Promise<VolumeData[]> {
 
   const volumes: VolumeData[] = [];
   volumeMap.forEach((issues, volume) => {
-    const totalArticles = issues.reduce((sum, issue) => sum + issue.articles.length, 0);
+    const totalArticles = issues.reduce(
+      (sum, issue) => sum + issue.articles.filter(isArticleContent).length,
+      0,
+    );
     volumes.push({
       volume,
       issues,
@@ -128,7 +131,8 @@ export async function getAllVolumes(): Promise<VolumeData[]> {
 }
 
 export async function getAuthorIndex(): Promise<Map<string, Article[]>> {
-  const articles = await getAllArticles();
+  const records = await getAllArticles();
+  const articles = records.filter(isArticleContent);
   const authorMap = new Map<string, Article[]>();
 
   articles.forEach(article => {
@@ -168,26 +172,6 @@ export async function getAuthorIndex(): Promise<Map<string, Article[]>> {
 
   return new Map([...authorMap.entries()].sort());
 }
-
-function cleanAuthorName(author: string): string {
-  // Remove DOI, page numbers, and other metadata from author names
-  let cleaned = author
-    .split('\n')[0]
-    .replace(/DOI:.*$/i, '')
-    .replace(/^by\s+/i, '')  // Remove leading "by"
-    .trim();
-
-  // If the author is ONLY page numbers (e.g., "(pp. 91-97)"), return empty string
-  if (/^\(pp\.\s*\d+[-–]\s*\d+\)$/i.test(cleaned)) {
-    return '';
-  }
-
-  // Remove page numbers from the end of author names (e.g., "Mina P. Shaughnessy (pp. 1-3)")
-  cleaned = cleaned.replace(/\s*\(pp\.\s*\d+[-–]\s*\d+\)\s*$/i, '').trim();
-
-  return cleaned;
-}
-
 
 export function getArticlePDFPath(article: Article): string {
   // Use WAC Clearinghouse URLs directly
